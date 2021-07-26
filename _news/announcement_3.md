@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2021-03-01
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Received PhD admission offers from Princeton ECE and UIUC CS. Many thanks to everyone who helped my application! :smile:
+

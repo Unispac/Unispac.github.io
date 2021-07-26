@@ -1,24 +1,25 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+
+description: <a href="https://ece.princeton.edu">Department of Electrical and Computer Engineering @ Princeton University</a> <br> <br> 物格而后知至，知至而后意诚，意诚而后心正，心正而后身修，身修而后家齐，家齐而后国治，国治而后天下平。--- 《礼记·大学》<br> <br>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.JPG
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Engineering Quad, Room B204</p>
+    <p>Princeton, NJ 08544</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I am Xiangyu Qi, a first year PhD student at [Princeton ECE](https://ece.princeton.edu). I am broadly interested in artificial intelligence, machine learning and various philosophical topics. Currently, I am mainly working on [adversarial machine learning](https://en.wikipedia.org/wiki/Adversarial_machine_learning), trying to understand the adversarial vulnerability of learning systems both empirically and theoretically. I believe adversarial machine learning provides a good entry point for introspecting existing designs, and it would eventually lead to fundamentally better methods for constructing learning systems.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously, I received my B.S. degree from the CS Department at [Zhejiang University](http://www.zju.edu.cn/english/) (June 2021).  I was affiliated with [ZJU DCD Lab](http://www.dcd.zju.edu.cn/), advised by [Prof. Donghui Wang](https://scholar.google.com/citations?user=AkRWtMUAAAAJ&hl=en&oi=ao). I also worked closely with [Prof. Bo Li](https://aisecure.github.io/) as a research intern at [UIUC Secure Learning Lab](https://aisecure.github.io).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Please feel free to reach out via [xiangyuqi@princeton.edu]().
+
