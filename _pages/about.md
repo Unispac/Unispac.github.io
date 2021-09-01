@@ -9,7 +9,7 @@ profile:
   align: right
   image: profile.JPG
   address: >
-    <p>Engineering Quad, Room B204</p>
+    <p>Friend Center, Room 301</p>
     <p>Princeton, NJ 08544</p>
 
 news: true  # includes a list of news items
