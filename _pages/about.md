@@ -26,17 +26,17 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
 * **Publications**
 
-  * [Knowledge Enhanced Machine Learning Pipeline against Diverse Adversarial Attacks](https://arxiv.org/abs/2106.06235)
-
-    Nezihe Merve Gürel$^*$, **Xiangyu Qi$^*$**, Luka Rimanic, Ce Zhang, Bo Li
-
-    *ICML 2021*
-    
   * [Towards Practical Deployment-Stage Backdoor Attack on Deep Neural Networks](https://arxiv.org/abs/2111.12965)
 
     **Xiangyu Qi$^* $**, Tinghao Xie$^* $, Ruizhe Pan, Jifeng Zhu, Yong Yang, Kai Bu
 
     *CVPR 2022*
+
+  * [Knowledge Enhanced Machine Learning Pipeline against Diverse Adversarial Attacks](https://arxiv.org/abs/2106.06235)
+
+    Nezihe Merve Gürel$^*$, **Xiangyu Qi$^*$**, Luka Rimanic, Ce Zhang, Bo Li
+
+    *ICML 2021*
 
 * **Workshop Papers**
 
