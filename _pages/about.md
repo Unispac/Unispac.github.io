@@ -28,7 +28,7 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
   * [Circumventing Backdoor Defenses That Are Based on Latent Separability](https://arxiv.org/abs/2205.13613)
 
-    **Xiangyu Qi**$^*$, Tinghao Xie$^* $, Saeed Mahloujifar, Prateek Mittal
+    **Xiangyu Qi$^*$**, Tinghao Xie$^* $, Saeed Mahloujifar, Prateek Mittal
 
   * [Fight Poison with Poison: Detecting Backdoor Poison Samples via Decoupling Benign Correlations](https://arxiv.org/abs/2205.13616)
 
