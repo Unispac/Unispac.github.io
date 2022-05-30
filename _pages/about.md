@@ -28,7 +28,7 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
   * [Circumventing Backdoor Defenses That Are Based on Latent Separability](https://arxiv.org/abs/2205.13613)
 
-    **Xiangyu Qi$^*$**, Tinghao Xie$^* $, Saeed Mahloujifar, Prateek Mittal
+    **Xiangyu Qi$^* $**, Tinghao Xie$^* $, Saeed Mahloujifar, Prateek Mittal
 
   * [Fight Poison with Poison: Detecting Backdoor Poison Samples via Decoupling Benign Correlations](https://arxiv.org/abs/2205.13616)
 
@@ -44,7 +44,7 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
   * [Knowledge Enhanced Machine Learning Pipeline against Diverse Adversarial Attacks](https://arxiv.org/abs/2106.06235)
 
-    Nezihe Merve Gürel$^*$, **Xiangyu Qi$^*$**, Luka Rimanic, Ce Zhang, Bo Li
+    Nezihe Merve Gürel$^*$, **Xiangyu Qi$^* $**, Luka Rimanic, Ce Zhang, Bo Li
 
     *ICML 2021*
 
