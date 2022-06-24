@@ -40,7 +40,7 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
     **Xiangyu Qi$^* $**, Tinghao Xie$^* $, Ruizhe Pan, Jifeng Zhu, Yong Yang, Kai Bu
 
-    *CVPR 2022 (oral presentation)* 
+    *CVPR 2022*  <font color="red">**(oral presentation, 4.2%)**</font>
 
   * [Knowledge Enhanced Machine Learning Pipeline against Diverse Adversarial Attacks](https://arxiv.org/abs/2106.06235)
 
