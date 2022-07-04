@@ -20,7 +20,7 @@ main:
     url: /posts/
 
   - title: "Random Thoughts"
-    url: /random-thoughts/
+    url: /thoughts/
     
   #- title: "CV"
   #  url: /cv/
