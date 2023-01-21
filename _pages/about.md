@@ -26,15 +26,17 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
 * **Preprints**
 
-  * [Revisiting the Assumption of Latent Separability for Backdoor Defenses]()
-
-    **Xiangyu Qi$^* $**, Tinghao Xie$^* $, Yiming Li, Saeed Mahloujifar, Prateek Mittal
-
   * [Fight Poison with Poison: Detecting Backdoor Poison Samples via Decoupling Benign Correlations]()
 
     **Xiangyu Qi**, Tinghao Xie, Saeed Mahloujifar, Prateek Mittal
 
 * **Publications**
+
+  * [Revisiting the Assumption of Latent Separability for Backdoor Defenses]()
+
+    **Xiangyu Qi$^* $**, Tinghao Xie$^* $, Yiming Li, Saeed Mahloujifar, Prateek Mittal
+
+    *ICLR 2023*
 
   * [Towards Practical Deployment-Stage Backdoor Attack on Deep Neural Networks](https://arxiv.org/abs/2111.12965)
 
