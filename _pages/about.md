@@ -24,6 +24,8 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
 ## Publications & Manuscripts
 
+( $ ^* $ denotes equal contributions)
+
 * **Preprints**
 
   * [Uncovering Adversarial Risks of Test-Time Adaptation](https://arxiv.org/abs/2301.12576)
