@@ -26,13 +26,17 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
 * **Preprints**
 
-  * [Fight Poison with Poison: Detecting Backdoor Poison Samples via Decoupling Benign Correlations]()
+  * [Uncovering Adversarial Risks of Test-Time Adaptation](https://arxiv.org/abs/2301.12576)
+
+    Tong Wu, Feiran Jia, **Xiangyu Qi**, Jiachen T. Wang, Vikash Sehwag, Saeed Mahloujifar, Prateek Mittal
+    
+  * [Fight Poison with Poison: Detecting Backdoor Poison Samples via Decoupling Benign Correlations](https://arxiv.org/pdf/2205.13616.pdf)
 
     **Xiangyu Qi**, Tinghao Xie, Saeed Mahloujifar, Prateek Mittal
 
 * **Publications**
 
-  * [Revisiting the Assumption of Latent Separability for Backdoor Defenses]()
+  * [Revisiting the Assumption of Latent Separability for Backdoor Defenses](https://openreview.net/forum?id=_wSHsgrVali)
 
     **Xiangyu Qi$^* $**, Tinghao Xie$^* $, Yiming Li, Saeed Mahloujifar, Prateek Mittal
 
