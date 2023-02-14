@@ -30,7 +30,7 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
   * [Towards A Proactive ML Approach for Detecting Backdoor Poison Samples](https://arxiv.org/pdf/2205.13616.pdf)
 
-    **Xiangyu Qi**, Tinghao Xie, Saeed Mahloujifar, Prateek Mittal
+    **Xiangyu Qi**, Tinghao Xie, Jiachen T. Wang, Tong Wu, Saeed Mahloujifar, Prateek Mittal
     
   * [Uncovering Adversarial Risks of Test-Time Adaptation](https://arxiv.org/abs/2301.12576)
 
