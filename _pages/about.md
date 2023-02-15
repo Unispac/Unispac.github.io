@@ -28,7 +28,7 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
 * **Preprints**
 
-  * [Towards A Proactive ML Approach for Detecting Backdoor Poison Samples](https://arxiv.org/pdf/2205.13616.pdf)
+  * [Towards A Proactive ML Approach for Detecting Backdoor Poison Samples](https://arxiv.org/abs/2205.13616)
 
     **Xiangyu Qi**, Tinghao Xie, Jiachen T. Wang, Tong Wu, Saeed Mahloujifar, Prateek Mittal
     
