@@ -31,12 +31,14 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
   * [Towards A Proactive ML Approach for Detecting Backdoor Poison Samples](https://arxiv.org/abs/2205.13616)
 
     **Xiangyu Qi**, Tinghao Xie, Jiachen T. Wang, Tong Wu, Saeed Mahloujifar, Prateek Mittal
-    
+  
+* **Publications**
+
   * [Uncovering Adversarial Risks of Test-Time Adaptation](https://arxiv.org/abs/2301.12576)
 
     Tong Wu, Feiran Jia, **Xiangyu Qi**, Jiachen T. Wang, Vikash Sehwag, Saeed Mahloujifar, Prateek Mittal
 
-* **Publications**
+    *ICML 2023*
 
   * [Revisiting the Assumption of Latent Separability for Backdoor Defenses](https://openreview.net/forum?id=_wSHsgrVali)
 
