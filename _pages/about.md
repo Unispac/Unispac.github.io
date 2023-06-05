@@ -20,17 +20,11 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
 <br>
 
-<br>
 
-<br>
-
-<br>
 
 ## Publications & Manuscripts
 
 ( $ ^* $ denotes equal contributions)
-
-<br>
 
 <br>
 
@@ -66,7 +60,7 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
     **Xiangyu Qi$^* $**, Tinghao Xie$^* $, Ruizhe Pan, Jifeng Zhu, Yong Yang, Kai Bu
 
-    ***[CVPR](https://cvpr2022.thecvf.com/), 2022***  <font color="red">**(oral presentation, 4.2%)**</font>
+    ***[CVPR](https://cvpr2022.thecvf.com/), 2022***  <font color="red"> (oral presentation, 4.2%) </font>
 
     <br>
 
@@ -75,8 +69,6 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
     Nezihe Merve Gürel$^*$, **Xiangyu Qi$^* $**, Luka Rimanic, Ce Zhang, Bo Li
 
     ***[ICML](https://icml.cc/Conferences/2021), 2021***
-
-<br>
 
 <br>
 
