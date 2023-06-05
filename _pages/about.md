@@ -22,46 +22,70 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
 
 
+
+
+
+
 ## Publications & Manuscripts
 
 ( $ ^* $ denotes equal contributions)
 
-* **Publications**
 
-  * [Towards A Proactive ML Approach for Detecting Backdoor Poison Samples](https://arxiv.org/abs/2205.13616)
 
-    **Xiangyu Qi**, Tinghao Xie, Jiachen T. Wang, Tong Wu, Saeed Mahloujifar, Prateek Mittal
 
-    ***[USENIX Security](https://www.usenix.org/conference/usenixsecurity23), 2023***
 
-  * [Uncovering Adversarial Risks of Test-Time Adaptation](https://arxiv.org/abs/2301.12576)
+#### Publications
 
-    Tong Wu, Feiran Jia, **Xiangyu Qi**, Jiachen T. Wang, Vikash Sehwag, Saeed Mahloujifar, Prateek Mittal
 
-    ***[ICML](https://icml.cc/Conferences/2023/Dates), 2023***
 
-  * [Revisiting the Assumption of Latent Separability for Backdoor Defenses](https://openreview.net/forum?id=_wSHsgrVali)
+**[Towards A Proactive ML Approach for Detecting Backdoor Poison Samples](https://arxiv.org/abs/2205.13616)**
 
-    **Xiangyu Qi$^* $**, Tinghao Xie$^* $, Yiming Li, Saeed Mahloujifar, Prateek Mittal
+**Xiangyu Qi**, Tinghao Xie, Jiachen T. Wang, Tong Wu, Saeed Mahloujifar, Prateek Mittal
 
-    ***[ICLR](https://iclr.cc/Conferences/2023), 2023***
+***[USENIX Security](https://www.usenix.org/conference/usenixsecurity23), 2023***
 
-  * [Towards Practical Deployment-Stage Backdoor Attack on Deep Neural Networks](https://arxiv.org/abs/2111.12965)
 
-    **Xiangyu Qi$^* $**, Tinghao Xie$^* $, Ruizhe Pan, Jifeng Zhu, Yong Yang, Kai Bu
 
-    ***[CVPR](https://cvpr2022.thecvf.com/), 2022***  <font color="red">**(oral presentation, 4.2%)**</font>
+**[Uncovering Adversarial Risks of Test-Time Adaptation](https://arxiv.org/abs/2301.12576)**
 
-  * [Knowledge Enhanced Machine Learning Pipeline against Diverse Adversarial Attacks](https://arxiv.org/abs/2106.06235)
+Tong Wu, Feiran Jia, **Xiangyu Qi**, Jiachen T. Wang, Vikash Sehwag, Saeed Mahloujifar, Prateek Mittal
 
-    Nezihe Merve Gürel$^*$, **Xiangyu Qi$^* $**, Luka Rimanic, Ce Zhang, Bo Li
+***[ICML](https://icml.cc/Conferences/2023/Dates), 2023***
 
-    ***[ICML](https://icml.cc/Conferences/2021), 2021***
 
-* **Workshop Papers**
 
-  * [Subnet Replacement: Deployment-stage backdoor attack against deep neural networks in gray-box setting](https://arxiv.org/abs/2107.07240)
+**[Revisiting the Assumption of Latent Separability for Backdoor Defenses](https://openreview.net/forum?id=_wSHsgrVali)**
 
-    **Xiangyu Qi**, Jifeng Zhu, Chulin Xie, Yong Yang
+**Xiangyu Qi$^* $**, Tinghao Xie$^* $, Yiming Li, Saeed Mahloujifar, Prateek Mittal
 
-    ***[ICLR Workshop on Security and Safety in Machine Learning Systems](https://aisecure-workshop.github.io/aml-iclr2021/), 2021***
+***[ICLR](https://iclr.cc/Conferences/2023), 2023***
+
+
+
+**[Towards Practical Deployment-Stage Backdoor Attack on Deep Neural Networks](https://arxiv.org/abs/2111.12965)**
+
+**Xiangyu Qi$^* $**, Tinghao Xie$^* $, Ruizhe Pan, Jifeng Zhu, Yong Yang, Kai Bu
+
+***[CVPR](https://cvpr2022.thecvf.com/), 2022***  <font color="red">**(oral presentation, 4.2%)**</font>
+
+
+
+**[Knowledge Enhanced Machine Learning Pipeline against Diverse Adversarial Attacks](https://arxiv.org/abs/2106.06235)**
+
+Nezihe Merve Gürel$^*$, **Xiangyu Qi$^* $**, Luka Rimanic, Ce Zhang, Bo Li
+
+***[ICML](https://icml.cc/Conferences/2021), 2021***
+
+
+
+
+
+#### Workshop Papers
+
+
+
+**[Subnet Replacement: Deployment-stage backdoor attack against deep neural networks in gray-box setting](https://arxiv.org/abs/2107.07240)**
+
+**Xiangyu Qi**, Jifeng Zhu, Chulin Xie, Yong Yang
+
+***[ICLR Workshop on Security and Safety in Machine Learning Systems](https://aisecure-workshop.github.io/aml-iclr2021/), 2021***
