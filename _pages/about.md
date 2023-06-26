@@ -24,7 +24,19 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
 ## Publications & Manuscripts
 
-( $ ^* $ denotes equal contributions)
+**( $ ^* $ denotes equal contributions)**
+
+<br>
+
+* **Preprint**
+
+  <br>
+
+  * [Visual Adversarial Examples Jailbreak Large Language Models](https://arxiv.org/abs/2306.13213)
+
+    **Xiangyu Qi$^* $**, Kaixuan Huang$^* $, Ashwinee Panda, Mengdi Wang, Prateek Mittal
+
+    *To be presented in [AdvML-Frontiers 2023](https://advml-frontier.github.io/) @ ICML*
 
 <br>
 
