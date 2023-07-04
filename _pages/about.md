@@ -12,9 +12,9 @@ redirect_from:
 
 
 
-Hello! I am a second-year PhD candidate at [Princeton ECE](https://ece.princeton.edu), advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/index.html). I am broadly interested in artificial intelligence, machine learning and various philosophical topics. Currently, I am mainly working on [adversarial machine learning](https://en.wikipedia.org/wiki/Adversarial_machine_learning), trying to understand the adversarial vulnerability of learning systems both empirically and theoretically. I believe adversarial machine learning provides a good entry point for introspecting existing designs, and it would eventually lead to fundamentally better methods for constructing learning systems.
+Hi there! I am Xiangyu Qi (漆翔宇), a Ph.D. candidate in the department of [Electrical and Computer Engineering](https://ece.princeton.edu) at Princeton University. I am fortunate to be advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/index.html). Before that, I received my B.S. degree from the CS Department at [Zhejiang University](http://www.zju.edu.cn/english/) (June 2021). I also worked with [Prof. Bo Li](https://aisecure.github.io/) as a research intern at [UIUC Secure Learning Lab](https://aisecure.github.io).
 
-Previously, I received my B.S. degree from the CS Department at [Zhejiang University](http://www.zju.edu.cn/english/) (June 2021). I also worked with [Prof. Bo Li](https://aisecure.github.io/) as a research intern at [UIUC Secure Learning Lab](https://aisecure.github.io).
+My interests extend across Artificial Intelligence, Machine Learning, and Philosophy. Currently, my primary focus lies within the intriguing realm of [Adversarial Machine Learning](https://en.wikipedia.org/wiki/Adversarial_machine_learning) (Adv ML). My research endeavors are centered around two main objectives: (1) To decipher the fundamental vulnerabilities prevalent in ML systems, and (2) To devise strategies that can counter these vulnerabilities, thereby contributing to the development of robust and trustworthy ML systems. I am of the firm belief that Adv ML offers a unique vantage point for critically examining current ML methodologies, and it carries the potential to lead us towards the creation of fundamentally improved ML systems.
 
 Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
@@ -32,11 +32,11 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
   <br>
 
-  * [Visual Adversarial Examples Jailbreak Large Language Models](https://arxiv.org/abs/2306.13213)
+  * **[Visual Adversarial Examples Jailbreak Large Language Models](https://arxiv.org/abs/2306.13213)**
 
     **Xiangyu Qi$^* $**, Kaixuan Huang$^* $, Ashwinee Panda, Mengdi Wang, Prateek Mittal
 
-    *To be presented in [AdvML-Frontiers 2023](https://advml-frontier.github.io/) @ ICML*
+    ***[AdvML-Frontiers 2023](https://advml-frontier.github.io/) @ ICML***, 2023 <font color="red"> **(oral presentation)** </font>
 
 <br>
 
@@ -72,7 +72,7 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
     **Xiangyu Qi$^* $**, Tinghao Xie$^* $, Ruizhe Pan, Jifeng Zhu, Yong Yang, Kai Bu
 
-    ***[CVPR](https://cvpr2022.thecvf.com/), 2022***  <font color="red"> (oral presentation, 4.2%) </font>
+    ***[CVPR](https://cvpr2022.thecvf.com/), 2022***  <font color="red"> **(oral presentation, 4.2%)** </font>
 
     <br>
 

@@ -16,11 +16,11 @@ main:
   #- title: "Portfolio"
   #  url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /posts/
+  #- title: "Blog Posts"
+  #  url: /posts/
 
-  - title: "Random Thoughts"
-    url: /thoughts/
+  #- title: "Random Thoughts"
+  #  url: /thoughts/
     
   #- title: "CV"
   #  url: /cv/
