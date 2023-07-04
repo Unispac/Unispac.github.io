@@ -36,7 +36,7 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
     **Xiangyu Qi$^* $**, Kaixuan Huang$^* $, Ashwinee Panda, Mengdi Wang, Prateek Mittal
 
-    ***[AdvML-Frontiers 2023](https://advml-frontier.github.io/) @ ICML***, 2023 **<font color="red"> (oral presentation) </font> **
+    ***[AdvML-Frontiers 2023](https://advml-frontier.github.io/) @ ICML***, 2023 <font color="red"> <b>(oral presentation)</b></font> 
 
 <br>
 
@@ -72,7 +72,7 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
     **Xiangyu Qi$^* $**, Tinghao Xie$^* $, Ruizhe Pan, Jifeng Zhu, Yong Yang, Kai Bu
 
-    ***[CVPR](https://cvpr2022.thecvf.com/), 2022***  **<font color="red"> (oral presentation, 4.2%) </font> **
+    ***[CVPR](https://cvpr2022.thecvf.com/), 2022***  <font color="red"> <b>(oral presentation, 4.2%)</b> </font>
 
     <br>
 
