@@ -37,6 +37,10 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
     **Xiangyu Qi$^* $**, Kaixuan Huang$^* $, Ashwinee Panda, Mengdi Wang, Prateek Mittal
 
     ***[AdvML-Frontiers 2023](https://advml-frontier.github.io/) @ ICML***, 2023 <font color="red"> <b>(oral presentation)</b></font> 
+    
+  * **[BaDExpert: Extracting Backdoor Functionality for Accurate Backdoor Input Detection](https://arxiv.org/abs/2308.12439)**
+  
+    Tinghao Xie, **Xiangyu Qi**, Ping He, Yiming Li, Jiachen T. Wang, Prateek Mittal
 
 <br>
 
