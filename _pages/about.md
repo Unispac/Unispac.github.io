@@ -24,7 +24,7 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
 ## Publications & Manuscripts
 
-**( $ ^* $ denotes equal contributions)**
+**( $ ^* $ lead authors / equal contributions)**
 
 <br>
 
@@ -32,10 +32,18 @@ Please feel free to reach out via [xiangyuqi@princeton.edu]().
 
   <br>
 
+  * [**Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!**](https://arxiv.org/abs/2310.03693)
+
+    **Xiangyu Qi$^* $**, Yi Zeng$^* $, Tinghao Xie$^* $, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, Peter Henderson
+
+    ***arXiv-Preprint, 2023***
+  
+    <br>
+  
   * **[Visual Adversarial Examples Jailbreak Large Language Models](https://arxiv.org/abs/2306.13213)**
-
+  
     **Xiangyu Qi$^* $**, Kaixuan Huang$^* $, Ashwinee Panda, Mengdi Wang, Prateek Mittal
-
+  
     ***[AdvML-Frontiers 2023](https://advml-frontier.github.io/) @ ICML, 2023*** <font color="red"> <b>(oral presentation)</b></font> 
     
     <br>
