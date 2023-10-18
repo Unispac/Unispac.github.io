@@ -12,7 +12,7 @@ redirect_from:
 
 Hi there! I am Xiangyu Qi (漆翔宇), a third-year Ph.D. candidate in the department of [Electrical and Computer Engineering](https://ece.princeton.edu) at Princeton University, where I am advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/index.html). Before that, I received my B.S. degree from the CS Department at [Zhejiang University](http://www.zju.edu.cn/english/) (June 2021). I also worked with [Prof. Bo Li](https://aisecure.github.io/) as a research intern at [Secure Learning Lab](https://aisecure.github.io) during 2020 ~ 2021.
 
-My current research focuses on Machine Learning Safety and Security, with two main objectives: (1) To decipher the fundamental vulnerabilities prevalent in ML systems, and (2) To devise strategies that can counter these vulnerabilities, thereby contributing to the development of robust and trustworthy ML systems. Surrounding these two objectives, my research has covered multiple threads of Adversarial Machine Learning (Adv ML), including adversarial examples [2,6], data poisoning and backdoor attacks [3,4,5]. As the field of ML evolves with the introduction of large-scale foundation models and a concerted push towards AGI, my recent work [1,2] has also expanded to explore the tangible safety and security challenges within the sphere of AI alignment, with the ultimate objective of spurring robust and practical solutions that contribute to effective alignment infrastructures.
+My current research focuses on Machine Learning Safety and Security, with two main objectives: (1) To decipher the fundamental vulnerabilities prevalent in ML systems, and (2) To devise strategies that can counter these vulnerabilities, thereby contributing to the development of robust and trustworthy ML systems. Surrounding these two objectives, my research has covered multiple threads of Adversarial Machine Learning (Adv ML), including adversarial examples [[2](https://arxiv.org/abs/2306.13213),[6](https://arxiv.org/abs/2306.13213)], data poisoning and backdoor attacks [[3](https://www.usenix.org/conference/usenixsecurity23/presentation/qi),[4](https://openreview.net/forum?id=_wSHsgrVali),[5](https://arxiv.org/abs/2111.12965)]. As the field of ML evolves with the introduction of large-scale foundation models and a concerted push towards AGI, my recent work [[1](https://arxiv.org/abs/2310.03693),[2](https://arxiv.org/abs/2310.03693)] has also expanded to explore the tangible safety and security challenges within the sphere of AI alignment, with the ultimate objective of spurring robust and practical solutions that contribute to effective alignment infrastructures.
 
 If you share similar interests, please feel free to reach out via [xiangyuqi@princeton.edu](). I am happy to chat and open to exploring opportunities for collaboration.
 
@@ -39,7 +39,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
   **[[Website](https://llm-tuning-safety.github.io/)] | [[Code](https://github.com/LLM-Tuning-Safety/LLMs-Finetuning-Safety)]**
 
-  <img src="assets/qi2023fine.png" style="width: 90%;" />
+  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2023fine.png" style="width: 90%;" />
 
   **Highlight**
 
@@ -63,9 +63,9 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
   
   **[[Code](https://github.com/Unispac/Visual-Adversarial-Examples-Jailbreak-Large-Language-Models)]**
   
-  <img src="assets/qi2023visual-02.png" style="width: 60%;" />
+  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2023visual-02.png" style="width: 60%;" />
   
-  <img src="assets/qi2023visual.png" style="width: 93%;" />
+  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2023visual.png" style="width: 93%;" />
   
   **Highlight**
   
@@ -84,7 +84,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
   **[[Code](https://github.com/Unispac/Fight-Poison-With-Poison)]**
 
-  <img src="assets/qi2023towards.png" style="width: 60%;" />
+  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2023towards.png" style="width: 60%;" />
 
   **Highlight:** We formulate a proactive mindset for detecting backdoor poison samples in poisoned datasets, along with a concrete proactive method (Confusion Training) that effective defeats a diverse set of 14 types of backdoor poisoning attacks.
 
@@ -100,7 +100,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
   **[[Code](https://github.com/Unispac/Circumventing-Backdoor-Defenses)]**
 
-  <img src="assets/qi2022revisiting.png" style="width: 90%;" />
+  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2022revisiting.png" style="width: 90%;" />
 
   **Highlight:** Latent separability between clean and backdoor poison samples are pervasive and even used as a default assumption for designing defenses. But, we show that this is not necessarily true --- we design adaptive backdoor poisoning attacks that can suppress the latent seperation.
 
@@ -116,7 +116,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
   **[[Code](https://github.com/Unispac/Subnet-Replacement-Attack)]**
 
-  <img src="assets/qi2022towards.png" style="width: 90%;" />
+  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2022towards.png" style="width: 90%;" />
 
   **Highlight:** Given any neural network instance (regardless of its specific weights values) of a certain architecture, we can embed a backdoor into that model instance, by replacing a very narrow subnet of it with a malicious backdoor subnet.
 
@@ -130,6 +130,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
   Nezihe Merve Gürel$^*$, **Xiangyu Qi$^* $**, Luka Rimanic, Ce Zhang, Bo Li
 
-  <img src="assets/gurel2021knowledge.png" style="width: 80%;" />
+  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/gurel2021knowledge.png" style="width: 80%;" />
   
   **Highlight:** Embedding domain knowledge and logic reasoning into ML pipeline has a promising potential for improving model robustness.
+
