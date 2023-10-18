@@ -10,7 +10,7 @@ redirect_from:
 
 
 
-Hi there! I am Xiangyu Qi (漆翔宇), a third-year Ph.D. candidate in the department of [Electrical and Computer Engineering](https://ece.princeton.edu) at Princeton University, where I am advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/index.html). Before that, I received my B.S. degree from the CS Department at [Zhejiang University](http://www.zju.edu.cn/english/) (June 2021). I also worked with [Prof. Bo Li](https://aisecure.github.io/) as a research intern at [Secure Learning Lab](https://aisecure.github.io).
+Hi there! I am Xiangyu Qi (漆翔宇), a third-year Ph.D. candidate in the [Department of Electrical and Computer Engineering](https://ece.princeton.edu) at Princeton University, where I am advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/index.html). Before that, I received my B.S. degree from the CS Department at [Zhejiang University](http://www.zju.edu.cn/english/) (June 2021). I also worked with [Prof. Bo Li](https://aisecure.github.io/) as a research intern at [Secure Learning Lab](https://aisecure.github.io).
 
 My current research focuses on Machine Learning Safety and Security, with two main objectives: (1) To decipher the fundamental vulnerabilities prevalent in ML systems, and (2) To devise strategies that can counter these vulnerabilities, thereby contributing to the development of robust and trustworthy ML systems. Surrounding these two objectives, my research has covered multiple threads of Adversarial Machine Learning (Adv ML), including adversarial examples [[2](https://arxiv.org/abs/2306.13213),[6](https://arxiv.org/abs/2106.06235)], data poisoning and backdoor attacks [[3](https://www.usenix.org/conference/usenixsecurity23/presentation/qi),[4](https://openreview.net/forum?id=_wSHsgrVali),[5](https://arxiv.org/abs/2111.12965)]. As the field of ML evolves with the introduction of large-scale foundation models and a concerted push towards AGI, my recent work [[1](https://arxiv.org/abs/2310.03693),[2](https://arxiv.org/abs/2306.13213)] has also expanded to explore the tangible safety and security challenges within the sphere of AI alignment, with the ultimate objective of spurring robust and practical solutions that contribute to effective alignment infrastructures.
 
@@ -59,7 +59,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
   **Xiangyu Qi$^* $**, Kaixuan Huang$^* $, Ashwinee Panda, Peter Henderson, Mengdi Wang, Prateek Mittal
   
-  **[GPT-4V(ision) system card](https://openai.com/research/gpt-4v-system-card)** <font color="red"><b>cited this paper to underscore the emergeing threat vector of multimodal jailbreaking.</b></font>
+  **[GPT-4V(ision) system card](https://openai.com/research/gpt-4v-system-card)** <font color="red"><b>cited this paper to underscore the emerging threat vector of multimodal jailbreaking.</b></font>
   
   **[[Code](https://github.com/Unispac/Visual-Adversarial-Examples-Jailbreak-Large-Language-Models)]**
   
@@ -86,7 +86,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
   <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2023towards.png" style="width: 80%;" />
 
-  **Highlight:** We formulate a proactive mindset for detecting backdoor poison samples in poisoned datasets, along with a concrete proactive method (Confusion Training) that effective defeats a diverse set of 14 types of backdoor poisoning attacks.
+  **Highlight:** We formulate a proactive mindset for detecting backdoor poison samples in poisoned datasets, along with a concrete proactive method (Confusion Training) that effectively defeats a diverse set of 14 types of backdoor poisoning attacks.
 
   <br>
 
@@ -102,7 +102,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
   <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2022revisiting.png" style="width: 100%;" />
 
-  **Highlight:** Latent separability between clean and backdoor poison samples are pervasive and even used as a default assumption for designing defenses. But, we show that this is not necessarily true --- we design adaptive backdoor poisoning attacks that can suppress the latent seperation.
+  **Highlight:** Latent separability between clean and backdoor poison samples is pervasive and even used as a default assumption for designing defenses. But, we show that this is not necessarily true --- we design adaptive backdoor poisoning attacks that can suppress the latent separation.
 
   <br>
 
@@ -132,5 +132,5 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
   <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/gurel2021knowledge.png" style="width: 80%;" />
   
-  **Highlight:** Embedding domain knowledge and logic reasoning into ML pipeline has a promising potential for improving model robustness.
+  **Highlight:** Embedding domain knowledge and logic reasoning into the ML pipeline has a promising potential for improving model robustness.
 
