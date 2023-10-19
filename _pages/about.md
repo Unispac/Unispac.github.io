@@ -34,6 +34,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
   <font color="red"><b>Media Coverage</b></font>
 
+  * *The New York Times*: [Researchers Say Guardrails Built Around A.I. Systems Are Not So Sturdy](https://www.nytimes.com/2023/10/19/technology/guardrails-artificial-intelligence-open-source.html)
   * *The Register:* [AI safety guardrails easily thwarted, security study finds](https://www.theregister.com/2023/10/12/chatbot_defenses_dissolve/)
   * *VentureBeat:* [Uh-oh! Fine-tuning LLMs compromises their safety, study finds](https://venturebeat.com/ai/uh-oh-fine-tuning-llms-compromises-their-safety-study-finds/)
 
