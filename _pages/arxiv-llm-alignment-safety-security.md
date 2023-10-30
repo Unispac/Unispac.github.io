@@ -1,8 +1,10 @@
 ---
 permalink: /arxiv-llm-alignment-safety-security
-title: "ArXiv Papers on LLM Alignment, Safety, Security"
-excerpt: "llm safety reading list"
+title: "reading-list"
+excerpt: "reading-list"
 author_profile: true
+redirect_from: 
+  - /reading-list
 ---
 
 
