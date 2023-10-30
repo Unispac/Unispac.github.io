@@ -81,6 +81,7 @@
     display: block;
     width: auto;
     height: auto;
+    margin-left: -25px;
   }
 
   img {
@@ -106,6 +107,7 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+    margin-left: -25px;
   }
 }
 
@@ -115,6 +117,7 @@
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: -25px;
   }
 }
 .sidebar .author__name {
@@ -128,6 +131,7 @@
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
+    margin-left: -25px;
   }
 }
 
@@ -230,7 +234,7 @@
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
-    margin-left: -40px;
+    margin-left: -25px;
 
     &:hover {
       text-decoration: underline;
