@@ -1,10 +1,8 @@
 ---
-permalink: /arxiv-llm-alignment-safety-security/
-title: ""
-excerpt: "paper list"
-author_profile: true
-redirect_from: 
-  - /abc/
+permalink: /arxiv-llm-alignment-safety-security
+title: "ArXiv Papers on LLM Alignment, Safety, Security"
+excerpt: "llm safety reading list"
+author_profile: false
 ---
 
 
