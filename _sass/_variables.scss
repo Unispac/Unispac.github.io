@@ -109,8 +109,8 @@ $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 $small                      : 600px !default;
 $medium                     : 768px !default;
 $medium-wide                : 900px !default;
-$large                      : 1200px !default;
-$x-large                    : 1200px !default;
+$large                      : 925px !default;
+$x-large                    : 1280px !default;
 
 
 /*
@@ -123,12 +123,12 @@ $right-sidebar-width-wide   : 0px;
 
 $susy: (
   columns: 12,
-  column-width: 140px,
+  column-width: 120px,
   gutters: 1/4,
   math: fluid,
   output: float,
   gutter-position: after,
-  container: $large,
+  container: 1440px,
   global-box-sizing: border-box,
   // debug: (
   //   image: show,
