@@ -57,7 +57,7 @@
     position: relative;
     float: right;
     width: $right-sidebar-width-narrow;
-    margin-left: span(0.25 of 12);
+    margin-left: span(0.1 of 12);
     z-index: 10;
   }
 
@@ -73,7 +73,7 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
+  width: 24px;
   // set width only, for non-square avatars
   // height: 36px;
 
