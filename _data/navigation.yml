@@ -4,6 +4,9 @@ main:
   - title: "About"
     url: /about/
 
+  - title: "ArXiv Papers on LLM Alignment, Safety, Security"
+    url: /arxiv-safety/
+
   #- title: "Publications"
   #  url: /publications/
 
@@ -19,8 +22,8 @@ main:
   #- title: "Blog Posts"
   #  url: /posts/
 
-  - title: "Random Thoughts"
-    url: /thoughts/
+  #- title: "Random Thoughts"
+  #  url: /thoughts/
     
   #- title: "CV"
   #  url: /cv/
