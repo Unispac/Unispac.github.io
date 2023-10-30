@@ -115,7 +115,7 @@
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 25px;
+    margin-left: -50px;
   }
 }
 .sidebar .author__name {
@@ -129,7 +129,7 @@
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
-    margin-left: 25px;
+    margin-left: -50px;
   }
 }
 
@@ -166,6 +166,7 @@
   position: absolute;
   right: 0;
   margin-top: 15px;
+  margin-left: -50px;
   padding: 10px;
   list-style-type: none;
   border: 1px solid $border-color;
