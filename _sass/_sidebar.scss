@@ -81,7 +81,6 @@
     display: block;
     width: auto;
     height: auto;
-    margin-left: -25px;
   }
 
   img {
@@ -222,7 +221,6 @@
 
   li {
     white-space: nowrap;
-    margin-left: -25px;
   }
 
   a {
@@ -234,7 +232,6 @@
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
-    margin-left: -25px;
 
     &:hover {
       text-decoration: underline;
