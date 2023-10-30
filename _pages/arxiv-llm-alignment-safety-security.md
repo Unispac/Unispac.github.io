@@ -1,12 +1,13 @@
 ---
-permalink: /arxiv-llm-alignment-safety-security
-title: "reading-list"
-excerpt: "reading-list"
+permalink: /arxiv-llm-alignment-safety-security/
+title: ""
+excerpt: "paper list"
 author_profile: true
 redirect_from: 
-  - /reading-list
+  - /abc/
 ---
 
 
 
 This is the paper list...
+
