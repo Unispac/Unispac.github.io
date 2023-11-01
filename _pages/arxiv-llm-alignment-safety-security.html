@@ -162,6 +162,37 @@ sitemap: false
     </div>
 </div>
 
+<h2><b>2023-10-31</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2310.20216" target="_blank">Does GPT-4 Pass the Turing Test?</a></div>
+<div class="paper-author">Cameron Jones, Benjamin Bergen</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: we evaluated gpt-4 in a public online turing test. the best-performing gpt-4 prompt passed in 41% of games, outperforming baselines set by eliza (27%) and gpt-3.5 (14%), but falling short of chance and the baseline set by human participants (63%). participants' decisions were based mainly on linguistic style (35%) and socio-emotional traits (27%), supporting the idea that intelligence is not sufficient to pass the turing test. participants' demographics, including education and familiarity with llms, did not predict detection rate, suggesting that even those who understand systems deeply and interact with them frequently may be susceptible to deception. despite known limitations as a test of intelligence, we argue that the turing test continues to be relevant as an assessment of naturalistic communication and deception. ai models with the ability to masquerade as humans could have widespread societal consequences, and we analyse the effectiveness of different strategies and criteria for judging humanlikeness.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2310.20563" target="_blank">Taking Control: Policies to Address Extinction Risks From Ai</a></div>
+<div class="paper-author">Andrea Miotti, Akash Wasil</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: this paper provides policy recommendations to reduce extinction risks from advanced artificial intelligence (ai). first, we briefly provide background information about extinction risks from ai. second, we argue that voluntary commitments from ai companies would be an inappropriate and insufficient response. third, we describe three policy proposals that would meaningfully address the threats from advanced ai: (1) establishing a multinational agi consortium to enable democratic oversight of advanced ai (magic), (2) implementing a global cap on the amount of computing power used to train an ai system (global compute cap), and (3) requiring affirmative safety evaluations to ensure that risks are kept below acceptable levels (gating critical experiments). magic would be a secure, safety-focused, internationally-governed institution responsible for reducing risks from advanced ai and performing research to safely harness the benefits of ai. magic would also maintain emergency response infrastructure (kill switch) to swiftly halt ai development or withdraw model deployment in the event of an ai-related emergency. the global compute cap would end the corporate race toward dangerous ai systems while enabling the vast majority of ai innovation to continue unimpeded. gating critical experiments would ensure that companies developing powerful ai systems are required to present affirmative evidence that these models keep extinction risks below an acceptable threshold. after describing these recommendations, we propose intermediate steps that the international community could take to implement these proposals and lay the groundwork for international coordination around advanced ai.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2310.20624" target="_blank">Lora Fine-Tuning Efficiently Undoes Safety Training in Llama 2-Chat 70b</a></div>
+<div class="paper-author">Simon Lermen, Charlie Rogers-Smith, Jeffrey Ladish</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: ai developers often apply safety alignment procedures to prevent the misuse of their ai systems. for example, before meta released llama 2-chat, a collection of instruction fine-tuned large language models, they invested heavily in safety training, incorporating extensive red-teaming and reinforcement learning from human feedback. however, it remains unclear how well safety training guards against model misuse when attackers have access to model weights. we explore the robustness of safety training in language models by subversively fine-tuning the public weights of llama 2-chat. we employ low-rank adaptation (lora) as an efficient fine-tuning method. with a budget of less than $200 per model and using only one gpu, we successfully undo the safety training of llama 2-chat models of sizes 7b, 13b, and 70b. specifically, our fine-tuning technique significantly reduces the rate at which the model refuses to follow harmful instructions. we achieve a refusal rate below 1% for our 70b llama 2-chat model on two refusal benchmarks. our fine-tuning method retains general performance, which we validate by comparing our fine-tuned models against llama 2-chat across two benchmarks. additionally, we present a selection of harmful outputs produced by our models. while there is considerable uncertainty about the scope of risks from current models, it is likely that future models will have significantly more dangerous capabilities, including the ability to hack into critical infrastructure, create dangerous bio-weapons, or autonomously replicate and adapt to new environments. we show that subversive fine-tuning is practical and effective, and hence argue that evaluating risks from fine-tuning should be a core part of risk assessments for releasing model weights.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2023-10-30</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2310.19271" target="_blank">Learning to Love Diligent Trolls: Accounting for Rater Effects in the Dialogue Safety Task</a></div>
@@ -189,6 +220,76 @@ Abstract: recent advances in artificial general intelligence (agi), particularly
 <div class="abstract">
 <div class="abstract-content">
 Abstract: over the past decade, there has been extensive research aimed at enhancing the robustness of neural networks, yet this problem remains vastly unsolved. here, one major impediment has been the overestimation of the robustness of new defense approaches due to faulty defense evaluations. flawed robustness evaluations necessitate rectifications in subsequent works, dangerously slowing down the research and providing a false sense of security. in this context, we will face substantial challenges associated with an impending adversarial arms race in natural language processing, specifically with closed-source large language models (llms), such as chatgpt, google bard, or anthropic's claude. we provide a first set of prerequisites to improve the robustness assessment of new approaches and reduce the amount of faulty evaluations. additionally, we identify embedding space attacks on llms as another viable threat model for the purposes of generating malicious content in open-sourced models. finally, we demonstrate on a recently proposed defense that, without llm-specific best practices in place, it is easy to overestimate the robustness of a new approach.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2310.19503" target="_blank">Trust, Accountability, and Autonomy in Knowledge Graph-Based Ai for Self-Determination</a></div>
+<div class="paper-author">Luis-Daniel Ibáñez, John Domingue, Sabrina Kirrane, Oshani Seneviratne, Aisling Third, Maria-Esther Vidal</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: knowledge graphs (kgs) have emerged as fundamental platforms for powering intelligent decision-making and a wide range of artificial intelligence (ai) services across major corporations such as google, walmart, and airbnb. kgs complement machine learning (ml) algorithms by providing data context and semantics, thereby enabling further inference and question-answering capabilities. the integration of kgs with neuronal learning (e.g., large language models (llms)) is currently a topic of active research, commonly named neuro-symbolic ai. despite the numerous benefits that can be accomplished with kg-based ai, its growing ubiquity within online services may result in the loss of self-determination for citizens as a fundamental societal issue. the more we rely on these technologies, which are often centralised, the less citizens will be able to determine their own destinies. to counter this threat, ai regulation, such as the european union (eu) ai act, is being proposed in certain regions. the regulation sets what technologists need to do, leading to questions concerning: how can the output of ai systems be trusted? what is needed to ensure that the data fuelling and the inner workings of these artefacts are transparent? how can ai be made accountable for its decision-making? this paper conceptualises the foundational topics and research pillars to support kg-based ai for self-determination. drawing upon this conceptual framework, challenges and opportunities for citizen self-determination are illustrated and analysed in a real-world scenario. as a result, we propose a research agenda aimed at accomplishing the recommended objectives.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2310.19677" target="_blank">Moca: Measuring Human-Language Model Alignment on Causal and Moral Judgment Tasks</a></div>
+<div class="paper-author">Allen Nie, Yuhui Zhang, Atharva Amdekar, Chris Piech, Tatsunori Hashimoto, Tobias Gerstenberg</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: human commonsense understanding of the physical and social world is organized around intuitive theories. these theories support making causal and moral judgments. when something bad happens, we naturally ask: who did what, and why? a rich literature in cognitive science has studied people's causal and moral intuitions. this work has revealed a number of factors that systematically influence people's judgments, such as the violation of norms and whether the harm is avoidable or inevitable. we collected a dataset of stories from 24 cognitive science papers and developed a system to annotate each story with the factors they investigated. using this dataset, we test whether large language models (llms) make causal and moral judgments about text-based scenarios that align with those of human participants. on the aggregate level, alignment has improved with more recent llms. however, using statistical analyses, we find that llms weigh the different factors quite differently from human participants. these results show how curated, challenge datasets combined with insights from cognitive science can help us go beyond comparisons based merely on aggregate metrics: we uncover llms implicit tendencies and show to what extent these align with human intuitions.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2310.19736" target="_blank">Evaluating Large Language Models: A Comprehensive Survey</a></div>
+<div class="paper-author">Zishan Guo, Renren Jin, Chuang Liu, Yufei Huang, Dan Shi, N/A Supryadi, Linhao Yu, Yan Liu, Jiaxuan Li, Bojian Xiong, Deyi Xiong</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) have demonstrated remarkable capabilities across a broad spectrum of tasks. they have attracted significant attention and been deployed in numerous downstream applications. nevertheless, akin to a double-edged sword, llms also present potential risks. they could suffer from private data leaks or yield inappropriate, harmful, or misleading content. additionally, the rapid progress of llms raises concerns about the potential emergence of superintelligent systems without adequate safeguards. to effectively capitalize on llm capacities as well as ensure their safe and beneficial development, it is critical to conduct a rigorous and comprehensive evaluation of llms.   this survey endeavors to offer a panoramic perspective on the evaluation of llms. we categorize the evaluation of llms into three major groups: knowledge and capability evaluation, alignment evaluation and safety evaluation. in addition to the comprehensive review on the evaluation methodologies and benchmarks on these three aspects, we collate a compendium of evaluations pertaining to llms' performance in specialized domains, and discuss the construction of comprehensive evaluation platforms that cover llm evaluations on capabilities, alignment, safety, and applicability.   we hope that this comprehensive overview will stimulate further research interests in the evaluation of llms, with the ultimate goal of making evaluation serve as a cornerstone in guiding the responsible development of llms. we envision that this will channel their evolution into a direction that maximizes societal benefit while minimizing potential risks. a curated list of related papers has been publicly available at https://github.com/tjunlp-lab/awesome-llms-evaluation-papers.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2310.19852" target="_blank">Ai Alignment: A Comprehensive Survey</a></div>
+<div class="paper-author">Jiaming Ji, Tianyi Qiu, Boyuan Chen, Borong Zhang, Hantao Lou, Kaile Wang, Yawen Duan, Zhonghao He, Jiayi Zhou, Zhaowei Zhang, Fanzhi Zeng, Kwan Yee Ng, Juntao Dai, Xuehai Pan, "Aidan O'Gara", Yingshan Lei, Hua Xu, Brian Tse, Jie Fu, Stephen Mcaleer, Yaodong Yang, Yizhou Wang, Song-Chun Zhu, Yike Guo, Wen Gao</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: ai alignment aims to build ai systems that are in accordance with human intentions and values. with the emergence of ai systems possessing superhuman capabilities, the potential large-scale risks associated with misaligned systems become apparent. hundreds of ai experts and public figures have expressed their concerns about ai risks, arguing that mitigating the risk of extinction from ai should be a global priority, alongside other societal-scale risks such as pandemics and nuclear war. motivated by the lack of an up-to-date systematic survey on ai alignment, in this paper, we delve into the core concepts, methodology, and practice of alignment research. to begin with, we identify four principles as the key objectives of ai alignment: robustness, interpretability, controllability, and ethicality (rice). we outline the landscape of current alignment research and decompose them into two key components: forward alignment and backward alignment. the former aims to make ai systems aligned via alignment training, while the latter aims to gain evidence about the systems' alignment and govern them appropriately to avoid exacerbating misalignment risks. on forward alignment, we discuss how to conduct learning from various types of feedback (a.k.a., outer alignment) and how to overcome the distribution shift to avoid goal misgeneralization (a.k.a., inner alignment). on backward alignment, we discuss verification techniques that can tell the degree of value alignment for various ai systems deployed, which can further improve the assurance of forward alignment outcomes.   based on this, we also release a constantly updated website featuring tutorials, collections of papers, blogs, and other learning resources at https://www.alignmentsurvey.com.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2310.20033" target="_blank">Synthetic Imitation Edit Feedback for Factual Alignment in Clinical Summarization</a></div>
+<div class="paper-author">Prakamya Mishra, Zonghai Yao, Shuwei Chen, Beining Wang, Rohan Mittal, Hong Yu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) like the gpt and llama families have demonstrated exceptional capabilities in capturing and condensing critical contextual information and achieving state-of-the-art performance in the summarization task. however, community concerns about these models' hallucination issues continue to rise. llms sometimes generate factually hallucinated summaries, which can be extremely harmful in the clinical domain nlp tasks (e.g., clinical note summarization), where factually incorrect statements can lead to critically erroneous diagnoses. fine-tuning llms using human feedback has shown the promise of aligning llms to be factually consistent during generation, but such training procedure requires high-quality human-annotated data, which can be extremely expensive to get in the clinical domain. in this work, we propose a new pipeline using chatgpt instead of human experts to generate high-quality feedback data for improving factual consistency in the clinical note summarization task. we focus specifically on edit feedback because recent work discusses the shortcomings of human alignment via preference feedback in complex situations (such as clinical nlp tasks that require extensive expert knowledge), as well as some advantages of collecting edit feedback from domain experts. in addition, although gpt has reached the expert level in many clinical nlp tasks (e.g., usmle qa), there is not much previous work discussing whether gpt can generate expert-level edit feedback for lms in the clinical note summarization task. we hope to fill this gap. finally, our evaluations demonstrate the potential use of gpt edits in human alignment, especially from a factuality perspective.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2310.20059" target="_blank">Concept Alignment as a Prerequisite for Value Alignment</a></div>
+<div class="paper-author">Sunayana Rane, Mark Ho, Ilia Sucholutsky, Thomas L. Griffiths</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: value alignment is essential for building ai systems that can safely and reliably interact with people. however, what a person values -- and is even capable of valuing -- depends on the concepts that they are currently using to understand and evaluate what happens in the world. the dependence of values on concepts means that concept alignment is a prerequisite for value alignment -- agents need to align their representation of a situation with that of humans in order to successfully align their values. here, we formally analyze the concept alignment problem in the inverse reinforcement learning setting, show how neglecting concept alignment can lead to systematic value mis-alignment, and describe an approach that helps minimize such failure modes by jointly reasoning about a person's concepts and values. additionally, we report experimental results with human participants showing that humans reason about the concepts used by an agent when acting intentionally, in line with our joint reasoning model.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2310.20150" target="_blank">Unlearn What You Want to Forget: Efficient Unlearning for LLMS</a></div>
+<div class="paper-author">Jiaao Chen, Diyi Yang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) have achieved significant progress from pre-training on and memorizing a wide range of textual data, however, this process might suffer from privacy issues and violations of data protection regulations. as a result, the ability to easily remove data related to individual users from such models while not deteriorating their predictive quality after the removal becomes increasingly important. to address these issues, in this work, we propose an efficient unlearning framework that could efficiently update llms without having to retrain the whole model after data removals, by introducing lightweight unlearning layers learned with a selective teacher-student objective into the transformers. in addition, we introduce a fusion mechanism to effectively combine different unlearning layers that learns to forget different sets of data to handle a sequence of forgetting operations. experiments on classification and generation tasks demonstrate the effectiveness of our proposed methods compared to the state-of-the-art baselines.
 </div>
 <button class="expand-btn">Expand Abstract</button>
 </div>
@@ -240,6 +341,16 @@ Abstract: the advanced capabilities of large language models (llms) have made th
 <div class="abstract">
 <div class="abstract-content">
 Abstract: a model is considered well-calibrated when its probability estimate aligns with the actual likelihood of the output being correct. calibrating language models (lms) is crucial, as it plays a vital role in detecting and mitigating hallucinations, a common issue of lms, as well as building more trustworthy models. yet, popular neural model calibration techniques are not well-suited for lms due to their lack of flexibility in discerning answer correctness and their high computational costs. for instance, post-processing methods like temperature scaling are often unable to reorder the candidate generations. moreover, training-based methods require finetuning the entire model, which is impractical due to the increasing sizes of modern lms. in this paper, we present litcab, a lightweight calibration mechanism consisting of a single linear layer taking the input text representation and manipulateing the lm output logits. litcab improves model calibration by only adding &lt; 2% of the original model parameters. for evaluation, we construct cat, a benchmark consisting of 7 text generation tasks, covering responses ranging from short phrases to paragraphs. we test litcab with llama2-7b, where it improves calibration across all tasks, by reducing the average ece score by 20%. we further conduct a comprehensive evaluation with 7 popular open-sourced lms from gpt and llama families, yielding the following key findings: (1) larger models within the same family exhibit better calibration on tasks with short generation tasks, but not necessarily for longer ones. (2) gpt-family models show superior calibration compared to llama, llama2 and vicuna models despite having much fewer parameters. (3) finetuning pretrained model (e.g., llama) with samples of limited purpose (e.g., conversations) may lead to worse calibration, highlighting the importance of finetuning setups for calibrating lms.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2310.19007" target="_blank">Behavior Alignment via Reward Function Optimization</a></div>
+<div class="paper-author">Dhawal Gupta, Yash Chandak, Scott M. Jordan, Philip S. Thomas, Bruno Castro Da Silva</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: designing reward functions for efficiently guiding reinforcement learning (rl) agents toward specific behaviors is a complex task. this is challenging since it requires the identification of reward structures that are not sparse and that avoid inadvertently inducing undesirable behaviors. naively modifying the reward structure to offer denser and more frequent feedback can lead to unintended outcomes and promote behaviors that are not aligned with the designer's intended goal. although potential-based reward shaping is often suggested as a remedy, we systematically investigate settings where deploying it often significantly impairs performance. to address these issues, we introduce a new framework that uses a bi-level objective to learn \emph{behavior alignment reward functions}. these functions integrate auxiliary rewards reflecting a designer's heuristics and domain knowledge with the environment's primary rewards. our approach automatically determines the most effective way to blend these types of feedback, thereby enhancing robustness against heuristic reward misspecification. remarkably, it can also adapt an agent's policy optimization process to mitigate suboptimalities resulting from limitations and biases inherent in the underlying rl algorithms. we evaluate our method's efficacy on a diverse set of tasks, from small-scale experiments to high-dimensional control challenges. we investigate heuristic auxiliary rewards of varying quality -- some of which are beneficial and others detrimental to the learning process. our results show that our framework offers a robust and principled way to integrate designer-specified heuristics. it not only addresses key shortcomings of existing approaches but also consistently leads to high-performing solutions, even when given misaligned or poorly-specified auxiliary reward functions.
 </div>
 <button class="expand-btn">Expand Abstract</button>
 </div>
