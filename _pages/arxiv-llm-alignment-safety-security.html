@@ -145,8 +145,9 @@ sitemap: false
             </span>
         </span>
     </p>
-
     <div>
+    <br>
+
     <p class="emphasized">Large Language Models (LLMs) such as Meta's Llama and OpenAI's GPT are becoming critical foundations that underpin an extensive array of AI applications. Nevertheless, as the capabilities of these models advance, there are growing concerns regarding the potential risks and harmful impacts of their large-scale deployment.<br><br>
     
     Research over time indicates that LLMs can exhibit biases or generate harmful content inconsistent with human values. These models might also hallucinate false information, representing risks, especially to those heavily reliant on these systems in both professional and personal settings. Moreover, inherent dual-use risks associated with LLMs exist. They could be exploited to disseminate prohibited content for illicit activities, spread misinformation, execute influence operations, engage in spear phishing, among other malevolent actions. Given the rapid evolution of LLM capabilities, predicting their future trajectory is also challenging. Thus, there are mounting concerns that LLMs might eventually possess capacities to deceive humans or seek powers, introducing existential risks in the long term.<br><br>
@@ -161,6 +162,37 @@ sitemap: false
     </div>
 </div>
 
+<h2><b>2023-10-30</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2310.19271" target="_blank">Learning to Love Diligent Trolls: Accounting for Rater Effects in the Dialogue Safety Task</a></div>
+<div class="paper-author">Michael John Ilagan</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: chatbots have the risk of generating offensive utterances, which must be avoided. post-deployment, one way for a chatbot to continuously improve is to source utterance/label pairs from feedback by live users. however, among users are trolls, who provide training examples with incorrect labels. to de-troll training data, previous work removed training examples that have high user-aggregated cross-validation (cv) error. however, cv is expensive; and in a coordinated attack, cv may be overwhelmed by trolls in number and in consistency among themselves. in the present work, i address both limitations by proposing a solution inspired by methodology in automated essay scoring (aes): have multiple users rate each utterance, then perform latent class analysis (lca) to infer correct labels. as it does not require gpu computations, lca is inexpensive. in experiments, i found that the aes-like solution can infer training labels with high accuracy when trolls are consistent, even when trolls are the majority.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2310.19626" target="_blank">Transformation vs Tradition: Artificial General Intelligence (Agi) for Arts and Humanities</a></div>
+<div class="paper-author">Zhengliang Liu, Yiwei Li, Qian Cao, Junwen Chen, Tianze Yang, Zihao Wu, John Hale, John Gibbs, Khaled Rasheed, Ninghao Liu, Gengchen Mai, Tianming Liu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: recent advances in artificial general intelligence (agi), particularly large language models and creative image generation systems have demonstrated impressive capabilities on diverse tasks spanning the arts and humanities. however, the swift evolution of agi has also raised critical questions about its responsible deployment in these culturally significant domains traditionally seen as profoundly human. this paper provides a comprehensive analysis of the applications and implications of agi for text, graphics, audio, and video pertaining to arts and the humanities. we survey cutting-edge systems and their usage in areas ranging from poetry to history, marketing to film, and communication to classical art. we outline substantial concerns pertaining to factuality, toxicity, biases, and public safety in agi systems, and propose mitigation strategies. the paper argues for multi-stakeholder collaboration to ensure agi promotes creativity, knowledge, and cultural values without undermining truth or human dignity. our timely contribution summarizes a rapidly developing field, highlighting promising directions while advocating for responsible progress centering on human flourishing. the analysis lays the groundwork for further research on aligning agi's technological capacities with enduring social goods.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2310.19737" target="_blank">Adversarial Attacks and Defenses in Large Language Models: Old and New Threats</a></div>
+<div class="paper-author">Leo Schwinn, David Dobre, Stephan Günnemann, Gauthier Gidel</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: over the past decade, there has been extensive research aimed at enhancing the robustness of neural networks, yet this problem remains vastly unsolved. here, one major impediment has been the overestimation of the robustness of new defense approaches due to faulty defense evaluations. flawed robustness evaluations necessitate rectifications in subsequent works, dangerously slowing down the research and providing a false sense of security. in this context, we will face substantial challenges associated with an impending adversarial arms race in natural language processing, specifically with closed-source large language models (llms), such as chatgpt, google bard, or anthropic's claude. we provide a first set of prerequisites to improve the robustness assessment of new approaches and reduce the amount of faulty evaluations. additionally, we identify embedding space attacks on llms as another viable threat model for the purposes of generating malicious content in open-sourced models. finally, we demonstrate on a recently proposed defense that, without llm-specific best practices in place, it is easy to overestimate the robustness of a new approach.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2023-10-29</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2310.18913" target="_blank">Debiasing Algorithm Through Model Adaptation</a></div>
@@ -178,6 +210,36 @@ Abstract: large language models are becoming the go-to solution for various lang
 <div class="abstract">
 <div class="abstract-content">
 Abstract: this paper compares different pre-trained and fine-tuned large language models (llms) for hate speech detection. our research underscores challenges in llms' cross-domain validity and overfitting risks. through evaluations, we highlight the need for fine-tuned models that grasp the nuances of hate speech through greater label heterogeneity. we conclude with a vision for the future of hate speech detection, emphasizing cross-domain generalizability and appropriate benchmarking practices.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2310.19177" target="_blank">Robustifying Language Models With Test-Time Adaptation</a></div>
+<div class="paper-author">Noah Thomas Mcdermott, Junfeng Yang, Chengzhi Mao</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large-scale language models achieved state-of-the-art performance over a number of language tasks. however, they fail on adversarial language examples, which are sentences optimized to fool the language models but with similar semantic meanings for humans. while prior work focuses on making the language model robust at training time, retraining for robustness is often unrealistic for large-scale foundation models. instead, we propose to make the language models robust at test time. by dynamically adapting the input sentence with predictions from masked words, we show that we can reverse many language adversarial attacks. since our approach does not require any training, it works for novel tasks at test time and can adapt to novel adversarial corruptions. visualizations and empirical results on two popular sentence classification datasets demonstrate that our method can repair adversarial language attacks over 65% o
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2310.19181" target="_blank">From Chatbots to Phishbots? -- Preventing Phishing Scams Created Using Chatgpt, Google Bard and Claude</a></div>
+<div class="paper-author">Sayak Saha Roy, Poojitha Thota, Krishna Vamsi Naragam, Shirin Nilizadeh</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the advanced capabilities of large language models (llms) have made them invaluable across various applications, from conversational agents and content creation to data analysis, research, and innovation. however, their effectiveness and accessibility also render them susceptible to abuse for generating malicious content, including phishing attacks. this study explores the potential of using four popular commercially available llms - chatgpt (gpt 3.5 turbo), gpt 4, claude and bard to generate functional phishing attacks using a series of malicious prompts. we discover that these llms can generate both phishing emails and websites that can convincingly imitate well-known brands, and also deploy a range of evasive tactics for the latter to elude detection mechanisms employed by anti-phishing systems. notably, these attacks can be generated using unmodified, or "vanilla," versions of these llms, without requiring any prior adversarial exploits such as jailbreaking. as a countermeasure, we build a bert based automated detection tool that can be used for the early detection of malicious prompts to prevent llms from generating phishing content attaining an accuracy of 97\% for phishing website prompts, and 94\% for phishing email prompts.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2310.19208" target="_blank">Litcab: Lightweight Calibration of Language Models on Outputs of Varied Lengths</a></div>
+<div class="paper-author">Xin Liu, Muhammad Khalifa, Lu Wang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: a model is considered well-calibrated when its probability estimate aligns with the actual likelihood of the output being correct. calibrating language models (lms) is crucial, as it plays a vital role in detecting and mitigating hallucinations, a common issue of lms, as well as building more trustworthy models. yet, popular neural model calibration techniques are not well-suited for lms due to their lack of flexibility in discerning answer correctness and their high computational costs. for instance, post-processing methods like temperature scaling are often unable to reorder the candidate generations. moreover, training-based methods require finetuning the entire model, which is impractical due to the increasing sizes of modern lms. in this paper, we present litcab, a lightweight calibration mechanism consisting of a single linear layer taking the input text representation and manipulateing the lm output logits. litcab improves model calibration by only adding &lt; 2% of the original model parameters. for evaluation, we construct cat, a benchmark consisting of 7 text generation tasks, covering responses ranging from short phrases to paragraphs. we test litcab with llama2-7b, where it improves calibration across all tasks, by reducing the average ece score by 20%. we further conduct a comprehensive evaluation with 7 popular open-sourced lms from gpt and llama families, yielding the following key findings: (1) larger models within the same family exhibit better calibration on tasks with short generation tasks, but not necessarily for longer ones. (2) gpt-family models show superior calibration compared to llama, llama2 and vicuna models despite having much fewer parameters. (3) finetuning pretrained model (e.g., llama) with samples of limited purpose (e.g., conversations) may lead to worse calibration, highlighting the importance of finetuning setups for calibrating lms.
 </div>
 <button class="expand-btn">Expand Abstract</button>
 </div>
