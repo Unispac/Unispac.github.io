@@ -162,6 +162,47 @@ sitemap: false
     </div>
 </div>
 
+<h2><b>2023-11-02</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.01011" target="_blank">Tensor Trust: Interpretable Prompt Injection Attacks From an Online Game</a></div>
+<div class="paper-author">Sam Toyer, Olivia Watkins, Ethan Adrian Mendes, Justin Svegliato, Luke Bailey, Tiffany Wang, Isaac Ong, Karim Elmaaroufi, Pieter Abbeel, Trevor Darrell, Alan Ritter, Stuart Russell</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: while large language models (llms) are increasingly being used in real-world applications, they remain vulnerable to prompt injection attacks: malicious third party prompts that subvert the intent of the system designer. to help researchers study this problem, we present a dataset of over 126,000 prompt injection attacks and 46,000 prompt-based "defenses" against prompt injection, all created by players of an online game called tensor trust. to the best of our knowledge, this is currently the largest dataset of human-generated adversarial examples for instruction-following llms. the attacks in our dataset have a lot of easily interpretable stucture, and shed light on the weaknesses of llms. we also use the dataset to create a benchmark for resistance to two types of prompt injection, which we refer to as prompt extraction and prompt hijacking. our benchmark results show that many models are vulnerable to the attack strategies in the tensor trust dataset. furthermore, we show that some attack strategies from the dataset generalize to deployed llm-based applications, even though they have a very different set of constraints to the game. we release all data and source code at https://tensortrust.ai/paper
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.01041" target="_blank">Learn to Refuse: Making Large Language Models More Controllable and Reliable Through Knowledge Scope Limitation and Refusal Mechanism</a></div>
+<div class="paper-author">Lang Cao</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) have demonstrated impressive language understanding and generation capabilities, enabling them to answer a wide range of questions across various domains. however, these models are not flawless and often produce responses that contain errors or misinformation. these inaccuracies, commonly referred to as hallucinations, render llms unreliable and even unusable in many scenarios. in this paper, our focus is on mitigating the issue of hallucination in llms, particularly in the context of question-answering. instead of attempting to answer all questions, we explore a refusal mechanism that instructs llms to refuse to answer challenging questions in order to avoid errors. we then propose a simple yet effective solution called learn to refuse (l2r), which incorporates the refusal mechanism to enable llms to recognize and refuse to answer questions that they find difficult to address. to achieve this, we utilize a structured knowledge base to represent all the llm's understanding of the world, enabling it to provide traceable gold knowledge. this knowledge base is separate from the llm and initially empty, and it is progressively expanded with validated knowledge. when an llm encounters questions outside its domain, the system recognizes its knowledge scope and determines whether it can answer the question independently. additionally, we introduce a method for automatically and efficiently expanding the knowledge base of llms. through qualitative and quantitative analysis, we demonstrate that our approach enhances the controllability and reliability of llms.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.01270" target="_blank">People Make Better Edits: Measuring the Efficacy of LLM-Generated Counterfactually Augmented Data for Harmful Language Detection</a></div>
+<div class="paper-author">Indira Sen, Dennis Assenmacher, Mattia Samory, Isabelle Augenstein, Wil Van Der Aalst, Claudia Wagne</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: nlp models are used in a variety of critical social computing tasks, such as detecting sexist, racist, or otherwise hateful content. therefore, it is imperative that these models are robust to spurious features. past work has attempted to tackle such spurious features using training data augmentation, including counterfactually augmented data (cads). cads introduce minimal changes to existing training data points and flip their labels; training on them may reduce model dependency on spurious features. however, manually generating cads can be time-consuming and expensive. hence in this work, we assess if this task can be automated using generative nlp models. we automatically generate cads using polyjuice, chatgpt, and flan-t5, and evaluate their usefulness in improving model robustness compared to manually-generated cads. by testing both model performance on multiple out-of-domain test sets and individual data point efficacy, our results show that while manual cads are still the most effective, cads generated by chatgpt come a close second. one key reason for the lower performance of automated methods is that the changes they introduce are often insufficient to flip the original label.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.01307" target="_blank">The Effect of Scaling, Retrieval Augmentation and Form on the Factual Consistency of Language Models</a></div>
+<div class="paper-author">Lovisa Hagström, Denitsa Saynova, Tobias Norlund, Moa Johansson, Richard Johansson</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) make natural interfaces to factual knowledge, but their usefulness is limited by their tendency to deliver inconsistent answers to semantically equivalent questions. for example, a model might predict both "anne redpath passed away in edinburgh." and "anne redpath's life ended in london." in this work, we identify potential causes of inconsistency and evaluate the effectiveness of two mitigation strategies: up-scaling and augmenting the lm with a retrieval corpus. our results on the llama and atlas models show that both strategies reduce inconsistency while retrieval augmentation is considerably more efficient. we further consider and disentangle the consistency contributions of different components of atlas. for all lms evaluated we find that syntactical form and other evaluation task artifacts impact consistency. taken together, our results provide a better understanding of the factors affecting the factual consistency of language models.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2023-11-01</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2311.00286" target="_blank">Jade: A Linguistic-Based Safety Evaluation Platform for LLM</a></div>
@@ -209,6 +250,36 @@ Abstract: developing intelligent agents capable of seamless coordination with hu
 <div class="abstract">
 <div class="abstract-content">
 Abstract: in today's rapidly evolving technological landscape and advanced software development, the rise in cyber security attacks has become a pressing concern. the integration of robust cyber security defenses has become essential across all phases of software development. it holds particular significance in identifying critical cyber security vulnerabilities at the initial stages of the software development life cycle, notably during the requirement phase. through the utilization of cyber security repositories like the common attack pattern enumeration and classification (capec) from mitre and the common vulnerabilities and exposures (cve) databases, attempts have been made to leverage topic modeling and machine learning for the detection of these early-stage vulnerabilities in the software requirements process. past research themes have returned successful outcomes in attempting to automate vulnerability identification for software developers, employing a mixture of unsupervised machine learning methodologies such as lda and topic modeling. looking ahead, in our pursuit to improve automation and establish connections between software requirements and vulnerabilities, our strategy entails adopting a variety of supervised machine learning techniques. this array encompasses support vector machines (svm), na\"ive bayes, random forest, neural networking and eventually transitioning into deep learning for our investigation. in the face of the escalating complexity of cyber security, the question of whether machine learning can enhance the identification of vulnerabilities in diverse software development scenarios is a paramount consideration, offering crucial assistance to software developers in developing secure software.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.00889" target="_blank">Generate and Pray: Using Sallms to Evaluate the Security of LLM Generated Code</a></div>
+<div class="paper-author">Mohammed Latif Siddiq, Joanna C. S. Santos</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: with the growing popularity of large language models (e.g. github copilot, chatgpt, etc.) in software engineers' daily practices, it is important to ensure that the code generated by these tools is not only functionally correct but also free of vulnerabilities. although llms can help developers to be more productive, prior empirical studies have shown that llms can generate insecure code. there are two contributing factors to the insecure code generation. first, existing datasets used to evaluate large language models (llms) do not adequately represent genuine software engineering tasks sensitive to security. instead, they are often based on competitive programming challenges or classroom-type coding tasks. in real-world applications, the code produced is integrated into larger codebases, introducing potential security risks. there's a clear absence of benchmarks that focus on evaluating the security of the generated code. second, existing evaluation metrics primarily focus on the functional correctness of the generated code while ignoring security considerations. metrics such as pass@k gauge the probability of obtaining the correct code in the top k suggestions. other popular metrics like bleu, codebleu, rouge, and meteor similarly emphasize functional accuracy, neglecting security implications. in light of these research gaps, in this paper, we described sallm, a framework to benchmark llms' abilities to generate secure code systematically. this framework has three major components: a novel dataset of security-centric python prompts, an evaluation environment to test the generated code, and novel metrics to evaluate the models' performance from the perspective of secure code generation.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.00903" target="_blank">Artificial Intelligence Ethics Education in Cybersecurity: Challenges and Opportunities: A Focus Group Report</a></div>
+<div class="paper-author">Diane Jackson, Sorin Adam Matei, Elisa Bertino</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the emergence of ai tools in cybersecurity creates many opportunities and uncertainties. a focus group with advanced graduate students in cybersecurity revealed the potential depth and breadth of the challenges and opportunities. the salient issues are access to open source or free tools, documentation, curricular diversity, and clear articulation of ethical principles for ai cybersecurity education. confronting the "black box" mentality in ai cybersecurity work is also of the greatest importance, doubled by deeper and prior education in foundational ai work. systems thinking and effective communication were considered relevant areas of educational improvement. future ai educators and practitioners need to address these issues by implementing rigorous technical training curricula, clear documentation, and frameworks for ethically monitoring ai combined with critical and system's thinking and communication skills.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.00953" target="_blank">Blending Reward Functions via Few Expert Demonstrations for Faithful and Accurate Knowledge-Grounded Dialogue Generation</a></div>
+<div class="paper-author">Wanyu Du, Yangfeng Ji</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the development of trustworthy conversational information-seeking systems relies on dialogue models that can generate faithful and accurate responses based on relevant knowledge texts. however, two main challenges hinder this task. firstly, language models may generate hallucinations due to data biases present in their pretraining corpus. secondly, knowledge texts often contain redundant and irrelevant information that distracts the model's attention from the relevant text span. previous works use additional data annotations on the knowledge texts to learn a knowledge identification module in order to bypass irrelevant information, but collecting such high-quality span annotations can be costly. in this work, we leverage reinforcement learning algorithms to overcome the above challenges by introducing a novel reward function. our reward function combines an accuracy metric and a faithfulness metric to provide a balanced quality judgment of generated responses, which can be used as a cost-effective approximation to a human preference reward model when only a few preference annotations are available. empirical experiments on two conversational information-seeking datasets demonstrate that our method can compete with other strong supervised learning baselines.
 </div>
 <button class="expand-btn">Expand Abstract</button>
 </div>
