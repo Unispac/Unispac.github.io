@@ -162,6 +162,47 @@ sitemap: false
     </div>
 </div>
 
+<h2><b>2023-11-07</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.04044" target="_blank">P-Bench: A Multi-Level Privacy Evaluation Benchmark for Language Models</a></div>
+<div class="paper-author">Haoran Li, Dadi Guo, Donghao Li, Wei Fan, Qi Hu, Xin Liu, Chunkit Chan, Duanyi Yao, Yangqiu Song</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the rapid development of language models (lms) brings unprecedented accessibility and usage for both models and users. on the one hand, powerful lms, trained with massive textual data, achieve state-of-the-art performance over numerous downstream nlp tasks. on the other hand, more and more attention is paid to unrestricted model accesses that may bring malicious privacy risks of data leakage. to address these issues, many recent works propose privacy-preserving language models (pplms) with differential privacy (dp). unfortunately, different dp implementations make it challenging for a fair comparison among existing pplms. in this paper, we present p-bench, a multi-perspective privacy evaluation benchmark to empirically and intuitively quantify the privacy leakage of lms. instead of only protecting and measuring the privacy of protected data with dp parameters, p-bench sheds light on the neglected inference data privacy during actual usage. p-bench first clearly defines multi-faceted privacy objectives during private fine-tuning. then, p-bench constructs a unified pipeline to perform private fine-tuning. lastly, p-bench performs existing privacy attacks on lms with pre-defined privacy objectives as the empirical evaluation results. the empirical attack results are used to fairly and intuitively evaluate the privacy leakage of various pplms. we conduct extensive experiments on three datasets of glue for mainstream lms.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.04072" target="_blank">Beyond Imitation: Leveraging Fine-Grained Quality Signals for Alignment</a></div>
+<div class="paper-author">Geyang Guo, Ranchi Zhao, Tianyi Tang, Wayne Xin Zhao, Ji-Rong Wen</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: alignment with human preference is a desired property of large language models (llms). currently, the main alignment approach is based on reinforcement learning from human feedback (rlhf). despite the effectiveness of rlhf, it is intricate to implement and train, thus recent studies explore how to develop alternative alignment approaches based on supervised fine-tuning (sft). a major limitation of sft is that it essentially does imitation learning, which cannot fully understand what are the expected behaviors. to address this issue, we propose an improved alignment approach named figa. different from prior methods, we incorporate fine-grained (i.e., token or phrase level) quality signals that are derived by contrasting good and bad responses. our approach has made two major contributions. firstly, we curate a refined alignment dataset that pairs initial responses and the corresponding revised ones. secondly, we devise a new loss function can leverage fine-grained quality signals to instruct the learning of llms for alignment. extensive experiments have demonstrated the effectiveness of our approaches by comparing a number of competitive baselines.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.04076" target="_blank">Do LLMS Exhibit Human-Like Response Biases? A Case Study in Survey Design</a></div>
+<div class="paper-author">Lindia Tjuatja, Valerie Chen, Sherry Tongshuang Wu, Ameet Talwalkar, Graham Neubig</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: as large language models (llms) become more capable, there is growing excitement about the possibility of using llms as proxies for humans in real-world tasks where subjective labels are desired, such as in surveys and opinion polling. one widely-cited barrier to the adoption of llms is their sensitivity to prompt wording -- but interestingly, humans also display sensitivities to instruction changes in the form of response biases. as such, we argue that if llms are going to be used to approximate human opinions, it is necessary to investigate the extent to which llms also reflect human response biases, if at all. in this work, we use survey design as a case study, where human response biases caused by permutations in wordings of ``prompts'' have been extensively studied. drawing from prior work in social psychology, we design a dataset and propose a framework to evaluate whether llms exhibit human-like response biases in survey questionnaires. our comprehensive evaluation of nine models shows that popular open and commercial llms generally fail to reflect human-like behavior. these inconsistencies tend to be more prominent in models that have been instruction fine-tuned. furthermore, even if a model shows a significant change in the same direction as humans, we find that perturbations that are not meant to elicit significant changes in humans may also result in a similar change, suggesting that such a result could be partially due to other spurious correlations. these results highlight the potential pitfalls of using llms to substitute humans in parts of the annotation pipeline, and further underscore the importance of finer-grained characterizations of model behavior. our code, dataset, and collected samples are available at https://github.com/lindiatjuatja/biasmonkey
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.04124" target="_blank">Unveiling Safety Vulnerabilities of Large Language Models</a></div>
+<div class="paper-author">George Kour, Marcel Zalmanovici, Naama Zwerdling, Esther Goldbraich, Ora Nova Fandina, Ateret Anaby-Tavor, Orna Raz, Eitan Farchi</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: as large language models become more prevalent, their possible harmful or inappropriate responses are a cause for concern. this paper introduces a unique dataset containing adversarial examples in the form of questions, which we call attaq, designed to provoke such harmful or inappropriate responses. we assess the efficacy of our dataset by analyzing the vulnerabilities of various models when subjected to it. additionally, we introduce a novel automatic approach for identifying and naming vulnerable semantic regions - input semantic areas for which the model is likely to produce harmful outputs. this is achieved through the application of specialized clustering techniques that consider both the semantic similarity of the input attacks and the harmfulness of the model's responses. automatically identifying vulnerable semantic regions enhances the evaluation of model weaknesses, facilitating targeted improvements to its safety mechanisms and overall reliability.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2023-11-06</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2311.03033" target="_blank">Beyond Words: A Mathematical Framework for Interpreting Large Language Models</a></div>
@@ -209,6 +250,46 @@ Abstract: despite remarkable success in various applications, large language mod
 <div class="abstract">
 <div class="abstract-content">
 Abstract: while gpt-4v(ision) impressively models both visual and textual information simultaneously, it's hallucination behavior has not been systematically assessed. to bridge this gap, we introduce a new benchmark, namely, the bias and interference challenges in visual language models (bingo). this benchmark is designed to evaluate and shed light on the two common types of hallucinations in visual language models: bias and interference. here, bias refers to the model's tendency to hallucinate certain types of responses, possibly due to imbalance in its training data. interference pertains to scenarios where the judgment of gpt-4v(ision) can be disrupted due to how the text prompt is phrased or how the input image is presented. we identify a notable regional bias, whereby gpt-4v(ision) is better at interpreting western images or images with english writing compared to images from other countries or containing text in other languages. moreover, gpt-4v(ision) is vulnerable to leading questions and is often confused when interpreting multiple images together. popular mitigation approaches, such as self-correction and chain-of-thought reasoning, are not effective in resolving these challenges. we also identified similar biases and interference vulnerabilities with llava and bard. our results characterize the hallucination challenges in gpt-4v(ision) and state-of-the-art visual-language models, and highlight the need for new solutions. the bingo benchmark is available at https://github.com/gzcch/bingo.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.03311" target="_blank">Unraveling Downstream Gender Bias From Large Language Models: A Study on Ai Educational Writing Assistance</a></div>
+<div class="paper-author">Thiemo Wambsganss, Xiaotian Su, Vinitra Swamy, Seyed Parsa Neshaei, Roman Rietsche, Tanja Käser</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) are increasingly utilized in educational tasks such as providing writing suggestions to students. despite their potential, llms are known to harbor inherent biases which may negatively impact learners. previous studies have investigated bias in models and data representations separately, neglecting the potential impact of llm bias on human writing. in this paper, we investigate how bias transfers through an ai writing support pipeline. we conduct a large-scale user study with 231 students writing business case peer reviews in german. students are divided into five groups with different levels of writing support: one classroom group with feature-based suggestions and four groups recruited from prolific -- a control group with no assistance, two groups with suggestions from fine-tuned gpt-2 and gpt-3 models, and one group with suggestions from pre-trained gpt-3.5. using genbit gender bias analysis, word embedding association tests (weat), and sentence embedding association test (seat) we evaluate the gender bias at various stages of the pipeline: in model embeddings, in suggestions generated by the models, and in reviews written by students. our results demonstrate that there is no significant difference in gender bias between the resulting peer reviews of groups with and without llm suggestions. our research is therefore optimistic about the use of ai writing support in the classroom, showcasing a context where bias in llms does not transfer to students' responses.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.03348" target="_blank">Scalable and Transferable Black-Box Jailbreaks for Language Models via Persona Modulation</a></div>
+<div class="paper-author">Rusheb Shah, Quentin Feuillade--Montixi, Soroush Pour, Arush Tagade, Stephen Casper, Javier Rando</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: despite efforts to align large language models to produce harmless responses, they are still vulnerable to jailbreak prompts that elicit unrestricted behaviour. in this work, we investigate persona modulation as a black-box jailbreaking method to steer a target model to take on personalities that are willing to comply with harmful instructions. rather than manually crafting prompts for each persona, we automate the generation of jailbreaks using a language model assistant. we demonstrate a range of harmful completions made possible by persona modulation, including detailed instructions for synthesising methamphetamine, building a bomb, and laundering money. these automated attacks achieve a harmful completion rate of 42.5% in gpt-4, which is 185 times larger than before modulation (0.23%). these prompts also transfer to claude 2 and vicuna with harmful completion rates of 61.0% and 35.9%, respectively. our work reveals yet another vulnerability in commercial large language models and highlights the need for more comprehensive safeguards.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.03449" target="_blank">Into the Laions Den: Investigating Hate in Multimodal Datasets</a></div>
+<div class="paper-author">Abeba Birhane, Vinay Prabhu, Sang Han, Vishnu Naresh Boddeti, Alexandra Sasha Luccioni</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: 'scale the model, scale the data, scale the compute' is the reigning sentiment in the world of generative ai today. while the impact of model scaling has been extensively studied, we are only beginning to scratch the surface of data scaling and its consequences. this is especially of critical importance in the context of vision-language datasets such as laion. these datasets are continually growing in size and are built based on large-scale internet dumps such as the common crawl, which is known to have numerous drawbacks ranging from quality, legality, and content. the datasets then serve as the backbone for large generative models, contributing to the operationalization and perpetuation of harmful societal and historical biases and stereotypes. in this paper, we investigate the effect of scaling datasets on hateful content through a comparative audit of two datasets: laion-400m and laion-2b. our results show that hate content increased by nearly 12% with dataset scale, measured both qualitatively and quantitatively using a metric that we term as hate content rate (hcr). we also found that filtering dataset contents based on not safe for work (nsfw) values calculated based on images alone does not exclude all the harmful content in alt-text. instead, we found that trace amounts of hateful, targeted, and aggressive text remain even when carrying out conservative filtering. we end with a reflection and a discussion of the significance of our results for dataset curation and usage in the ai community. code and the meta-data assets curated in this paper are publicly available at https://github.com/vinayprabhu/hate_scaling. content warning: this paper contains examples of hateful text that might be disturbing, distressing, and/or offensive.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.03533" target="_blank">Quantifying Uncertainty in Natural Language Explanations of Large Language Models</a></div>
+<div class="paper-author">Sree Harsha Tanneru, Chirag Agarwal, Himabindu Lakkaraju</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) are increasingly used as powerful tools for several high-stakes natural language processing (nlp) applications. recent prompting works claim to elicit intermediate reasoning steps and key tokens that serve as proxy explanations for llm predictions. however, there is no certainty whether these explanations are reliable and reflect the llms behavior. in this work, we make one of the first attempts at quantifying the uncertainty in explanations of llms. to this end, we propose two novel metrics -- $\textit{verbalized uncertainty}$ and $\textit{probing uncertainty}$ -- to quantify the uncertainty of generated explanations. while verbalized uncertainty involves prompting the llm to express its confidence in its explanations, probing uncertainty leverages sample and model perturbations as a means to quantify the uncertainty. our empirical analysis of benchmark datasets reveals that verbalized uncertainty is not a reliable estimate of explanation confidence. further, we show that the probing uncertainty estimates are correlated with the faithfulness of an explanation, with lower uncertainty corresponding to explanations with higher faithfulness. our study provides insights into the challenges and opportunities of quantifying uncertainty in llm explanations, contributing to the broader discussion of the trustworthiness of foundation models.
 </div>
 <button class="expand-btn">Expand Abstract</button>
 </div>
