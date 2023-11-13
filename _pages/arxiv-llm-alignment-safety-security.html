@@ -162,6 +162,57 @@ sitemap: false
     </div>
 </div>
 
+<h2><b>2023-11-10</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.05915" target="_blank">Fake Alignment: Are LLMS Really Aligned Well?</a></div>
+<div class="paper-author">Yixu Wang, Yan Teng, Kexin Huang, Chengqi Lyu, Songyang Zhang, Wenwei Zhang, Xingjun Ma, Yingchun Wang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the growing awareness of safety concerns in large language models (llms) has sparked considerable interest in the evaluation of safety within current research endeavors. this study investigates an interesting issue pertaining to the evaluation of llms, namely the substantial discrepancy in performance between multiple-choice questions and open-ended questions. inspired by research on jailbreak attack patterns, we argue this is caused by mismatched generalization. that is, the llm does not have a comprehensive understanding of the complex concept of safety. instead, it only remembers what to answer for open-ended safety questions, which makes it unable to solve other forms of safety tests. we refer to this phenomenon as fake alignment and construct a comparative benchmark to empirically verify its existence in llms. such fake alignment renders previous evaluation protocols unreliable. to address this, we introduce the faef framework and two novel metrics\textemdash consistency score (cs) and consistent safety score (css), which jointly assess two complementary forms of evaluation to quantify fake alignment and obtain corrected performance estimates. applying faef to 14 widely-used llms reveals several models with purported safety are poorly aligned in practice. our work highlights potential limitations in prevailing alignment methodologies.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.06025" target="_blank">Chimed-Gpt: A Chinese Medical Large Language Model With Full Training Regime and Better Alignment to Human Preferences</a></div>
+<div class="paper-author">Yuanhe Tian, Ruyi Gan, Yan Song, Jiaxing Zhang, Yongdong Zhang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: recently, the increasing demand for superior medical services has highlighted the discrepancies in the medical infrastructure. with big data, especially texts, forming the foundation of medical services, there is an exigent need for effective natural language processing (nlp) solutions tailored to the healthcare domain. conventional approaches leveraging pre-trained models present promising results in this domain and current large language models (llms) offer advanced foundation for medical text processing. however, most medical llms are trained only with supervised fine-tuning (sft), even though it efficiently empowers llms to understand and respond to medical instructions but is ineffective in learning domain knowledge and aligning with human preference. another engineering barrier that prevents current medical llm from better text processing ability is their restricted context length (e.g., 2,048 tokens), making it hard for the llms to process long context, which is frequently required in the medical domain. in this work, we propose chimed-gpt, a new benchmark llm designed explicitly for chinese medical domain, with enlarged context length to 4,096 tokens and undergoes a comprehensive training regime with pre-training, sft, and rlhf. evaluations on real-world tasks including information extraction, question answering, and dialogue generation demonstrate chimed-gpt's superior performance over general domain llms. furthermore, we analyze possible biases through prompting chimed-gpt to perform attitude scales regarding discrimination of patients, so as to contribute to further responsible development of llms in the medical domain. the code and model are released at https://github.com/synlp/chimed-gpt.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.06062" target="_blank">Practical Membership Inference Attacks Against Fine-Tuned Large Language Models via Self-Prompt Calibration</a></div>
+<div class="paper-author">Wenjie Fu, Huandong Wang, Chen Gao, Guanghua Liu, Yong Li, Tao Jiang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: membership inference attacks (mia) aim to infer whether a target data record has been utilized for model training or not. prior attempts have quantified the privacy risks of language models (lms) via mias, but there is still no consensus on whether existing mia algorithms can cause remarkable privacy leakage on practical large language models (llms). existing mias designed for lms can be classified into two categories: reference-free and reference-based attacks. they are both based on the hypothesis that training records consistently strike a higher probability of being sampled. nevertheless, this hypothesis heavily relies on the overfitting of target models, which will be mitigated by multiple regularization methods and the generalization of llms. the reference-based attack seems to achieve promising effectiveness in llms, which measures a more reliable membership signal by comparing the probability discrepancy between the target model and the reference model. however, the performance of reference-based attack is highly dependent on a reference dataset that closely resembles the training dataset, which is usually inaccessible in the practical scenario. overall, existing mias are unable to effectively unveil privacy leakage over practical fine-tuned llms that are overfitting-free and private. we propose a membership inference attack based on self-calibrated probabilistic variation (spv-mia). specifically, since memorization in llms is inevitable during the training process and occurs before overfitting, we introduce a more reliable membership signal, probabilistic variation, which is based on memorization rather than overfitting. furthermore, we introduce a self-prompt approach, which constructs the dataset to fine-tune the reference model by prompting the target llm itself. in this manner, the adversary can collect a dataset with a similar distribution from public apis.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.06207" target="_blank">Vox Populi, Vox Chatgpt: Large Language Models, Education and Democracy</a></div>
+<div class="paper-author">Niina Zuber, Jan Gogoll</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: in the era of generative ai and specifically large language models (llms), exemplified by chatgpt, the intersection of artificial intelligence and human reasoning has become a focal point of global attention. unlike conventional search engines, llms go beyond mere information retrieval, entering into the realm of discourse culture. its outputs mimic well-considered, independent opinions or statements of facts, presenting a pretense of wisdom. this paper explores the potential transformative impact of llms on democratic societies. it delves into the concerns regarding the difficulty in distinguishing chatgpt-generated texts from human output. the discussion emphasizes the essence of authorship, rooted in the unique human capacity for reason - a quality indispensable for democratic discourse and successful collaboration within free societies. highlighting the potential threats to democracy, this paper presents three arguments: the substitution argument, the authenticity argument, and the facts argument. these arguments highlight the potential risks that are associated with an overreliance on llms. the central thesis posits that widespread deployment of llms may adversely affect the fabric of a democracy if not comprehended and addressed proactively and properly. in proposing a solution, we advocate for an emphasis on education as a means to mitigate risks. we suggest cultivating thinking skills in children, fostering coherent thought formulation, and distinguishing between machine-generated output and genuine, i.e. human, reasoning. the focus should be on responsible development and usage of llms, with the goal of augmenting human capacities in thinking, deliberating and decision-making rather than substituting them.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.06237" target="_blank">Summon a Demon and Bind It: A Grounded Theory of LLM Red Teaming in the Wild</a></div>
+<div class="paper-author">Nanna Inie, Jonathan Stray, Leon Derczynski</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: engaging in the deliberate generation of abnormal outputs from large language models (llms) by attacking them is a novel human activity. this paper presents a thorough exposition of how and why people perform such attacks. using a formal qualitative methodology, we interviewed dozens of practitioners from a broad range of backgrounds, all contributors to this novel work of attempting to cause llms to fail. we relate and connect this activity between its practitioners' motivations and goals; the strategies and techniques they deploy; and the crucial role the community plays. as a result, this paper presents a grounded theory of how and why people attack large language models: llm red teaming in the wild.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2023-11-09</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2311.05227" target="_blank">Kantian Deontology Meets Ai Alignment: Towards Morally Robust Fairness Metrics</a></div>
