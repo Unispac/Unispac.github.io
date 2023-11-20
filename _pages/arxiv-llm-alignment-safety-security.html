@@ -162,6 +162,37 @@ sitemap: false
     </div>
 </div>
 
+<h2><b>2023-11-17</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.10395" target="_blank">Bias a-Head? Analyzing Bias in Transformer-Based Language Model Attention Heads</a></div>
+<div class="paper-author">Yi Yang, Hanyu Duan, Ahmed Abbasi, John P. Lalor, Kar Yan Tam</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: transformer-based pretrained large language models (plm) such as bert and gpt have achieved remarkable success in nlp tasks. however, plms are prone to encoding stereotypical biases. although a burgeoning literature has emerged on stereotypical bias mitigation in plms, such as work on debiasing gender and racial stereotyping, how such biases manifest and behave internally within plms remains largely unknown. understanding the internal stereotyping mechanisms may allow better assessment of model fairness and guide the development of effective mitigation strategies. in this work, we focus on attention heads, a major component of the transformer architecture, and propose a bias analysis framework to explore and identify a small set of biased heads that are found to contribute to a plm's stereotypical bias. we conduct extensive experiments to validate the existence of these biased heads and to better understand how they behave. we investigate gender and racial bias in the english language in two types of transformer-based plms: the encoder-based bert model and the decoder-based autoregressive gpt model. overall, the results shed light on understanding the bias behavior in pretrained language models.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.10538" target="_blank">Testing Language Model Agents Safely in the Wild</a></div>
+<div class="paper-author">Silen Naihin, David Atkinson, Marc Green, Merwane Hamadi, Craig Swift, Douglas Schonholtz, Adam Tauman Kalai, David Bau</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: a prerequisite for safe autonomy-in-the-wild is safe testing-in-the-wild. yet real-world autonomous tests face several unique safety challenges, both due to the possibility of causing harm during a test, as well as the risk of encountering new unsafe agent behavior through interactions with real-world and potentially malicious actors. we propose a framework for conducting safe autonomous agent tests on the open internet: agent actions are audited by a context-sensitive monitor that enforces a stringent safety boundary to stop an unsafe test, with suspect behavior ranked and logged to be examined by humans. we a design a basic safety monitor that is flexible enough to monitor existing llm agents, and, using an adversarial simulated agent, we measure its ability to identify and stop unsafe situations. then we apply the safety monitor on a battery of real-world tests of autogpt, and we identify several limitations and challenges that will face the creation of safe in-the-wild tests as autonomous agents grow more capable.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.10587" target="_blank">Countering Misinformation via Emotional Response Generation</a></div>
+<div class="paper-author">Daniel Russo, Shane Peter Kaszefski-Yaschuk, Jacopo Staiano, Marco Guerini</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the proliferation of misinformation on social media platforms (smps) poses a significant danger to public health, social cohesion and ultimately democracy. previous research has shown how social correction can be an effective way to curb misinformation, by engaging directly in a constructive dialogue with users who spread -- often in good faith -- misleading messages. although professional fact-checkers are crucial to debunking viral claims, they usually do not engage in conversations on social media. thereby, significant effort has been made to automate the use of fact-checker material in social correction; however, no previous work has tried to integrate it with the style and pragmatics that are commonly employed in social media communication. to fill this gap, we present vermouth, the first large-scale dataset comprising roughly 12 thousand claim-response pairs (linked to debunking articles), accounting for both smp-style and basic emotions, two factors which have a significant role in misinformation credibility and spreading. to collect this dataset we used a technique based on an author-reviewer pipeline, which efficiently combines llms and human annotators to obtain high-quality data. we also provide comprehensive experiments showing how models trained on our proposed dataset have significant improvements in terms of output quality and generalization capabilities.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2023-11-16</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2311.09585" target="_blank">Lifetox: Unveiling Implicit Toxicity in Life Advice</a></div>
@@ -339,6 +370,26 @@ Abstract: recent works have identified a gap between research and practice in ar
 <div class="abstract">
 <div class="abstract-content">
 Abstract: we present dress, a large vision language model (lvlm) that innovatively exploits natural language feedback (nlf) from large language models to enhance its alignment and interactions by addressing two key limitations in the state-of-the-art lvlms. first, prior lvlms generally rely only on the instruction finetuning stage to enhance alignment with human preferences. without incorporating extra feedback, they are still prone to generate unhelpful, hallucinated, or harmful responses. second, while the visual instruction tuning data is generally structured in a multi-turn dialogue format, the connections and dependencies among consecutive conversational turns are weak. this reduces the capacity for effective multi-turn interactions. to tackle these, we propose a novel categorization of the nlf into two key types: critique and refinement. the critique nlf identifies the strengths and weaknesses of the responses and is used to align the lvlms with human preferences. the refinement nlf offers concrete suggestions for improvement and is adopted to improve the interaction ability of the lvlms-- which focuses on lvlms' ability to refine responses by incorporating feedback in multi-turn interactions. to address the non-differentiable nature of nlf, we generalize conditional reinforcement learning for training. our experimental results demonstrate that dress can generate more helpful (9.76%), honest (11.52%), and harmless (21.03%) responses, and more effectively learn from feedback during multi-turn interactions compared to sota lvmls.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.10165" target="_blank">Practical Cybersecurity Ethics: Mapping Cybok to Ethical Concerns</a></div>
+<div class="paper-author">Ivan Flechais, George Chalhoub</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: research into the ethics of cybersecurity is an established and growing topic of investigation, however the translation of this research into practice is lacking: there exists a small number of professional codes of ethics or codes of practice in cybersecurity, however these are very broad and do not offer much insight into the ethical dilemmas that can be faced while performing specific cybersecurity activities. in order to address this gap, we leverage ongoing work on the cyber security body of knowledge (cybok) to help elicit and document the responsibilities and ethics of the profession. based on a literature review of the ethics of cybersecurity, we use cybok to frame the exploration of ethical challenges in the cybersecurity profession through a series of 15 interviews with cybersecurity experts. our approach is qualitative and exploratory, aiming to answer the research question "what ethical challenges, insights, and solutions arise in different areas of cybersecurity?". our findings indicate that there are broad ethical challenges across the whole of cybersecurity, but also that different areas of cybersecurity can face specific ethical considerations for which more detailed guidance can help professionals in those areas. in particular, our findings indicate that security decision-making is expected of all security professionals, but that this requires them to balance a complex mix of technical, objective and subjective points of view, and that resolving conflicts raises challenging ethical dilemmas. we conclude that more work is needed to explore, map, and integrate ethical considerations into cybersecurity practice; the urgent need to conduct further research into the ethics of cybersecurity ai; and highlight the importance of this work for individuals and professional bodies who seek to develop and mature the cybersecurity profession in a responsible manner.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.10266" target="_blank">Diagnosing and Debiasing Corpus-Based Political Bias and Insults in Gpt2</a></div>
+<div class="paper-author">Ambri Ma, Arnav Kumar, Brett Zeligson</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the training of large language models (llms) on extensive, unfiltered corpora sourced from the internet is a common and advantageous practice. consequently, llms have learned and inadvertently reproduced various types of biases, including violent, offensive, and toxic language. however, recent research shows that generative pretrained transformer (gpt) language models can recognize their own biases and detect toxicity in generated content, a process referred to as self-diagnosis. in response, researchers have developed a decoding algorithm that allows llms to self-debias, or reduce their likelihood of generating harmful text. this study investigates the efficacy of the diagnosing-debiasing approach in mitigating two additional types of biases: insults and political bias. these biases are often used interchangeably in discourse, despite exhibiting potentially dissimilar semantic and syntactic properties. we aim to contribute to the ongoing effort of investigating the ethical and social implications of human-ai interaction.
 </div>
 <button class="expand-btn">Expand Abstract</button>
 </div>
