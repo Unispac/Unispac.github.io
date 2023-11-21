@@ -162,6 +162,129 @@ sitemap: false
     </div>
 </div>
 
+<h2><b>2023-11-20</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.11701" target="_blank">Control in Hybrid Chatbots</a></div>
+<div class="paper-author">Thomas Rüdel, Jochen L. Leidner</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: customer data typically is held in database systems, which can be seen as rule-based knowledge base, whereas businesses increasingly want to benefit from the capabilities of large, pre-trained language models.   in this technical report, we describe a case study of how a commercial rule engine and an integrated neural chatbot may be integrated, and what level of control that particular integration mode leads to. we also discuss alternative ways (including past ways realized in other systems) how researchers strive to maintain control and avoid what has recently been called model "hallucination".
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.11855" target="_blank">Evil Geniuses: Delving Into the Safety of LLM-Based Agents</a></div>
+<div class="paper-author">Yu Tian, Xiao Yang, Jingyuan Zhang, Yinpeng Dong, Hang Su</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the rapid advancements in large language models (llms) have led to a resurgence in llm-based agents, which demonstrate impressive human-like behaviors and cooperative capabilities in various interactions and strategy formulations. however, evaluating the safety of llm-based agents remains a complex challenge. this paper elaborately conducts a series of manual jailbreak prompts along with a virtual chat-powered evil plan development team, dubbed evil geniuses, to thoroughly probe the safety aspects of these agents. our investigation reveals three notable phenomena: 1) llm-based agents exhibit reduced robustness against malicious attacks. 2) the attacked agents could provide more nuanced responses. 3) the detection of the produced improper responses is more challenging. these insights prompt us to question the effectiveness of llm-based attacks on agents, highlighting vulnerabilities at various levels and within different role specializations within the system/agent of llm-based agents. extensive evaluation and discussion reveal that llm-based agents face significant challenges in safety and yield insights for future research. our code is available at https://github.com/t1ans1r/evil-geniuses.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.12004" target="_blank">Risk-Averse Batch Active Inverse Reward Design</a></div>
+<div class="paper-author">Panagiotis Liampas</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: designing a perfect reward function that depicts all the aspects of the intended behavior is almost impossible, especially generalizing it outside of the training environments. active inverse reward design (aird) proposed the use of a series of queries, comparing possible reward functions in a single training environment. this allows the human to give information to the agent about suboptimal behaviors, in order to compute a probability distribution over the intended reward function. however, it ignores the possibility of unknown features appearing in real-world environments, and the safety measures needed until the agent completely learns the reward function. i improved this method and created risk-averse batch active inverse reward design (rbaird), which constructs batches, sets of environments the agent encounters when being used in the real world, processes them sequentially, and, for a predetermined number of iterations, asks queries that the human needs to answer for each environment of the batch. after this process is completed in one batch, the probabilities have been improved and are transferred to the next batch. this makes it capable of adapting to real-world scenarios and learning how to treat unknown features it encounters for the first time. i also integrated a risk-averse planner, similar to that of inverse reward design (ird), which samples a set of reward functions from the probability distribution and computes a trajectory that takes the most certain rewards possible. this ensures safety while the agent is still learning the reward function, and enables the use of this approach in situations where cautiousness is vital. rbaird outperformed the previous approaches in terms of efficiency, accuracy, and action certainty, demonstrated quick adaptability to new, unknown features, and can be more widely used for the alignment of crucial, powerful ai models.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-11-19</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.11229" target="_blank">Causal Ate Mitigates Unintended Bias in Controlled Text Generation</a></div>
+<div class="paper-author">Rahul Madhavan, Kahini Wadhawan</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: we study attribute control in language models through the method of causal average treatment effect (causal ate). existing methods for the attribute control task in language models (lms) check for the co-occurrence of words in a sentence with the attribute of interest, and control for them. however, spurious correlation of the words with the attribute in the training dataset, can cause models to hallucinate the presence of the attribute when presented with the spurious correlate during inference. we show that the simple perturbation-based method of causal ate removes this unintended effect. additionally, we offer a theoretical foundation for investigating causal ate in the classification task, and prove that it reduces the number of false positives -- thereby mitigating the issue of unintended bias. specifically, we ground it in the problem of toxicity mitigation, where a significant challenge lies in the inadvertent bias that often emerges towards protected groups post detoxification. we show that this unintended bias can be solved by the use of the causal ate metric.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.11261" target="_blank">Adversarial Prompt Tuning for Vision-Language Models</a></div>
+<div class="paper-author">Jiaming Zhang, Xingjun Ma, Xin Wang, Lingyu Qiu, Jiaqi Wang, Yu-Gang Jiang, Jitao Sang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: with the rapid advancement of multimodal learning, pre-trained vision-language models (vlms) such as clip have demonstrated remarkable capacities in bridging the gap between visual and language modalities. however, these models remain vulnerable to adversarial attacks, particularly in the image modality, presenting considerable security risks. this paper introduces adversarial prompt tuning (advpt), a novel technique to enhance the adversarial robustness of image encoders in vlms. advpt innovatively leverages learnable text prompts and aligns them with adversarial image embeddings, to address the vulnerabilities inherent in vlms without the need for extensive parameter training or modification of the model architecture. we demonstrate that advpt improves resistance against white-box and black-box adversarial attacks and exhibits a synergistic effect when combined with existing image-processing-based defense techniques, further boosting defensive capabilities. comprehensive experimental analyses provide insights into adversarial prompt tuning, a novel paradigm devoted to improving resistance to adversarial images through textual input modifications, paving the way for future robust multimodal learning research. these findings open up new possibilities for enhancing the security of vlms. our code will be available upon publication of the paper.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.11267" target="_blank">Rethinking Large Language Models in Mental Health Applications</a></div>
+<div class="paper-author">Shaoxiong Ji, Tianlin Zhang, Kailai Yang, Sophia Ananiadou, Erik Cambria</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) have become valuable assets in mental health, showing promise in both classification tasks and counseling applications. this paper offers a perspective on using llms in mental health applications. it discusses the instability of generative models for prediction and the potential for generating hallucinatory outputs, underscoring the need for ongoing audits and evaluations to maintain their reliability and dependability. the paper also distinguishes between the often interchangeable terms ``explainability'' and ``interpretability'', advocating for developing inherently interpretable methods instead of relying on potentially hallucinated self-explanations generated by llms. despite the advancements in llms, human counselors' empathetic understanding, nuanced interpretation, and contextual awareness remain irreplaceable in the sensitive and complex realm of mental health counseling. the use of llms should be approached with a judicious and considerate mindset, viewing them as tools that complement human expertise rather than seeking to replace it.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.11415" target="_blank">A Security Risk Taxonomy for Large Language Models</a></div>
+<div class="paper-author">Erik Derner, Kristina Batistič, Jan Zahálka, Robert Babuška</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: as large language models (llms) permeate more and more applications, an assessment of their associated security risks becomes increasingly necessary. the potential for exploitation by malicious actors, ranging from disinformation to data breaches and reputation damage, is substantial. this paper addresses a gap in current research by focusing on the security risks posed by llms, which extends beyond the widely covered ethical and societal implications. our work proposes a taxonomy of security risks along the user-model communication pipeline, explicitly focusing on prompt-based attacks on llms. we categorize the attacks by target and attack type within a prompt-based interaction scheme. the taxonomy is reinforced with specific attack examples to showcase the real-world impact of these risks. through this taxonomy, we aim to inform the development of robust and secure llm applications, enhancing their safety and trustworthiness.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.11509" target="_blank">Token-Level Adversarial Prompt Detection Based on Perplexity Measures and Contextual Information</a></div>
+<div class="paper-author">Zhengmian Hu, Gang Wu, Saayan Mitra, Ruiyi Zhang, Tong Sun, Heng Huang, Vishy Swaminathan</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: in recent years, large language models (llm) have emerged as pivotal tools in various applications. however, these models are susceptible to adversarial prompt attacks, where attackers can carefully curate input strings that lead to undesirable outputs. the inherent vulnerability of llms stems from their input-output mechanisms, especially when presented with intensely out-of-distribution (ood) inputs. this paper proposes a token-level detection method to identify adversarial prompts, leveraging the llm's capability to predict the next token's probability. we measure the degree of the model's perplexity and incorporate neighboring token information to encourage the detection of contiguous adversarial prompt sequences. as a result, we propose two methods: one that identifies each token as either being part of an adversarial prompt or not, and another that estimates the probability of each token being part of an adversarial prompt.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.11538" target="_blank">Assessing Prompt Injection Risks in 200+ Custom GPTS</a></div>
+<div class="paper-author">Jiahao Yu, Yuhang Wu, Dong Shu, Mingyu Jin, Xinyu Xing</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: in the rapidly evolving landscape of artificial intelligence, chatgpt has been widely used in various applications. the new feature: customization of chatgpt models by users to cater to specific needs has opened new frontiers in ai utility. however, this study reveals a significant security vulnerability inherent in these user-customized gpts: prompt injection attacks. through comprehensive testing of over 200 user-designed gpt models via adversarial prompts, we demonstrate that these systems are susceptible to prompt injections. through prompt injection, an adversary can not only extract the customized system prompts but also access the uploaded files. this paper provides a first-hand analysis of the prompt injection, alongside the evaluation of the possible mitigation of such attacks. our findings underscore the urgent need for robust security frameworks in the design and deployment of customizable gpt models. the intent of this paper is to raise awareness and prompt action in the ai community, ensuring that the benefits of gpt customization do not come at the cost of compromised security and privacy.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-11-18</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.11123" target="_blank">(Why) Is My Prompt Getting Worse? Rethinking Regression Testing for Evolving LLM Apis</a></div>
+<div class="paper-author">Wanqin Ma, Chenyang Yang, Christian Kästner</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) are increasingly integrated into software applications. downstream application developers often access llms through apis provided as a service. however, llm apis are often updated silently and scheduled to be deprecated, forcing users to continuously adapt to evolving models. this can cause performance regression and affect prompt design choices, as evidenced by our case study on toxicity detection. based on our case study, we emphasize the need for and re-examine the concept of regression testing for evolving llm apis. we argue that regression testing llms requires fundamental changes to traditional testing approaches, due to different correctness notions, prompting brittleness, and non-determinism in llm apis.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.11135" target="_blank">A Principled Framework for Knowledge-Enhanced Large Language Model</a></div>
+<div class="paper-author">Saizhuo Wang, Zhihan Liu, Zhaoran Wang, Jian Guo</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) are versatile, yet they often falter in tasks requiring deep and reliable reasoning due to issues like hallucinations, limiting their applicability in critical scenarios. this paper introduces a rigorously designed framework for creating llms that effectively anchor knowledge and employ a closed-loop reasoning process, enhancing their capability for in-depth analysis. we dissect the framework to illustrate the contribution of each component to the llms' performance, offering a theoretical assurance of improved reasoning under well-defined assumptions.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.11202" target="_blank">Unmasking and Improving Data Credibility: A Study With Datasets for Training Harmless Language Models</a></div>
+<div class="paper-author">Zhaowei Zhu, Jialu Wang, Hao Cheng, Yang Liu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: language models have shown promise in various tasks but can be affected by undesired data during training, fine-tuning, or alignment. for example, if some unsafe conversations are wrongly annotated as safe ones, the model fine-tuned on these samples may be harmful. therefore, the correctness of annotations, i.e., the credibility of the dataset, is important. this study focuses on the credibility of real-world datasets, including the popular benchmarks jigsaw civil comments, anthropic harmless & red team, pku beavertails & saferlhf, that can be used for training a harmless language model. given the cost and difficulty of cleaning these datasets by humans, we introduce a systematic framework for evaluating the credibility of datasets, identifying label errors, and evaluating the influence of noisy labels in the curated language data, specifically focusing on unsafe comments and conversation classification. with the framework, we find and fix an average of 6.16% label errors in 11 datasets constructed from the above benchmarks. the data credibility and downstream learning performance can be remarkably improved by directly fixing label errors, indicating the significance of cleaning existing real-world datasets. open-source: https://github.com/docta-ai/docta.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2023-11-17</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2311.10395" target="_blank">Bias a-Head? Analyzing Bias in Transformer-Based Language Model Attention Heads</a></div>
@@ -189,6 +312,26 @@ Abstract: a prerequisite for safe autonomy-in-the-wild is safe testing-in-the-wi
 <div class="abstract">
 <div class="abstract-content">
 Abstract: the proliferation of misinformation on social media platforms (smps) poses a significant danger to public health, social cohesion and ultimately democracy. previous research has shown how social correction can be an effective way to curb misinformation, by engaging directly in a constructive dialogue with users who spread -- often in good faith -- misleading messages. although professional fact-checkers are crucial to debunking viral claims, they usually do not engage in conversations on social media. thereby, significant effort has been made to automate the use of fact-checker material in social correction; however, no previous work has tried to integrate it with the style and pragmatics that are commonly employed in social media communication. to fill this gap, we present vermouth, the first large-scale dataset comprising roughly 12 thousand claim-response pairs (linked to debunking articles), accounting for both smp-style and basic emotions, two factors which have a significant role in misinformation credibility and spreading. to collect this dataset we used a technique based on an author-reviewer pipeline, which efficiently combines llms and human annotators to obtain high-quality data. we also provide comprehensive experiments showing how models trained on our proposed dataset have significant improvements in terms of output quality and generalization capabilities.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.10932" target="_blank">Cognitive Bias in Large Language Models: Cautious Optimism Meets Anti-Panglossian Meliorism</a></div>
+<div class="paper-author">David Thorstad</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: traditional discussions of bias in large language models focus on a conception of bias closely tied to unfairness, especially as affecting marginalized groups. recent work raises the novel possibility of assessing the outputs of large language models for a range of cognitive biases familiar from research in judgment and decisionmaking. my aim in this paper is to draw two lessons from recent discussions of cognitive bias in large language models: cautious optimism about the prevalence of bias in current models coupled with an anti-panglossian willingness to concede the existence of some genuine biases and work to reduce them. i draw out philosophical implications of this discussion for the rationality of human cognitive biases as well as the role of unrepresentative data in driving model biases.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.10934" target="_blank">Case Repositories: Towards Case-Based Reasoning for Ai Alignment</a></div>
+<div class="paper-author">K. J. Kevin Feng, Quan Ze, N/A Chen, Inyoung Cheong, King Xia, Amy X. Zhang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: case studies commonly form the pedagogical backbone in law, ethics, and many other domains that face complex and ambiguous societal questions informed by human values. similar complexities and ambiguities arise when we consider how ai should be aligned in practice: when faced with vast quantities of diverse (and sometimes conflicting) values from different individuals and communities, with whose values is ai to align, and how should ai do so? we propose a complementary approach to constitutional ai alignment, grounded in ideas from case-based reasoning (cbr), that focuses on the construction of policies through judgments on a set of cases. we present a process to assemble such a case repository by: 1) gathering a set of ``seed'' cases -- questions one may ask an ai system -- in a particular domain from discussions in online communities, 2) eliciting domain-specific key dimensions for cases through workshops with domain experts, 3) using llms to generate variations of cases not seen in the wild, and 4) engaging with the public to judge and improve cases. we then discuss how such a case repository could assist in ai alignment, both through directly acting as precedents to ground acceptable behaviors, and as a medium for individuals and communities to engage in moral reasoning around ai
 </div>
 <button class="expand-btn">Expand Abstract</button>
 </div>
