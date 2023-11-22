@@ -162,6 +162,57 @@ sitemap: false
     </div>
 </div>
 
+<h2><b>2023-11-21</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.12420" target="_blank">How Far Have We Gone in Vulnerability Detection Using Large Language Models</a></div>
+<div class="paper-author">Zeyu Gao, Hao Wang, Yuchen Zhou, Wenyu Zhu, Chao Zhang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: as software becomes increasingly complex and prone to vulnerabilities, automated vulnerability detection is critically important, yet challenging. given the significant successes of large language models (llms) in various tasks, there is growing anticipation of their efficacy in vulnerability detection. however, a quantitative understanding of their potential in vulnerability detection is still missing. to bridge this gap, we introduce a comprehensive vulnerability benchmark vulbench. this benchmark aggregates high-quality data from a wide range of ctf (capture-the-flag) challenges and real-world applications, with annotations for each vulnerable function detailing the vulnerability type and its root cause. through our experiments encompassing 16 llms and 6 state-of-the-art (sota) deep learning-based models and static analyzers, we find that several llms outperform traditional deep learning approaches in vulnerability detection, revealing an untapped potential in llms. this work contributes to the understanding and utilization of llms for enhanced software security.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.12435" target="_blank">Fair Enough? A Map of the Current Limitations of the Requirements to Have "Fair'' Algorithms</a></div>
+<div class="paper-author">Alessandro Castelnovo, Nicole Inverardi, Gabriele Nanino, Ilaria Giuseppina Penco, Daniele Regoli</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: in the recent years, the raise in the usage and efficiency of artificial intelligence and, more in general, of automated decision-making systems has brought with it an increasing and welcome awareness of the risks associated with such systems. one of such risks is that of perpetuating or even amplifying bias and unjust disparities present in the data from which many of these systems learn to adjust and optimise their decisions. this awareness has on one side encouraged several scientific communities to come up with more and more appropriate ways and methods to assess, quantify, and possibly mitigate such biases and disparities. on the other hand, it has prompted more and more layers of society, including policy makers, to call for ``fair'' algorithms. we believe that while a lot of excellent and multidisciplinary research is currently being conducted, what is still fundamentally missing is the awareness that having ``fair'' algorithms is per s\'e a nearly meaningless requirement, that needs to be complemented with a lot of additional societal choices to become actionable. namely, there is a hiatus between what the society is demanding from automated decision-making systems, and what this demand actually means in real-world scenarios. in this work, we outline the key features of such a hiatus, and pinpoint a list of fundamental ambiguities and attention points that we as a society must address in order to give a concrete meaning to the increasing demand of fairness in automated decision-making systems.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.12573" target="_blank">Moderating Model Marketplaces: Platform Governance Puzzles for Ai Intermediaries</a></div>
+<div class="paper-author">Robert Gorwa, Michael Veale</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the ai development community is increasingly making use of hosting intermediaries such as hugging face provide easy access to user-uploaded models and training data. these model marketplaces lower technical deployment barriers for hundreds of thousands of users, yet can be used in numerous potentially harmful and illegal ways. in this article, we explain ways in which ai systems, which can both `contain' content and be open-ended tools, present one of the trickiest platform governance challenges seen to date. we provide case studies of several incidents across three illustrative platforms -- hugging face, github and civitai -- to examine how model marketplaces moderate models. building on this analysis, we outline important (and yet nevertheless limited) practices that industry has been developing to respond to moderation demands: licensing, access and use restrictions, automated content moderation, and open policy development. while the policy challenge at hand is a considerable one, we conclude with some ideas as to how platforms could better mobilize resources to act as a careful, fair, and proportionate regulatory access point.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.12699" target="_blank">Can Large Language Models Understand Content and Propagation for Misinformation Detection: An Empirical Study</a></div>
+<div class="paper-author">Mengyang Chen, Lingwei Wei, Han Cao, Wei Zhou, Songlin Hu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) have garnered significant attention for their powerful ability in natural language understanding and reasoning. in this paper, we present a comprehensive empirical study to explore the performance of llms on misinformation detection tasks. this study stands as the pioneering investigation into the understanding capabilities of multiple llms regarding both content and propagation across social media platforms. our empirical studies on five misinformation detection datasets show that llms with diverse prompts achieve comparable performance in text-based misinformation detection but exhibit notably constrained capabilities in comprehending propagation structure compared to existing models in propagation-based misinformation detection. besides, we further design four instruction-tuned strategies to enhance llms for both content and propagation-based misinformation detection. these strategies boost llms to actively learn effective features from multiple instances or hard instances, and eliminate irrelevant propagation structures, thereby achieving better detection performance. extensive experiments further demonstrate llms would play a better capacity in content and propagation structure under these proposed strategies and achieve promising detection performance. these findings highlight the potential ability of llms to detect misinformation.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.12786" target="_blank">Mechanistically Analyzing the Effects of Fine-Tuning on Procedurally Defined Tasks</a></div>
+<div class="paper-author">Samyak Jain, Robert Kirk, Ekdeep Singh Lubana, Robert P. Dick, Hidenori Tanaka, Edward Grefenstette, Tim Rocktäschel, David Scott Krueger</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: fine-tuning large pre-trained models has become the de facto strategy for developing both task-specific and general-purpose machine learning systems, including developing models that are safe to deploy. despite its clear importance, there has been minimal work that explains how fine-tuning alters the underlying capabilities learned by a model during pretraining: does fine-tuning yield entirely novel capabilities or does it just modulate existing ones? we address this question empirically in synthetic, controlled settings where we can use mechanistic interpretability tools (e.g., network pruning and probing) to understand how the model's underlying capabilities are changing. we perform an extensive analysis of the effects of fine-tuning in these settings, and show that: (i) fine-tuning rarely alters the underlying model capabilities; (ii) a minimal transformation, which we call a 'wrapper', is typically learned on top of the underlying model capabilities, creating the illusion that they have been modified; and (iii) further fine-tuning on a task where such hidden capabilities are relevant leads to sample-efficient 'revival' of the capability, i.e., the model begins reusing these capability after only a few gradient steps. this indicates that practitioners can unintentionally remove a model's safety wrapper merely by fine-tuning it on a, e.g., superficially unrelated, downstream task. we additionally perform analysis on language models trained on the tinystories dataset to support our claims in a more realistic setup.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2023-11-20</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2311.11701" target="_blank">Control in Hybrid Chatbots</a></div>
@@ -189,6 +240,16 @@ Abstract: the rapid advancements in large language models (llms) have led to a r
 <div class="abstract">
 <div class="abstract-content">
 Abstract: designing a perfect reward function that depicts all the aspects of the intended behavior is almost impossible, especially generalizing it outside of the training environments. active inverse reward design (aird) proposed the use of a series of queries, comparing possible reward functions in a single training environment. this allows the human to give information to the agent about suboptimal behaviors, in order to compute a probability distribution over the intended reward function. however, it ignores the possibility of unknown features appearing in real-world environments, and the safety measures needed until the agent completely learns the reward function. i improved this method and created risk-averse batch active inverse reward design (rbaird), which constructs batches, sets of environments the agent encounters when being used in the real world, processes them sequentially, and, for a predetermined number of iterations, asks queries that the human needs to answer for each environment of the batch. after this process is completed in one batch, the probabilities have been improved and are transferred to the next batch. this makes it capable of adapting to real-world scenarios and learning how to treat unknown features it encounters for the first time. i also integrated a risk-averse planner, similar to that of inverse reward design (ird), which samples a set of reward functions from the probability distribution and computes a trajectory that takes the most certain rewards possible. this ensures safety while the agent is still learning the reward function, and enables the use of this approach in situations where cautiousness is vital. rbaird outperformed the previous approaches in terms of efficiency, accuracy, and action certainty, demonstrated quick adaptability to new, unknown features, and can be more widely used for the alignment of crucial, powerful ai models.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.12233" target="_blank">Unifying Corroborative and Contributive Attributions in Large Language Models</a></div>
+<div class="paper-author">Theodora Worledge, Judy Hanwen Shen, Nicole Meister, Caleb Winston, Carlos Guestrin</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: as businesses, products, and services spring up around large language models, the trustworthiness of these models hinges on the verifiability of their outputs. however, methods for explaining language model outputs largely fall across two distinct fields of study which both use the term "attribution" to refer to entirely separate techniques: citation generation and training data attribution. in many modern applications, such as legal document generation and medical question answering, both types of attributions are important. in this work, we argue for and present a unified framework of large language model attributions. we show how existing methods of different types of attribution fall under the unified framework. we also use the framework to discuss real-world use cases where one or both types of attributions are required. we believe that this unified framework will guide the use case driven development of systems that leverage both types of attribution, as well as the standardization of their evaluation.
 </div>
 <button class="expand-btn">Expand Abstract</button>
 </div>
