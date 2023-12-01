@@ -162,6 +162,128 @@ sitemap: false
     </div>
 </div>
 
+<h2><b>2023-11-30</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.18345" target="_blank">Situating the Social Issues of Image Generation Models in the Model Life Cycle: A Sociotechnical Approach</a></div>
+<div class="paper-author">Amelia Katirai, Noa Garcia, Kazuki Ide, Yuta Nakashima, Atsuo Kishimoto</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the race to develop image generation models is intensifying, with a rapid increase in the number of text-to-image models available. this is coupled with growing public awareness of these technologies. though other generative ai models--notably, large language models--have received recent critical attention for the social and other non-technical issues they raise, there has been relatively little comparable examination of image generation models. this paper reports on a novel, comprehensive categorization of the social issues associated with image generation models. at the intersection of machine learning and the social sciences, we report the results of a survey of the literature, identifying seven issue clusters arising from image generation models: data issues, intellectual property, bias, privacy, and the impacts on the informational, cultural, and natural environments. we situate these social issues in the model life cycle, to aid in considering where potential issues arise, and mitigation may be needed. we then compare these issue clusters with what has been reported for large language models. ultimately, we argue that the risks posed by image generation models are comparable in severity to the risks posed by large language models, and that the social impact of image generation models must be urgently considered.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.18580" target="_blank">Fft: Towards Harmlessness Evaluation and Analysis for LLMS With Factuality, Fairness, Toxicity</a></div>
+<div class="paper-author">Shiyao Cui, Zhenyu Zhang, Yilong Chen, Wenyuan Zhang, Tianyun Liu, Siqi Wang, Tingwen Liu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the widespread of generative artificial intelligence has heightened concerns about the potential harms posed by ai-generated texts, primarily stemming from factoid, unfair, and toxic content. previous researchers have invested much effort in assessing the harmlessness of generative language models. however, existing benchmarks are struggling in the era of large language models (llms), due to the stronger language generation and instruction following capabilities, as well as wider applications. in this paper, we propose fft, a new benchmark with 2116 elaborated-designed instances, for llm harmlessness evaluation with factuality, fairness, and toxicity. to investigate the potential harms of llms, we evaluate 9 representative llms covering various parameter scales, training stages, and creators. experiments show that the harmlessness of llms is still under-satisfactory, and extensive analysis derives some insightful findings that could inspire future research for harmless llm research.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.18743" target="_blank">Alignbench: Benchmarking Chinese Alignment of Large Language Models</a></div>
+<div class="paper-author">Xiao Liu, Xuanyu Lei, Shengyuan Wang, Yue Huang, Zhuoer Feng, Bosi Wen, Jiale Cheng, Pei Ke, Yifan Xu, Weng Lam Tam, Xiaohan Zhang, Lichao Sun, Hongning Wang, Jing Zhang, Minlie Huang, Yuxiao Dong, Jie Tang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: alignment has become a critical step for instruction-tuned large language models (llms) to become helpful assistants. however, effective evaluation of alignment for emerging chinese llms is still significantly lacking, calling for real-scenario grounded, open-ended, challenging and automatic evaluations tailored for alignment. to fill in this gap, we introduce alignbench, a comprehensive multi-dimensional benchmark for evaluating llms' alignment in chinese. equipped with a human-in-the-loop data curation pipeline, our benchmark employs a rule-calibrated multi-dimensional llm-as-judge with chain-of-thought to generate explanations and final ratings as evaluations, ensuring high reliability and interpretability. furthermore, we developed a dedicated companion evaluator llm -- critiquellm, which recovers 95\% of gpt-4's evaluation ability and will be provided via public apis to researchers for evaluation of alignment in chinese llms. all evaluation codes, data, and llm generations are available at \url{https://github.com/thudm/alignbench}.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.18812" target="_blank">What Do Llamas Really Think? Revealing Preference Biases in Language Model Representations</a></div>
+<div class="paper-author">Raphael Tang, Xinyu Zhang, Jimmy Lin, Ferhan Ture</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: do large language models (llms) exhibit sociodemographic biases, even when they decline to respond? to bypass their refusal to "speak," we study this research question by probing contextualized embeddings and exploring whether this bias is encoded in its latent representations. we propose a logistic bradley-terry probe which predicts word pair preferences of llms from the words' hidden vectors. we first validate our probe on three pair preference tasks and thirteen llms, where we outperform the word embedding association test (weat), a standard approach in testing for implicit association, by a relative 27% in error rate. we also find that word pair preferences are best represented in the middle layers. next, we transfer probes trained on harmless tasks (e.g., pick the larger number) to controversial ones (compare ethnicities) to examine biases in nationality, politics, religion, and gender. we observe substantial bias for all target classes: for instance, the mistral model implicitly prefers europe to africa, christianity to judaism, and left-wing to right-wing politics, despite declining to answer. this suggests that instruction fine-tuning does not necessarily debias contextualized embeddings. our codebase is at https://github.com/castorini/biasprobe.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-11-29</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.17391" target="_blank">Unveiling the Implicit Toxicity in Large Language Models</a></div>
+<div class="paper-author">Jiaxin Wen, Pei Ke, Hao Sun, Zhexin Zhang, Chengfei Li, Jinfeng Bai, Minlie Huang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the open-endedness of large language models (llms) combined with their impressive capabilities may lead to new safety issues when being exploited for malicious use. while recent studies primarily focus on probing toxic outputs that can be easily detected with existing toxicity classifiers, we show that llms can generate diverse implicit toxic outputs that are exceptionally difficult to detect via simply zero-shot prompting. moreover, we propose a reinforcement learning (rl) based attacking method to further induce the implicit toxicity in llms. specifically, we optimize the language model with a reward that prefers implicit toxic outputs to explicit toxic and non-toxic ones. experiments on five widely-adopted toxicity classifiers demonstrate that the attack success rate can be significantly improved through rl fine-tuning. for instance, the rl-finetuned llama-13b model achieves an attack success rate of 90.04% on bad and 62.85% on davinci003. our findings suggest that llms pose a significant threat in generating undetectable implicit toxic outputs. we further show that fine-tuning toxicity classifiers on the annotated examples from our attacking method can effectively enhance their ability to detect llm-generated implicit toxic language. the code is publicly available at https://github.com/thu-coai/implicit-toxicity.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.17394" target="_blank">Deepfakes, Misinformation, and Disinformation in the Era of Frontier Ai, Generative Ai, and Large Ai Models</a></div>
+<div class="paper-author">Mohamed R. Shoaib, Zefan Wang, Milad Taleby Ahvanooey, Jun Zhao</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: with the advent of sophisticated artificial intelligence (ai) technologies, the proliferation of deepfakes and the spread of m/disinformation have emerged as formidable threats to the integrity of information ecosystems worldwide. this paper provides an overview of the current literature. within the frontier ai's crucial application in developing defense mechanisms for detecting deepfakes, we highlight the mechanisms through which generative ai based on large models (lm-based genai) craft seemingly convincing yet fabricated contents. we explore the multifaceted implications of lm-based genai on society, politics, and individual privacy violations, underscoring the urgent need for robust defense strategies. to address these challenges, in this study, we introduce an integrated framework that combines advanced detection algorithms, cross-platform collaboration, and policy-driven initiatives to mitigate the risks associated with ai-generated content (aigc). by leveraging multi-modal analysis, digital watermarking, and machine learning-based authentication techniques, we propose a defense mechanism adaptable to ai capabilities of ever-evolving nature. furthermore, the paper advocates for a global consensus on the ethical usage of genai and implementing cyber-wellness educational programs to enhance public awareness and resilience against m/disinformation. our findings suggest that a proactive and collaborative approach involving technological innovation and regulatory oversight is essential for safeguarding netizens while interacting with cyberspace against the insidious effects of deepfakes and genai-enabled m/disinformation campaigns.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.18040" target="_blank">Evaluating Trustworthiness of Ai-Enabled Decision Support Systems: Validation of the Multisource Ai Scorecard Table (Mast)</a></div>
+<div class="paper-author">Pouria Salehi, Yang Ba, Nayoung Kim, Ahmadreza Mosallanezhad, Anna Pan, Myke C. Cohen, Yixuan Wang, Jieqiong Zhao, Shawaiz Bhatti, James Sung, Erik Blasch, Michelle V. Mancenido, Erin K. Chiou</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the multisource ai scorecard table (mast) is a checklist tool based on analytic tradecraft standards to inform the design and evaluation of trustworthy ai systems. in this study, we evaluate whether mast is associated with people's trust perceptions in ai-enabled decision support systems (ai-dsss). evaluating trust in ai-dsss poses challenges to researchers and practitioners. these challenges include identifying the components, capabilities, and potential of these systems, many of which are based on the complex deep learning algorithms that drive dss performance and preclude complete manual inspection. we developed two interactive, ai-dss test environments using the mast criteria. one emulated an identity verification task in security screening, and another emulated a text summarization system to aid in an investigative reporting task. each test environment had one version designed to match low-mast ratings, and another designed to match high-mast ratings, with the hypothesis that mast ratings would be positively related to the trust ratings of these systems. a total of 177 subject matter experts were recruited to interact with and evaluate these systems. results generally show higher mast ratings for the high-mast conditions compared to the low-mast groups, and that measures of trust perception are highly correlated with the mast ratings. we conclude that mast can be a useful tool for designing and evaluating systems that will engender high trust perceptions, including ai-dss that may be used to support visual screening and text summarization tasks. however, higher mast ratings may not translate to higher joint performance.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.18054" target="_blank">I Know You Did Not Write That! A Sampling Based Watermarking Method for Identifying Machine Generated Text</a></div>
+<div class="paper-author">Kaan Efe Keleş, Ömer Kaan Gürbüz, Mucahid Kutlu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: potential harms of large language models such as mass misinformation and plagiarism can be partially mitigated if there exists a reliable way to detect machine generated text. in this paper, we propose a new watermarking method to detect machine-generated texts. our method embeds a unique pattern within the generated text, ensuring that while the content remains coherent and natural to human readers, it carries distinct markers that can be identified algorithmically. specifically, we intervene with the token sampling process in a way which enables us to trace back our token choices during the detection phase. we show how watermarking affects textual quality and compare our proposed method with a state-of-the-art watermarking method in terms of robustness and detectability. through extensive experiments, we demonstrate the effectiveness of our watermarking scheme in distinguishing between watermarked and non-watermarked text, achieving high detection rates while maintaining textual quality.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.18062" target="_blank">Understanding Your Agent: Leveraging Large Language Models for Behavior Explanation</a></div>
+<div class="paper-author">Xijia Zhang, Yue Guo, Simon Stepputtis, Katia Sycara, Joseph Campbell</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: intelligent agents such as robots are increasingly deployed in real-world, safety-critical settings. it is vital that these agents are able to explain the reasoning behind their decisions to human counterparts; however, their behavior is often produced by uninterpretable models such as deep neural networks. we propose an approach to generate natural language explanations for an agent's behavior based only on observations of states and actions, thus making our method independent from the underlying model's representation. for such models, we first learn a behavior representation and subsequently use it to produce plausible explanations with minimal hallucination while affording user interaction with a pre-trained large language model. we evaluate our method in a multi-agent search-and-rescue environment and demonstrate the effectiveness of our explanations for agents executing various behaviors. through user studies and empirical experiments, we show that our approach generates explanations as helpful as those produced by a human domain expert while enabling beneficial interactions such as clarification and counterfactual queries.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.18140" target="_blank">Robbie: Robust Bias Evaluation of Large Generative Language Models</a></div>
+<div class="paper-author">David Esiobu, Xiaoqing Tan, Saghar Hosseini, Megan Ung, Yuchen Zhang, Jude Fernandes, Jane Dwivedi-Yu, Eleonora Presani, Adina Williams, Eric Michael Smith</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: as generative large language models (llms) grow more performant and prevalent, we must develop comprehensive enough tools to measure and improve their fairness. different prompt-based datasets can be used to measure social bias across multiple text domains and demographic axes, meaning that testing llms on more datasets can potentially help us characterize their biases more fully, and better ensure equal and equitable treatment of marginalized demographic groups. in this work, our focus is two-fold:   (1) benchmarking: a comparison of 6 different prompt-based bias and toxicity metrics across 12 demographic axes and 5 families of generative llms. out of those 6 metrics, advpromptset and holisticbiasr are novel datasets proposed in the paper. the comparison of those benchmarks gives us insights about the bias and toxicity of the compared models. therefore, we explore the frequency of demographic terms in common llm pre-training corpora and how this may relate to model biases.   (2) mitigation: we conduct a comprehensive study of how well 3 bias/toxicity mitigation techniques perform across our suite of measurements. robbie aims to provide insights for practitioners while deploying a model, emphasizing the need to not only measure potential harms, but also understand how they arise by characterizing the data, mitigate harms once found, and balance any trade-offs. we open-source our analysis code in hopes of encouraging broader measurements of bias in future llms.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.18147" target="_blank">Discgen: A Framework for Discourse-Informed Counterspeech Generation</a></div>
+<div class="paper-author">Sabit Hassan, Malihe Alikhani</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: counterspeech can be an effective method for battling hateful content on social media. automated counterspeech generation can aid in this process. generated counterspeech, however, can be viable only when grounded in the context of topic, audience and sensitivity as these factors influence both the efficacy and appropriateness. in this work, we propose a novel framework based on theories of discourse to study the inferential links that connect counter speeches to the hateful comment. within this framework, we propose: i) a taxonomy of counterspeech derived from discourse frameworks, and ii) discourse-informed prompting strategies for generating contextually-grounded counterspeech. to construct and validate this framework, we present a process for collecting an in-the-wild dataset of counterspeech from reddit. using this process, we manually annotate a dataset of 3.9k reddit comment pairs for the presence of hatespeech and counterspeech. the positive pairs are annotated for 10 classes in our proposed taxonomy. we annotate these pairs with paraphrased counterparts to remove offensiveness and first-person references. we show that by using our dataset and framework, large language models can generate contextually-grounded counterspeech informed by theories of discourse. according to our human evaluation, our approaches can act as a safeguard against critical failures of discourse-agnostic models.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.18215" target="_blank">Automatic Construction of a Korean Toxic Instruction Dataset for Ethical Tuning of Large Language Models</a></div>
+<div class="paper-author">Sungjoo Byun, Dongjun Jang, Hyemi Jo, Hyopil Shin</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: caution: this paper may include material that could be offensive or distressing.   the advent of large language models (llms) necessitates the development of training approaches that mitigate the generation of unethical language and aptly manage toxic user queries. given the challenges related to human labor and the scarcity of data, we present kotox, comprising 39k unethical instruction-output pairs. this collection of automatically generated toxic instructions refines the training of llms and establishes a foundational framework for improving llms' ethical awareness and response to various toxic inputs, promoting more secure and responsible interactions in natural language processing (nlp) applications.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2023-11-28</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2311.16842" target="_blank">Relic: Investigating Large Language Model Responses Using Self-Consistency</a></div>
@@ -199,6 +321,16 @@ Abstract: solving the ai alignment problem requires having clear, defensible val
 <div class="abstract">
 <div class="abstract-content">
 Abstract: this paper studies extractable memorization: training data that an adversary can efficiently extract by querying a machine learning model without prior knowledge of the training dataset. we show an adversary can extract gigabytes of training data from open-source language models like pythia or gpt-neo, semi-open models like llama or falcon, and closed models like chatgpt. existing techniques from the literature suffice to attack unaligned models; in order to attack the aligned chatgpt, we develop a new divergence attack that causes the model to diverge from its chatbot-style generations and emit training data at a rate 150x higher than when behaving properly. our methods show practical attacks can recover far more data than previously thought, and reveal that current alignment techniques do not eliminate memorization.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2311.17228" target="_blank">Survey on Ai Ethics: A Socio-Technical Perspective</a></div>
+<div class="paper-author">Dave Mbiazi, Meghana Bhange, Maryam Babaei, Ivaxi Sheth, Patrik Joslin Kenfack</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the past decade has observed a great advancement in ai with deep learning-based models being deployed in diverse scenarios including safety-critical applications. as these ai systems become deeply embedded in our societal infrastructure, the repercussions of their decisions and actions have significant consequences, making the ethical implications of ai deployment highly relevant and important. the ethical concerns associated with ai are multifaceted, including challenging issues of fairness, privacy and data protection, responsibility and accountability, safety and robustness, transparency and explainability, and environmental impact. these principles together form the foundations of ethical ai considerations that concern every stakeholder in the ai system lifecycle. in light of the present ethical and future x-risk concerns, governments have shown increasing interest in establishing guidelines for the ethical deployment of ai. this work unifies the current and future ethical concerns of deploying ai into society. while we acknowledge and appreciate the technical surveys for each of the ethical principles concerned, in this paper, we aim to provide a comprehensive overview that not only addresses each principle from a technical point of view but also discusses them from a social perspective.
 </div>
 <button class="expand-btn">Expand Abstract</button>
 </div>
