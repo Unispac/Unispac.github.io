@@ -162,6 +162,129 @@ sitemap: false
     </div>
 </div>
 
+<h2><b>2023-12-04</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.01648" target="_blank">Characterizing Large Language Model Geometry Solves Toxicity Detection and Generation</a></div>
+<div class="paper-author">Randall Balestriero, Romain Cosentino, Sarath Shekkizhar</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models~(llms) drive current ai breakthroughs despite very little being known about their internal representations, e.g., how to extract a few informative features to solve various downstream tasks. to provide a practical and principled answer, we propose to characterize llms from a geometric perspective. we obtain in closed form (i) the intrinsic dimension in which the multi-head attention embeddings are constrained to exist and (ii) the partition and per-region affine mappings of the per-layer feedforward networks. our results are informative, do not rely on approximations, and are actionable. first, we show that, motivated by our geometric interpretation, we can bypass llama$2$'s rlhf by controlling its embedding's intrinsic dimension through informed prompt manipulation. second, we derive $7$ interpretable spline features that can be extracted from any (pre-trained) llm layer, providing a rich abstract representation of their inputs. those features alone ($224$ for mistral-7b and llama$2$-7b) are sufficient to help solve toxicity detection, infer the domain of the prompt, and even tackle the jigsaw challenge, which aims at characterizing the type of toxicity of various prompts. our results demonstrate how, even in large-scale regimes, exact theoretical results can answer practical questions in language models. code: \url{https://github.com/randallbalestriero/splinellm}.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.01787" target="_blank">Developing Linguistic Patterns to Mitigate Inherent Human Bias in Offensive Language Detection</a></div>
+<div class="paper-author">Toygar Tanyel, Besher Alkurdi, Serkan Ayvaz</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: with the proliferation of social media, there has been a sharp increase in offensive content, particularly targeting vulnerable groups, exacerbating social problems such as hatred, racism, and sexism. detecting offensive language use is crucial to prevent offensive language from being widely shared on social media. however, the accurate detection of irony, implication, and various forms of hate speech on social media remains a challenge. natural language-based deep learning models require extensive training with large, comprehensive, and labeled datasets. unfortunately, manually creating such datasets is both costly and error-prone. additionally, the presence of human-bias in offensive language datasets is a major concern for deep learning models. in this paper, we propose a linguistic data augmentation approach to reduce bias in labeling processes, which aims to mitigate the influence of human bias by leveraging the power of machines to improve the accuracy and fairness of labeling processes. this approach has the potential to improve offensive language classification tasks across multiple languages and reduce the prevalence of offensive content on social media.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.01818" target="_blank">Learning Machine Morality Through Experience and Interaction</a></div>
+<div class="paper-author">Elizaveta Tennant, Stephen Hailes, Mirco Musolesi</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: increasing interest in ensuring safety of next-generation artificial intelligence (ai) systems calls for novel approaches to embedding morality into autonomous agents. traditionally, this has been done by imposing explicit top-down rules or hard constraints on systems, for example by filtering system outputs through pre-defined ethical rules. recently, instead, entirely bottom-up methods for learning implicit preferences from human behavior have become increasingly popular, such as those for training and fine-tuning large language models. in this paper, we provide a systematization of existing approaches to the problem of introducing morality in machines - modeled as a continuum, and argue that the majority of popular techniques lie at the extremes - either being fully hard-coded, or entirely learned, where no explicit statement of any moral principle is required. given the relative strengths and weaknesses of each type of methodology, we argue that more hybrid solutions are needed to create adaptable and robust, yet more controllable and interpretable agents.   in particular, we present three case studies of recent works which use learning from experience (i.e., reinforcement learning) to explicitly provide moral principles to learning agents - either as intrinsic rewards, moral logical constraints or textual principles for language models. for example, using intrinsic rewards in social dilemma games, we demonstrate how it is possible to represent classical moral frameworks for agents. we also present an overview of the existing work in this area in order to provide empirical evidence for the potential of this hybrid approach. we then discuss strategies for evaluating the effectiveness of moral learning agents. finally, we present open research questions and implications for the future of ai safety and ethics which are emerging from this framework.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.01957" target="_blank">Distilled Self-Critique of LLMS With Synthetic Data: A Bayesian Perspective</a></div>
+<div class="paper-author">Victor Gallego</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: this paper proposes an interpretation of rlaif as bayesian inference by introducing distilled self-critique (dsc), which refines the outputs of a llm through a gibbs sampler that is later distilled into a fine-tuned model. only requiring synthetic data, dsc is exercised in experiments regarding safety, sentiment, and privacy control, showing it can be a viable and cheap alternative to align llms. code released at \url{https://github.com/vicgalle/distilled-self-critique}.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.02003" target="_blank">A Survey on Large Language Model (Llm) Security and Privacy: The Good, the Bad, and the Ugly</a></div>
+<div class="paper-author">Yifan Yao, Jinhao Duan, Kaidi Xu, Yuanfang Cai, Eric Sun, Yue Zhang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms), such as gpt-3 and bert, have revolutionized natural language understanding and generation. they possess deep language comprehension, human-like text generation capabilities, contextual awareness, and robust problem-solving skills, making them invaluable in various domains (e.g., search engines, customer support, translation). in the meantime, llms have also gained traction in the security community, revealing security vulnerabilities and showcasing their potential in security-related tasks. this paper explores the intersection of llms with security and privacy. specifically, we investigate how llms positively impact security and privacy, potential risks and threats associated with their use, and inherent vulnerabilities within llms. through a comprehensive literature review, the paper categorizes findings into "the good" (beneficial llm applications), "the bad" (offensive applications), and "the ugly" (vulnerabilities and their defenses). we have some interesting findings. for example, llms have proven to enhance code and data security, outperforming traditional methods. however, they can also be harnessed for various attacks (particularly user-level attacks) due to their human-like reasoning abilities. we have identified areas that require further research efforts. for example, research on model and parameter extraction attacks is limited and often theoretical, hindered by llm parameter scale and confidentiality. safe instruction tuning, a recent development, requires more exploration. we hope that our work can shed light on the llms' potential to both bolster and jeopardize cybersecurity.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.02034" target="_blank">Trust, Distrust, and Appropriate Reliance in (X)ai: A Survey of Empirical Evaluation of User Trust</a></div>
+<div class="paper-author">Roel Visser, Tobias M. Peters, Ingrid Scharlau, Barbara Hammer</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: a current concern in the field of artificial intelligence (ai) is to ensure the trustworthiness of ai systems. the development of explainability methods is one prominent way to address this, which has often resulted in the assumption that the use of explainability will lead to an increase in the trust of users and wider society. however, the dynamics between explainability and trust are not well established and empirical investigations of their relation remain mixed or inconclusive. in this paper we provide a detailed description of the concepts of user trust and distrust in ai and their relation to appropriate reliance. for that we draw from the fields of machine learning, human-computer interaction, and the social sciences. furthermore, we have created a survey of existing empirical studies that investigate the effects of ai systems and xai methods on user (dis)trust. with clarifying the concepts and summarizing the empirical investigations, we aim to provide researchers, who examine user trust in ai, with an improved starting point for developing user studies to measure and evaluate the user's attitude towards and reliance on ai systems.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.02119" target="_blank">Tree of Attacks: Jailbreaking Black-Box LLMS Automatically</a></div>
+<div class="paper-author">Anay Mehrotra, Manolis Zampetakis, Paul Kassianik, Blaine Nelson, Hyrum Anderson, Yaron Singer, Amin Karbasi</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: while large language models (llms) display versatile functionality, they continue to generate harmful, biased, and toxic content, as demonstrated by the prevalence of human-designed jailbreaks. in this work, we present tree of attacks with pruning (tap), an automated method for generating jailbreaks that only requires black-box access to the target llm. tap utilizes an llm to iteratively refine candidate (attack) prompts using tree-of-thoughts reasoning until one of the generated prompts jailbreaks the target. crucially, before sending prompts to the target, tap assesses them and prunes the ones unlikely to result in jailbreaks. using tree-of-thought reasoning allows tap to navigate a large search space of prompts and pruning reduces the total number of queries sent to the target. in empirical evaluations, we observe that tap generates prompts that jailbreak state-of-the-art llms (including gpt4 and gpt4-turbo) for more than 80% of the prompts using only a small number of queries. this significantly improves upon the previous state-of-the-art black-box method for generating jailbreaks.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-03</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.01350" target="_blank">Honesty Is the Best Policy: Defining and Mitigating Ai Deception</a></div>
+<div class="paper-author">Francis Rhys Ward, Francesco Belardinelli, Francesca Toni, Tom Everitt</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: deceptive agents are a challenge for the safety, trustworthiness, and cooperation of ai systems. we focus on the problem that agents might deceive in order to achieve their goals (for instance, in our experiments with language models, the goal of being evaluated as truthful). there are a number of existing definitions of deception in the literature on game theory and symbolic ai, but there is no overarching theory of deception for learning agents in games. we introduce a formal definition of deception in structural causal games, grounded in the philosophy literature, and applicable to real-world machine learning systems. several examples and results illustrate that our formal definition aligns with the philosophical and commonsense meaning of deception. our main technical result is to provide graphical criteria for deception. we show, experimentally, that these results can be used to mitigate deception in reinforcement learning agents and language models.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.01509" target="_blank">Tackling Bias in Pre-Trained Language Models: Current Trends and Under-Represented Societies</a></div>
+<div class="paper-author">Vithya Yogarajan, Gillian Dobbie, Te Taka Keegan, Rostam J. Neuwirth</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the benefits and capabilities of pre-trained language models (llms) in current and future innovations are vital to any society. however, introducing and using llms comes with biases and discrimination, resulting in concerns about equality, diversity and fairness, and must be addressed. while understanding and acknowledging bias in llms and developing mitigation strategies are crucial, the generalised assumptions towards societal needs can result in disadvantages towards under-represented societies and indigenous populations. furthermore, the ongoing changes to actual and proposed amendments to regulations and laws worldwide also impact research capabilities in tackling the bias problem. this research presents a comprehensive survey synthesising the current trends and limitations in techniques used for identifying and mitigating bias in llms, where the overview of methods for tackling bias are grouped into metrics, benchmark datasets, and mitigation strategies. the importance and novelty of this survey are that it explores the perspective of under-represented societies. we argue that current practices tackling the bias problem cannot simply be 'plugged in' to address the needs of under-represented societies. we use examples from new zealand to present requirements for adopting existing techniques to under-represented societies.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.01552" target="_blank">The Unlocking Spell on Base Llms: Rethinking Alignment via in-Context Learning</a></div>
+<div class="paper-author">Bill Yuchen Lin, Abhilasha Ravichander, Ximing Lu, Nouha Dziri, Melanie Sclar, Khyathi Chandu, Chandra Bhagavatula, Yejin Choi</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the alignment tuning process of large language models (llms) typically involves instruction learning through supervised fine-tuning (sft) and preference tuning via reinforcement learning from human feedback (rlhf). a recent study, lima (zhou et al. 2023), shows that using merely 1k examples for sft can achieve significant alignment performance as well, suggesting that the effect of alignment tuning might be "superficial." this raises questions about how exactly the alignment tuning transforms a base llm.   we analyze the effect of alignment tuning by examining the token distribution shift between base llms and their aligned counterpart. our findings reveal that base llms and their alignment-tuned versions perform nearly identically in decoding on the majority of token positions. most distribution shifts occur with stylistic tokens. these direct evidence strongly supports the superficial alignment hypothesis suggested by lima.   based on these findings, we rethink the alignment of llms by posing the research question: how effectively can we align base llms without sft or rlhf? to address this, we introduce a simple, tuning-free alignment method, urial. urial achieves effective alignment purely through in-context learning (icl) with base llms, requiring as few as three constant stylistic examples and a system prompt. we conduct a fine-grained and interpretable evaluation on a diverse set of examples, named just-eval-instruct. results demonstrate that base llms with urial can match or even surpass the performance of llms aligned with sft or sft+rlhf. we show that the gap between tuning-free and tuning-based alignment methods can be significantly reduced through strategic prompting and icl. our findings on the superficial nature of alignment tuning and results with urial suggest that deeper analysis and theoretical understanding of alignment is crucial to future llm research.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.01555" target="_blank">Explainable Ai Is Responsible Ai: How Explainability Creates Trustworthy and Socially Responsible Artificial Intelligence</a></div>
+<div class="paper-author">Stephanie Baker, Wei Xiang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: artificial intelligence (ai) has been clearly established as a technology with the potential to revolutionize fields from healthcare to finance - if developed and deployed responsibly. this is the topic of responsible ai, which emphasizes the need to develop trustworthy ai systems that minimize bias, protect privacy, support security, and enhance transparency and accountability. explainable ai (xai) has been broadly considered as a building block for responsible ai (rai), with most of the literature considering it as a solution for improved transparency. this work proposes that xai and responsible ai are significantly more deeply entwined. in this work, we explore state-of-the-art literature on rai and xai technologies. based on our findings, we demonstrate that xai can be utilized to ensure fairness, robustness, privacy, security, and transparency in a wide range of contexts. our findings lead us to conclude that xai is an essential foundation for every pillar of rai.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-02</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.01241" target="_blank">Just-in-Time Security Patch Detection -- LLM at the Rescue for Data Augmentation</a></div>
+<div class="paper-author">Xunzhu Tang, Zhenghan Chen, Kisub Kim, Haoye Tian, Saad Ezzini, Jacques Klein</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: in the face of growing vulnerabilities found in open-source software, the need to identify {discreet} security patches has become paramount. the lack of consistency in how software providers handle maintenance often leads to the release of security patches without comprehensive advisories, leaving users vulnerable to unaddressed security risks. to address this pressing issue, we introduce a novel security patch detection system, llmda, which capitalizes on large language models (llms) and code-text alignment methodologies for patch review, data enhancement, and feature combination. within llmda, we initially utilize llms for examining patches and expanding data of patchdb and spi-db, two security patch datasets from recent literature. we then use labeled instructions to direct our llmda, differentiating patches based on security relevance. following this, we apply a ptformer to merge patches with code, formulating hybrid attributes that encompass both the innate details and the interconnections between the patches and the code. this distinctive combination method allows our system to capture more insights from the combined context of patches and code, hence improving detection precision. finally, we devise a probabilistic batch contrastive learning mechanism within batches to augment the capability of the our llmda in discerning security patches. the results reveal that llmda significantly surpasses the start of the art techniques in detecting security patches, underscoring its promise in fortifying software maintenance.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2023-12-01</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2312.00374" target="_blank">Unleashing Cheapfakes Through Trojan Plugins of Large Language Models</a></div>
@@ -199,6 +322,26 @@ Abstract: instruction-tuning is a widely adopted method of finetuning that enabl
 <div class="abstract">
 <div class="abstract-content">
 Abstract: there is a growing need to gain insight into language model capabilities that relate to sensitive topics, such as bioterrorism or cyberwarfare. however, traditional open source benchmarks are not fit for the task, due to the associated practice of publishing the correct answers in human-readable form. at the same time, enforcing mandatory closed-quarters evaluations might stifle development and erode trust. in this context, we propose hashmarking, a protocol for evaluating language models in the open without having to disclose the correct answers. in its simplest form, a hashmark is a benchmark whose reference solutions have been cryptographically hashed prior to publication. following an overview of the proposed evaluation protocol, we go on to assess its resilience against traditional attack vectors (e.g. rainbow table attacks), as well as against failure modes unique to increasingly capable generative models.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.00849" target="_blank">RLHF-V: Towards Trustworthy MLLMS via Behavior Alignment From Fine-Grained Correctional Human Feedback</a></div>
+<div class="paper-author">Tianyu Yu, Yuan Yao, Haoye Zhang, Taiwen He, Yifeng Han, Ganqu Cui, Jinyi Hu, Zhiyuan Liu, Hai-Tao Zheng, Maosong Sun, Tat-Seng Chua</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: multimodal large language models (mllms) have recently demonstrated impressive capabilities in multimodal understanding, reasoning, and interaction. however, existing mllms prevalently suffer from serious hallucination problems, generating text that is not factually grounded in associated images. the problem makes existing mllms untrustworthy and thus impractical in real-world (especially high-stakes) applications. to address the challenge, we present rlhf-v, which enhances mllm trustworthiness via behavior alignment from fine-grained correctional human feedback. specifically, rlhf-v collects human preference in the form of segment-level corrections on hallucinations, and performs dense direct preference optimization over the human feedback. comprehensive experiments on five benchmarks in both automatic and human evaluation show that, rlhf-v can enable substantially more trustworthy mllm behaviors with promising data and computation efficiency. remarkably, using 1.4k annotated data samples, rlhf-v significantly reduces the hallucination rate of the base mllm by 34.8%, outperforming the concurrent llava-rlhf trained on 10k annotated data. the final model achieves state-of-the-art performance in trustworthiness among open-source mllms, and shows better robustness than gpt-4v in preventing hallucinations aroused from over-generalization. we open-source our code, model, and data at https://github.com/rlhf-v/rlhf-v.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.00886" target="_blank">Nash Learning From Human Feedback</a></div>
+<div class="paper-author">Rémi Munos, Michal Valko, Daniele Calandriello, Mohammad Gheshlaghi Azar, Mark Rowland, Daniel Guo, Yunhao Tang, Matthieu Geist, Thomas Mésnard, Andrea Michi, Marco Selvi, Sertan Girgin, Nikola Momchev, Olivier Bachem, Daniel J. Mankowitz, Doina Precup, Bilal Piot</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: reinforcement learning from human feedback (rlhf) has emerged as the main paradigm for aligning large language models (llms) with human preferences. typically, rlhf involves the initial step of learning a reward model from human feedback, often expressed as preferences between pairs of text generations produced by a pre-trained llm. subsequently, the llm's policy is fine-tuned by optimizing it to maximize the reward model through a reinforcement learning algorithm. however, an inherent limitation of current reward models is their inability to fully represent the richness of human preferences and their dependency on the sampling distribution.   in this study, we introduce an alternative pipeline for the fine-tuning of llms using pairwise human feedback. our approach entails the initial learning of a preference model, which is conditioned on two inputs given a prompt, followed by the pursuit of a policy that consistently generates responses preferred over those generated by any competing policy, thus defining the nash equilibrium of this preference model. we term this approach nash learning from human feedback (nlhf).   in the context of a tabular policy representation, we present a novel algorithmic solution, nash-md, founded on the principles of mirror descent. this algorithm produces a sequence of policies, with the last iteration converging to the regularized nash equilibrium. additionally, we explore parametric representations of policies and introduce gradient descent algorithms for deep-learning architectures. to demonstrate the effectiveness of our approach, we present experimental results involving the fine-tuning of a llm for a text summarization task. we believe nlhf offers a compelling avenue for preference learning and policy optimization with the potential of advancing the field of aligning llms with human preferences.
 </div>
 <button class="expand-btn">Expand Abstract</button>
 </div>
