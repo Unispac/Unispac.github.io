@@ -162,6 +162,78 @@ sitemap: false
     </div>
 </div>
 
+<h2><b>2023-12-06</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.03330" target="_blank">Measuring Misogyny in Natural Language Generation: Preliminary Results From a Case Study on Two Reddit Communities</a></div>
+<div class="paper-author">Aaron J. Snoswell, Lucinda Nelson, Hao Xue, Flora D. Salim, Nicolas Suzor, Jean Burgess</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: generic `toxicity' classifiers continue to be used for evaluating the potential for harm in natural language generation, despite mounting evidence of their shortcomings. we consider the challenge of measuring misogyny in natural language generation, and argue that generic `toxicity' classifiers are inadequate for this task. we use data from two well-characterised `incel' communities on reddit that differ primarily in their degrees of misogyny to construct a pair of training corpora which we use to fine-tune two language models. we show that an open source `toxicity' classifier is unable to distinguish meaningfully between generations from these models. we contrast this with a misogyny-specific lexicon recently proposed by feminist subject-matter experts, demonstrating that, despite the limitations of simple lexicon-based approaches, this shows promise as a benchmark to evaluate language models for misogyny, and that it is sensitive enough to reveal the known differences in these reddit communities. our preliminary findings highlight the limitations of a generic approach to evaluating harms, and further emphasise the need for careful benchmark design and selection in natural language evaluation.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.03577" target="_blank">Improving Bias Mitigation Through Bias Experts in Natural Language Understanding</a></div>
+<div class="paper-author">Eojin Jeon, Mingyu Lee, Juhyeong Park, Yeachan Kim, Wing-Lam Mok, Sangkeun Lee</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: biases in the dataset often enable the model to achieve high performance on in-distribution data, while poorly performing on out-of-distribution data. to mitigate the detrimental effect of the bias on the networks, previous works have proposed debiasing methods that down-weight the biased examples identified by an auxiliary model, which is trained with explicit bias labels. however, finding a type of bias in datasets is a costly process. therefore, recent studies have attempted to make the auxiliary model biased without the guidance (or annotation) of bias labels, by constraining the model's training environment or the capability of the model itself. despite the promising debiasing results of recent works, the multi-class learning objective, which has been naively used to train the auxiliary model, may harm the bias mitigation effect due to its regularization effect and competitive nature across classes. as an alternative, we propose a new debiasing framework that introduces binary classifiers between the auxiliary model and the main model, coined bias experts. specifically, each bias expert is trained on a binary classification task derived from the multi-class classification task via the one-vs-rest approach. experimental results demonstrate that our proposed strategy improves the bias identification ability of the auxiliary model. consequently, our debiased model consistently outperforms the state-of-the-art on various challenge datasets.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.03689" target="_blank">Evaluating and Mitigating Discrimination in Language Model Decisions</a></div>
+<div class="paper-author">Alex Tamkin, Amanda Askell, Liane Lovitt, Esin Durmus, Nicholas Joseph, Shauna Kravec, Karina Nguyen, Jared Kaplan, Deep Ganguli</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: as language models (lms) advance, interest is growing in applying them to high-stakes societal decisions, such as determining financing or housing eligibility. however, their potential for discrimination in such contexts raises ethical concerns, motivating the need for better methods to evaluate these risks. we present a method for proactively evaluating the potential discriminatory impact of lms in a wide range of use cases, including hypothetical use cases where they have not yet been deployed. specifically, we use an lm to generate a wide array of potential prompts that decision-makers may input into an lm, spanning 70 diverse decision scenarios across society, and systematically vary the demographic information in each prompt. applying this methodology reveals patterns of both positive and negative discrimination in the claude 2.0 model in select settings when no interventions are applied. while we do not endorse or permit the use of language models to make automated decisions for the high-risk use cases we study, we demonstrate techniques to significantly decrease both positive and negative discrimination through careful prompt engineering, providing pathways toward safer deployment in use cases where they may be appropriate. our work enables developers and policymakers to anticipate, measure, and address discrimination as language model capabilities and applications continue to expand. we release our dataset and prompts at https://huggingface.co/datasets/anthropic/discrim-eval
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-05</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.02554" target="_blank">Ulma: Unified Language Model Alignment With Demonstration and Point-Wise Human Preference</a></div>
+<div class="paper-author">Tianchi Cai, Xierui Song, Jiyan Jiang, Fei Teng, Jinjie Gu, Guannan Zhang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: language model alignment is a cutting-edge technique in large language model training to align the model output to user's intent, e.g., being helpful and harmless. recent alignment framework consists of two steps: supervised fine-tuning with demonstration data and preference learning with human preference data. previous preference learning methods, such as rlhf and dpo, mainly focus on pair-wise preference data. however, in many real-world scenarios where human feedbacks are intrinsically point-wise, these methods will suffer from information loss or even fail. to fill this gap, in this paper, we first develop a preference learning method called point-wise dpo to tackle point-wise preference data. further revelation on the connection between supervised fine-tuning and point-wise preference learning enables us to develop a unified framework for both human demonstration and point-wise preference data, which sheds new light on the construction of preference dataset. extensive experiments on point-wise datasets with binary or continuous labels demonstrate the superior performance and efficiency of our proposed methods. a new dataset with high-quality demonstration samples on harmlessness is constructed and made publicly available.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.02780" target="_blank">Scaling Laws for Adversarial Attacks on Language Model Activations</a></div>
+<div class="paper-author">Stanislav Fort</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: we explore a class of adversarial attacks targeting the activations of language models. by manipulating a relatively small subset of model activations, $a$, we demonstrate the ability to control the exact prediction of a significant number (in some cases up to 1000) of subsequent tokens $t$. we empirically verify a scaling law where the maximum number of target tokens $t_\mathrm{max}$ predicted depends linearly on the number of tokens $a$ whose activations the attacker controls as $t_\mathrm{max} = \kappa a$. we find that the number of bits of control in the input space needed to control a single bit in the output space (what we call attack resistance $\chi$) is remarkably constant between $\approx 16$ and $\approx 25$ over 2 orders of magnitude of model sizes for different language models. compared to attacks on tokens, attacks on activations are predictably much stronger, however, we identify a surprising regularity where one bit of input steered either via activations or via tokens is able to exert control over a similar amount of output bits. this gives support for the hypothesis that adversarial attacks are a consequence of dimensionality mismatch between the input and output spaces. a practical implication of the ease of attacking language model activations instead of tokens is for multi-modal and selected retrieval models, where additional data sources are added as activations directly, sidestepping the tokenized input. this opens up a new, broad attack surface. by using language models as a controllable test-bed to study adversarial attacks, we were able to experiment with input-output dimensions that are inaccessible in computer vision, especially where the output dimension dominates.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.02798" target="_blank">Weakly Supervised Detection of Hallucinations in LLM Activations</a></div>
+<div class="paper-author">Miriam Rateike, Celia Cintas, John Wamburu, Tanya Akumu, Skyler Speakman</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: we propose an auditing method to identify whether a large language model (llm) encodes patterns such as hallucinations in its internal states, which may propagate to downstream tasks. we introduce a weakly supervised auditing technique using a subset scanning approach to detect anomalous patterns in llm activations from pre-trained models. importantly, our method does not need knowledge of the type of patterns a-priori. instead, it relies on a reference dataset devoid of anomalies during testing. further, our approach enables the identification of pivotal nodes responsible for encoding these patterns, which may offer crucial insights for fine-tuning specific sub-networks for bias mitigation. we introduce two new scanning methods to handle llm activations for anomalous sentences that may deviate from the expected distribution in either direction. our results confirm prior findings of bert's limited internal capacity for encoding hallucinations, while opt appears capable of encoding hallucination information internally. importantly, our scanning approach, without prior exposure to false statements, performs comparably to a fully supervised out-of-distribution classifier.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.03088" target="_blank">LLMS for Multi-Modal Knowledge Extraction and Analysis in Intelligence/Safety-Critical Applications</a></div>
+<div class="paper-author">Brett Israelsen, Soumalya Sarkar</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models have seen rapid progress in capability in recent years; this progress has been accelerating and their capabilities, measured by various benchmarks, are beginning to approach those of humans. there is a strong demand to use such models in a wide variety of applications but, due to unresolved vulnerabilities and limitations, great care needs to be used before applying them to intelligence and safety-critical applications. this paper reviews recent literature related to llm assessment and vulnerabilities to synthesize the current research landscape and to help understand what advances are most critical to enable use of of these technologies in intelligence and safety-critical applications. the vulnerabilities are broken down into ten high-level categories and overlaid onto a high-level life cycle of an llm. some general categories of mitigations are reviewed.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2023-12-04</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2312.01648" target="_blank">Characterizing Large Language Model Geometry Solves Toxicity Detection and Generation</a></div>
@@ -229,6 +301,16 @@ Abstract: a current concern in the field of artificial intelligence (ai) is to e
 <div class="abstract">
 <div class="abstract-content">
 Abstract: while large language models (llms) display versatile functionality, they continue to generate harmful, biased, and toxic content, as demonstrated by the prevalence of human-designed jailbreaks. in this work, we present tree of attacks with pruning (tap), an automated method for generating jailbreaks that only requires black-box access to the target llm. tap utilizes an llm to iteratively refine candidate (attack) prompts using tree-of-thoughts reasoning until one of the generated prompts jailbreaks the target. crucially, before sending prompts to the target, tap assesses them and prunes the ones unlikely to result in jailbreaks. using tree-of-thought reasoning allows tap to navigate a large search space of prompts and pruning reduces the total number of queries sent to the target. in empirical evaluations, we observe that tap generates prompts that jailbreak state-of-the-art llms (including gpt4 and gpt4-turbo) for more than 80% of the prompts using only a small number of queries. this significantly improves upon the previous state-of-the-art black-box method for generating jailbreaks.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.02401" target="_blank">Harmonizing Global Voices: Culturally-Aware Models for Enhanced Content Moderation</a></div>
+<div class="paper-author">Alex J. Chan, José Luis Redondo García, Fabrizio Silvestri, "Colm O'Donnel", Konstantina Palla</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: content moderation at scale faces the challenge of considering local cultural distinctions when assessing content. while global policies aim to maintain decision-making consistency and prevent arbitrary rule enforcement, they often overlook regional variations in interpreting natural language as expressed in content. in this study, we are looking into how moderation systems can tackle this issue by adapting to local comprehension nuances. we train large language models on extensive datasets of media news and articles to create culturally attuned models. the latter aim to capture the nuances of communication across geographies with the goal of recognizing cultural and societal variations in what is considered offensive content. we further explore the capability of these models to generate explanations for instances of content violation, aiming to shed light on how policy guidelines are perceived when cultural and societal contexts change. we find that training on extensive media datasets successfully induced cultural awareness and resulted in improvements in handling content violations on a regional basis. additionally, these advancements include the ability to provide explanations that align with the specific local norms and nuances as evidenced by the annotators' preference in our conducted study. this multifaceted success reinforces the critical role of an adaptable content moderation approach in keeping pace with the ever-evolving nature of the content it oversees.
 </div>
 <button class="expand-btn">Expand Abstract</button>
 </div>
