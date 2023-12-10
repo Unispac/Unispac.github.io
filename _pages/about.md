@@ -54,7 +54,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
   
 
-* **[2]** **(Preprint & [AdvML-Frontiers 2023](https://advml-frontier.github.io/) @ ICML, 2023 <font color="red">| <b>oral presentation</b></font>)** 
+* **[2]** **([AAAI 2024](https://aaai.org/aaai-conference/)), ([AdvML-Frontiers 2023](https://advml-frontier.github.io/) @ ICML, 2023 <font color="red">| <b>oral presentation</b></font>)** 
 
   ***[Visual Adversarial Examples Jailbreak Aligned Large Language Models](https://arxiv.org/abs/2306.13213)***
 
