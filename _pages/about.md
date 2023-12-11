@@ -40,7 +40,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
   **[[Website](https://llm-tuning-safety.github.io/)], [[Code](https://github.com/LLM-Tuning-Safety/LLMs-Finetuning-Safety)]**
 
-  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2023fine.png" style="width: 100%;" />
+  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2023fine.png" style="width: 80%;" />
 
   **Highlight**
 
@@ -64,9 +64,9 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
   
   **[[Code](https://github.com/Unispac/Visual-Adversarial-Examples-Jailbreak-Large-Language-Models)]**
   
-  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2023visual-02.png" style="width: 80%;" />
+  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2023visual-02.png" style="width: 60%;" />
   
-  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2023visual.png" style="width: 100%;" />
+  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2023visual.png" style="width: 80%;" />
   
   **Highlight**
   
@@ -85,7 +85,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
   **[[Code](https://github.com/Unispac/Fight-Poison-With-Poison)]**
 
-  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2023towards.png" style="width: 80%;" />
+  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2023towards.png" style="width: 50%;" />
 
   **Highlight:** We formulate a proactive mindset for detecting backdoor poison samples in poisoned datasets, along with a concrete proactive method (Confusion Training) that effectively defeats a diverse set of 14 types of backdoor poisoning attacks.
 
@@ -101,7 +101,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
   **[[Code](https://github.com/Unispac/Circumventing-Backdoor-Defenses)]**
 
-  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2022revisiting.png" style="width: 100%;" />
+  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2022revisiting.png" style="width: 80%;" />
 
   **Highlight:** Latent separability between clean and backdoor poison samples is pervasive and even used as a default assumption for designing defenses. But, we show that this is not necessarily true --- we design adaptive backdoor poisoning attacks that can suppress the latent separation.
 
@@ -117,7 +117,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
   **[[Code](https://github.com/Unispac/Subnet-Replacement-Attack)]**
 
-  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2022towards.png" style="width: 100%;" />
+  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2022towards.png" style="width: 80%;" />
 
   **Highlight:** Given any neural network instance (regardless of its specific weights values) of a certain architecture, we can embed a backdoor into that model instance, by replacing a very narrow subnet of it with a malicious backdoor subnet.
 
@@ -131,7 +131,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
   Nezihe Merve Gürel$^*$, **Xiangyu Qi$^* $**, Luka Rimanic, Ce Zhang, Bo Li
 
-  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/gurel2021knowledge.png" style="width: 80%;" />
+  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/gurel2021knowledge.png" style="width: 60%;" />
   
   **Highlight:** Embedding domain knowledge and logic reasoning into the ML pipeline has a promising potential for improving model robustness.
 
