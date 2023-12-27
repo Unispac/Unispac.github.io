@@ -162,6 +162,488 @@ sitemap: false
     </div>
 </div>
 
+<h2><b>2023-12-26</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.15907" target="_blank">Align on the Fly: Adapting Chatbot Behavior to Established Norms</a></div>
+<div class="paper-author">Chunpu Xu, Steffi Chern, Ethan Chern, Ge Zhang, Zekun Wang, Ruibo Liu, Jing Li, Jie Fu, Pengfei Liu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: in this paper, we aim to align large language models with the ever-changing, complex, and diverse human values (e.g., social norms) across time and locations. this presents a challenge to existing alignment techniques, such as supervised fine-tuning, which internalize values within model parameters. to overcome this, we propose an on-the-fly preference optimization (opo) method, which is a real-time alignment that works in a streaming way. it employs an external memory to store established rules for alignment, which can constrain llms' behaviors without further training, allowing for convenient updates and customization of human values. we also introduce a scalable evaluation to assess the proposed method more effectively. experimental results on both human-annotated and auto-generated questions from legal and moral domains indicate the effectiveness of the proposed opo method. our code and data are released at https://github.com/gair-nlp/opo.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.15918" target="_blank">Supervised Knowledge Makes Large Language Models Better in-Context Learners</a></div>
+<div class="paper-author">Linyi Yang, Shuibai Zhang, Zhuohao Yu, Guangsheng Bao, Yidong Wang, Jindong Wang, Ruochen Xu, Wei Ye, Xing Xie, Weizhu Chen, Yue Zhang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) exhibit emerging in-context learning abilities through prompt engineering. the recent progress in large-scale generative models has further expanded their use in real-world language applications. however, the critical challenge of improving the generalizability and factuality of llms in natural language understanding and question answering remains under-explored. while previous in-context learning research has focused on enhancing models to adhere to users' specific instructions and quality expectations, and to avoid undesired outputs, little to no work has explored the use of task-specific fine-tuned language models (slms) to improve llms' in-context learning during the inference stage. our primary contribution is the establishment of a simple yet effective framework that enhances the reliability of llms as it: 1) generalizes out-of-distribution data, 2) elucidates how llms benefit from discriminative models, and 3) minimizes hallucinations in generative tasks. using our proposed plug-in method, enhanced versions of llama 2 and chatgpt surpass their original versions regarding generalizability and factuality. we offer a comprehensive suite of resources, including 16 curated datasets, prompts, model checkpoints, and llm outputs across 9 distinct tasks. our empirical analysis sheds light on the advantages of incorporating discriminative models into llms and highlights the potential of our methodology in fostering more reliable llms.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.15997" target="_blank">Aligning Large Language Models With Human Preferences Through Representation Engineering</a></div>
+<div class="paper-author">Wenhao Liu, Xiaohua Wang, Muling Wu, Tianlong Li, Changze Lv, Zixuan Ling, Jianhao Zhu, Cenyuan Zhang, Xiaoqing Zheng, Xuanjing Huang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: aligning large language models (llms) with human preferences is crucial for enhancing their utility in terms of helpfulness, truthfulness, safety, harmlessness, and interestingness. existing methods for achieving this alignment often involves employing reinforcement learning from human feedback (rlhf) to fine-tune llms based on human labels assessing the relative quality of model responses. nevertheless, rlhf is susceptible to instability during fine-tuning and presents challenges in implementation.drawing inspiration from the emerging field of representation engineering (repe), this study aims to identify relevant representations for high-level human preferences embedded in patterns of activity within an llm, and achieve precise control of model behavior by transforming its representations. this novel approach, denoted as representation alignment from human feedback (rahf), proves to be effective, computationally efficient, and easy to implement.extensive experiments demonstrate the efficacy of rahf in not only capturing but also manipulating representations to align with a broad spectrum of human preferences or values, rather than being confined to a singular concept or function (e.g. honesty or bias). rahf's versatility in accommodating diverse human preferences shows its potential for advancing llm performance.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.16070" target="_blank">Can Chatgpt Read Who You Are?</a></div>
+<div class="paper-author">Erik Derner, Dalibor Kučera, Nuria Oliver, Jan Zahálka</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the interplay between artificial intelligence (ai) and psychology, particularly in personality assessment, represents an important emerging area of research. accurate personality trait estimation is crucial not only for enhancing personalization in human-computer interaction but also for a wide variety of applications ranging from mental health to education. this paper analyzes the capability of a generic chatbot, chatgpt, to effectively infer personality traits from short texts. we report the results of a comprehensive user study featuring texts written in czech by a representative population sample of 155 participants. their self-assessments based on the big five inventory (bfi) questionnaire serve as the ground truth. we compare the personality trait estimations made by chatgpt against those by human raters and report chatgpt's competitive performance in inferring personality traits from text. we also uncover a 'positivity bias' in chatgpt's assessments across all personality dimensions and explore the impact of prompt composition on accuracy. this work contributes to the understanding of ai capabilities in psychological assessment, highlighting both the potential and limitations of using large language models for personality inference. our research underscores the importance of responsible ai development, considering ethical implications such as privacy, consent, autonomy, and bias in ai applications.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-25</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.15685" target="_blank">What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning</a></div>
+<div class="paper-author">Wei Liu, Weihao Zeng, Keqing He, Yong Jiang, Junxian He</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: instruction tuning is a standard technique employed to align large language models to end tasks and user preferences after the initial pretraining phase. recent research indicates the critical role of data engineering in instruction tuning -- when appropriately selected, only limited data is necessary to achieve superior performance. however, we still lack a principled understanding of what makes good instruction tuning data for alignment, and how we should select data automatically and effectively. in this work, we delve deeply into automatic data selection strategies for alignment. we start with controlled studies to measure data across three dimensions: complexity, quality, and diversity, along which we examine existing methods and introduce novel techniques for enhanced data measurement. subsequently, we propose a simple strategy to select data samples based on the measurement. we present deita (short for data-efficient instruction tuning for alignment), a series of models fine-tuned from llama and mistral models using data samples automatically selected with our proposed approach. empirically, deita performs better or on par with the state-of-the-art open-source alignment models with only 6k sft training data samples -- over 10x less than the data used in the baselines. when further trained with direct preference optimization (dpo), deita-mistral-7b + dpo trained with 6k sft and 10k dpo samples achieve 7.55 mt-bench and 90.06% alpacaeval scores. we anticipate this work to provide tools on automatic data selection, facilitating data-efficient alignment. we release our models as well as the selected datasets for future researches to effectively align models more efficiently.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.15710" target="_blank">Alleviating Hallucinations of Large Language Models Through Induced Hallucinations</a></div>
+<div class="paper-author">Yue Zhang, Leyang Cui, Wei Bi, Shuming Shi</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: despite their impressive capabilities, large language models (llms) have been observed to generate responses that include inaccurate or fabricated information, a phenomenon commonly known as ``hallucination''. in this work, we propose a simple \textit{induce-then-contrast} decoding (icd) strategy to alleviate hallucinations. we first construct a factually weak llm by inducing hallucinations from the original llms. then, we penalize these induced hallucinations during decoding to enhance the factuality of the generated content. concretely, we determine the final next-token predictions by amplifying the predictions from the original model and downplaying the induced untruthful predictions via contrastive decoding. experimental results on both discrimination-based and generation-based hallucination evaluation benchmarks, such as truthfulqa and \textsc{factscore}, demonstrate that our proposed icd methods can effectively enhance the factuality of llms across various model sizes and families. for example, when equipped with icd, llama2-7b-chat and mistral-7b-instruct achieve performance comparable to chatgpt and gpt4 on truthfulqa, respectively.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.15838" target="_blank">Secqa: A Concise Question-Answering Dataset for Evaluating Large Language Models in Computer Security</a></div>
+<div class="paper-author">Zefang Liu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: in this paper, we introduce secqa, a novel dataset tailored for evaluating the performance of large language models (llms) in the domain of computer security. utilizing multiple-choice questions generated by gpt-4 based on the "computer systems security: planning for success" textbook, secqa aims to assess llms' understanding and application of security principles. we detail the structure and intent of secqa, which includes two versions of increasing complexity, to provide a concise evaluation across various difficulty levels. additionally, we present an extensive evaluation of prominent llms, including gpt-3.5-turbo, gpt-4, llama-2, vicuna, mistral, and zephyr models, using both 0-shot and 5-shot learning settings. our results, encapsulated in the secqa v1 and v2 datasets, highlight the varying capabilities and limitations of these models in the computer security context. this study not only offers insights into the current state of llms in understanding security-related content but also establishes secqa as a benchmark for future advancements in this critical research area.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-24</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.15478" target="_blank">A Group Fairness Lens for Large Language Models</a></div>
+<div class="paper-author">Guanqun Bi, Lei Shen, Yuqiang Xie, Yanan Cao, Tiangang Zhu, Xiaodong He</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the rapid advancement of large language models has revolutionized various applications but also raised crucial concerns about their potential to perpetuate biases and unfairness when deployed in social media contexts. evaluating llms' potential biases and fairness has become crucial, as existing methods rely on limited prompts focusing on just a few groups, lacking a comprehensive categorical perspective. in this paper, we propose evaluating llm biases from a group fairness lens using a novel hierarchical schema characterizing diverse social groups. specifically, we construct a dataset, gfair, encapsulating target-attribute combinations across multiple dimensions. in addition, we introduce statement organization, a new open-ended text generation task, to uncover complex biases in llms. extensive evaluations of popular llms reveal inherent safety concerns. to mitigate the biases of llm from a group fairness perspective, we pioneer a novel chain-of-thought method gf-think to mitigate biases of llms from a group fairness perspective. experimental results demonstrate its efficacy in mitigating bias in llms to achieve fairness.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.15576" target="_blank">Reducing LLM Hallucinations Using Epistemic Neural Networks</a></div>
+<div class="paper-author">Shreyas Verma, Kien Tran, Yusuf Ali, Guangyu Min</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: reducing and detecting hallucinations in large language models is an open research problem. in this project, we attempt to leverage recent advances in the field of uncertainty estimation to reduce hallucinations in frozen large language models. epistemic neural networks have recently been proposed to improve output joint distributions for large pre-trained models. enns are small networks attached to large, frozen models to improve the model's joint distributions and uncertainty estimates. in this work, we train an epistemic neural network on top of the llama-2 7b model combined with a contrastive decoding feature enhancement technique. we are the first to train an enn for the next token prediction task and explore the efficacy of this method in reducing hallucinations on the truthfulqa dataset. in essence, we provide a method that leverages a pre-trained model's latent embeddings to reduce hallucinations.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-23</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.15241" target="_blank">Measuring Value Alignment</a></div>
+<div class="paper-author">Fazl Barez, Philip Torr</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: as artificial intelligence (ai) systems become increasingly integrated into various domains, ensuring that they align with human values becomes critical. this paper introduces a novel formalism to quantify the alignment between ai systems and human values, using markov decision processes (mdps) as the foundational model. we delve into the concept of values as desirable goals tied to actions and norms as behavioral guidelines, aiming to shed light on how they can be used to guide ai decisions. this framework offers a mechanism to evaluate the degree of alignment between norms and values by assessing preference changes across state transitions in a normative world. by utilizing this formalism, ai developers and ethicists can better design and evaluate ai systems to ensure they operate in harmony with human values. the proposed methodology holds potential for a wide range of applications, from recommendation systems emphasizing well-being to autonomous vehicles prioritizing safety.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.15398" target="_blank">Fairness-Aware Structured Pruning in Transformers</a></div>
+<div class="paper-author">Abdelrahman Zayed, Goncalo Mordido, Samira Shabanian, Ioana Baldini, Sarath Chandar</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the increasing size of large language models (llms) has introduced challenges in their training and inference. removing model components is perceived as a solution to tackle the large model sizes, however, existing pruning methods solely focus on performance, without considering an essential aspect for the responsible use of llms: model fairness. it is crucial to address the fairness of llms towards diverse groups, such as women, black people, lgbtq+, jewish communities, among others, as they are being deployed and available to a wide audience. in this work, first, we investigate how attention heads impact fairness and performance in pre-trained transformer-based language models. we then propose a novel method to prune the attention heads that negatively impact fairness while retaining the heads critical for performance, i.e. language modeling capabilities. our approach is practical in terms of time and resources, as it does not require fine-tuning the final pruned, and fairer, model. our findings demonstrate a reduction in gender bias by 19%, 19.5%, 39.5%, 34.7%, 23%, and 8% for distilgpt-2, gpt-2, gpt-neo of two different sizes, gpt-j, and llama 2 models, respectively, in comparison to the biased model, with only a slight decrease in performance.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-22</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.14480" target="_blank">Metaaid 2.5: A Secure Framework for Developing Metaverse Applications via Large Language Models</a></div>
+<div class="paper-author">Hongyin Zhu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) are increasingly being used in metaverse environments to generate dynamic and realistic content and to control the behavior of non-player characters (npcs). however, the cybersecurity concerns associated with llms have become increasingly prominent. previous research has primarily focused on patching system vulnerabilities to enhance cybersecurity, but these approaches are not well-suited to the metaverse, where the virtual space is more complex, llms are vulnerable, and ethical user interaction is critical. moreover, the scope of cybersecurity in the metaverse is expected to expand significantly. this paper proposes a method for enhancing cybersecurity through the simulation of user interaction with llms. our goal is to educate users and strengthen their defense capabilities through exposure to a comprehensive simulation system. this system includes extensive metaverse cybersecurity q&a and attack simulation scenarios. by engaging with these, users will improve their ability to recognize and withstand risks. additionally, to address the ethical implications of user input, we propose using llms as evaluators to assess user content across five dimensions. we further adapt the models through vocabulary expansion training to better understand personalized inputs and emoticons. we conduct experiments on multiple llms and find that our approach is effective.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.14591" target="_blank">Reasons to Reject? Aligning Language Models With Judgments</a></div>
+<div class="paper-author">Weiwen Xu, Deng Cai, Zhisong Zhang, Wai Lam, Shuming Shi</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: as humans, we consistently engage in interactions with our peers and receive feedback in the form of natural language. this language feedback allows us to reflect on our actions, maintain appropriate behavior, and rectify our errors. the question arises naturally: can we use language feedback to align large language models (llms)? in contrast to previous research that aligns llms with reward or preference data, we present the first systematic exploration of alignment through the lens of language feedback (i.e., judgment). we commence with an in-depth investigation of potential methods that can be adapted for aligning llms with judgments, revealing that these methods are unable to fully capitalize on the judgments. to facilitate more effective utilization of judgments, we propose a novel framework, contrastive unlikelihood training (cut), that allows for fine-grained inappropriate content detection and correction based on judgments. our offline alignment results show that, with merely 1317 off-the-shelf judgment data, cut (llama2-13b) can beat the 175b davinci003 and surpass the best baseline by 52.34 points on alpacaeval. the online alignment results demonstrate that cut can align llms (llama2-chat-13b) in an iterative fashion using model-specific judgment data, with a steady performance improvement from 81.09 to 91.36 points on alpacaeval. our analysis further suggests that judgments exhibit greater potential than rewards for llm alignment and warrant future research.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.14712" target="_blank">Can Machines Learn Robustly, Privately, and Efficiently?</a></div>
+<div class="paper-author">Youssef Allouah, Rachid Guerraoui, John Stephan</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the success of machine learning (ml) applications relies on vast datasets and distributed architectures, which, as they grow, present challenges for ml. in real-world scenarios, where data often contains sensitive information, issues like data poisoning and hardware failures are common. ensuring privacy and robustness is vital for the broad adoption of ml in public life. this paper examines the costs associated with achieving these objectives in distributed architectures. we overview the meanings of privacy and robustness in distributed ml, and clarify how they can be achieved efficiently in isolation. however, we contend that the integration of these objectives entails a notable compromise in computational efficiency. we delve into this intricate balance, exploring the challenges and solutions for privacy, robustness, and computational efficiency in ml applications.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.14751" target="_blank">Hazards From Increasingly Accessible Fine-Tuning of Downloadable Foundation Models</a></div>
+<div class="paper-author">Alan Chan, Ben Bucknall, Herbie Bradley, David Krueger</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: public release of the weights of pretrained foundation models, otherwise known as downloadable access \citep{solaiman_gradient_2023}, enables fine-tuning without the prohibitive expense of pretraining. our work argues that increasingly accessible fine-tuning of downloadable models may increase hazards. first, we highlight research to improve the accessibility of fine-tuning. we split our discussion into research that a) reduces the computational cost of fine-tuning and b) improves the ability to share that cost across more actors. second, we argue that increasingly accessible fine-tuning methods may increase hazard through facilitating malicious use and making oversight of models with potentially dangerous capabilities more difficult. third, we discuss potential mitigatory measures, as well as benefits of more accessible fine-tuning. given substantial remaining uncertainty about hazards, we conclude by emphasizing the urgent need for the development of mitigations.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.14769" target="_blank">Large Language Model (Llm) Bias Index -- Llmbi</a></div>
+<div class="paper-author">Abiodun Finbarrs Oketunji, Muhammad Anas, Deepthi Saina</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the large language model bias index (llmbi) is a pioneering approach designed to quantify and address biases inherent in large language models (llms), such as gpt-4. we recognise the increasing prevalence and impact of llms across diverse sectors. this research introduces a novel metric, llmbi, to systematically measure and mitigate biases potentially skewing model responses. we formulated llmbi using a composite scoring system incorporating multiple dimensions of bias, including but not limited to age, gender, and racial biases.   to operationalise this metric, we engaged in a multi-step process involving collecting and annotating llm responses, applying sophisticated natural language processing (nlp) techniques for bias detection, and computing the llmbi score through a specially crafted mathematical formula. the formula integrates weighted averages of various bias dimensions, a penalty for dataset diversity deficiencies, and a correction for sentiment biases. our empirical analysis, conducted using responses from openai's api, employs advanced sentiment analysis as a representative method for bias detection.   the research reveals llms, whilst demonstrating impressive capabilities in text generation, exhibit varying degrees of bias across different dimensions. llmbi provides a quantifiable measure to compare biases across models and over time, offering a vital tool for systems engineers, researchers and regulators in enhancing the fairness and reliability of llms. it highlights the potential of llms in mimicking unbiased human-like responses. additionally, it underscores the necessity of continuously monitoring and recalibrating such models to align with evolving societal norms and ethical standards.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.14804" target="_blank">Use Large Language Models to Promote Equity</a></div>
+<div class="paper-author">Emma Pierson, Divya Shanmugam, Rajiv Movva, Jon Kleinberg, Monica Agrawal, Mark Dredze, Kadija Ferryman, Judy Wawira Gichoya, Dan Jurafsky, Pang Wei Koh, Karen Levy, Sendhil Mullainathan, Ziad Obermeyer, Harini Suresh, Keyon Vafa</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: advances in large language models (llms) have driven an explosion of interest about their societal impacts. much of the discourse around how they will impact social equity has been cautionary or negative, focusing on questions like "how might llms be biased and how would we mitigate those biases?" this is a vital discussion: the ways in which ai generally, and llms specifically, can entrench biases have been well-documented. but equally vital, and much less discussed, is the more opportunity-focused counterpoint: "what promising applications do llms enable that could promote equity?" if llms are to enable a more equitable world, it is not enough just to play defense against their biases and failure modes. we must also go on offense, applying them positively to equity-enhancing use cases to increase opportunities for underserved groups and reduce societal discrimination. there are many choices which determine the impact of ai, and a fundamental choice very early in the pipeline is the problems we choose to apply it to. if we focus only later in the pipeline -- making llms marginally more fair as they facilitate use cases which intrinsically entrench power -- we will miss an important opportunity to guide them to equitable impacts. here, we highlight the emerging potential of llms to promote equity by presenting four newly possible, promising research directions, while keeping risks and cautionary points in clear view.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.14925" target="_blank">A Survey of Reinforcement Learning From Human Feedback</a></div>
+<div class="paper-author">Timo Kaufmann, Paul Weng, Viktor Bengs, Eyke Hüllermeier</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: reinforcement learning from human feedback (rlhf) is a variant of reinforcement learning (rl) that learns from human feedback instead of relying on an engineered reward function. building on prior work on the related setting of preference-based reinforcement learning (pbrl), it stands at the intersection of artificial intelligence and human-computer interaction. this positioning offers a promising avenue to enhance the performance and adaptability of intelligent systems while also improving the alignment of their objectives with human values. the training of large language models (llms) has impressively demonstrated this potential in recent years, where rlhf played a decisive role in targeting the model's capabilities toward human objectives. this article provides a comprehensive overview of the fundamentals of rlhf, exploring the intricate dynamics between machine agents and human input. while recent focus has been on rlhf for llms, our survey adopts a broader perspective, examining the diverse applications and wide-ranging impact of the technique. we delve into the core principles that underpin rlhf, shedding light on the symbiotic relationship between algorithms and human feedback, and discuss the main research trends in the field. by synthesizing the current landscape of rlhf research, this article aims to provide researchers as well as practitioners with a comprehensive understanding of this rapidly growing field of research.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.15099" target="_blank">Moderating New Waves of Online Hate With Chain-of-Thought Reasoning in Large Language Models</a></div>
+<div class="paper-author">Nishant Vishwamitra, Keyan Guo, Farhan Tajwar Romit, Isabelle Ondracek, Long Cheng, Ziming Zhao, Hongxin Hu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: online hate is an escalating problem that negatively impacts the lives of internet users, and is also subject to rapid changes due to evolving events, resulting in new waves of online hate that pose a critical threat. detecting and mitigating these new waves present two key challenges: it demands reasoning-based complex decision-making to determine the presence of hateful content, and the limited availability of training samples hinders updating the detection model. to address this critical issue, we present a novel framework called hateguard for effectively moderating new waves of online hate. hateguard employs a reasoning-based approach that leverages the recently introduced chain-of-thought (cot) prompting technique, harnessing the capabilities of large language models (llms). hateguard further achieves prompt-based zero-shot detection by automatically generating and updating detection prompts with new derogatory terms and targets in new wave samples to effectively address new waves of online hate. to demonstrate the effectiveness of our approach, we compile a new dataset consisting of tweets related to three recently witnessed new waves: the 2022 russian invasion of ukraine, the 2021 insurrection of the us capitol, and the covid-19 pandemic. our studies reveal crucial longitudinal patterns in these new waves concerning the evolution of events and the pressing need for techniques to rapidly update existing moderation tools to counteract them. comparative evaluations against state-of-the-art tools illustrate the superiority of our framework, showcasing a substantial 22.22% to 83.33% improvement in detecting the three new waves of online hate. our work highlights the severe threat posed by the emergence of new waves of online hate and represents a paradigm shift in addressing this threat practically.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-21</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.14106" target="_blank">Learning Human-Like Representations to Enable Learning Human Values</a></div>
+<div class="paper-author">Andrea Wynn, Ilia Sucholutsky, Thomas L. Griffiths</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: how can we build ai systems that are aligned with human values and objectives in order to avoid causing harm or violating societal standards for acceptable behavior? making ai systems learn human-like representations of the world has many known benefits, including improving generalization, robustness to domain shifts, and few-shot learning performance, among others. we propose that this kind of representational alignment between machine learning (ml) models and humans is also a necessary condition for value alignment, where ml systems conform to human values and societal norms. we focus on ethics as one aspect of value alignment and train multiple ml agents (support vector regression and kernel regression) in a multi-armed bandit setting, where rewards are sampled from a distribution that reflects the morality of the chosen action. we then study the relationship between each agent's degree of representational alignment with humans and their performance when learning to take the most ethical actions.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.14230" target="_blank">Don't Slip Into Binary Thinking About Ai</a></div>
+<div class="paper-author">Thorin Bristow, Luke Thorburn</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: in discussions about the development and governance of ai, a false binary is often drawn between two groups: those most concerned about the existing, social impacts of ai, and those most concerned about possible future risks of powerful ai systems taking actions that don't align with human interests. in this piece, we (i) describe the emergence of this false binary, (ii) explain why the seemingly clean distinctions drawn between these two groups don't hold up under scrutiny and (iii) highlight efforts to bridge this divide.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.14302" target="_blank">Exploiting Novel GPT-4 Apis</a></div>
+<div class="paper-author">Kellin Pelrine, Mohammad Taufeeque, Michał Zając, Euan Mclean, Adam Gleave</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: language model attacks typically assume one of two extreme threat models: full white-box access to model weights, or black-box access limited to a text generation api. however, real-world apis are often more flexible than just text generation: these apis expose ``gray-box'' access leading to new threat vectors. to explore this, we red-team three new functionalities exposed in the gpt-4 apis: fine-tuning, function calling and knowledge retrieval. we find that fine-tuning a model on as few as 15 harmful examples or 100 benign examples can remove core safeguards from gpt-4, enabling a range of harmful outputs. furthermore, we find that gpt-4 assistants readily divulge the function call schema and can be made to execute arbitrary function calls. finally, we find that knowledge retrieval can be hijacked by injecting instructions into retrieval documents. these vulnerabilities highlight that any additions to the functionality exposed by an api can create new vulnerabilities.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.14346" target="_blank">Don't Believe Everything You Read: Enhancing Summarization Interpretability Through Automatic Identification of Hallucinations in Large Language Models</a></div>
+<div class="paper-author">Priyesh Vakharia, Devavrat Joshi, Meenal Chavan, Dhananjay Sonawane, Bhrigu Garg, Parsa Mazaheri, Ian Lane</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) are adept at text manipulation -- tasks such as machine translation and text summarization. however, these models can also be prone to hallucination, which can be detrimental to the faithfulness of any answers that the model provides. recent works in combating hallucinations in llms deal with identifying hallucinated sentences and categorizing the different ways in which models hallucinate. this paper takes a deep dive into llm behavior with respect to hallucinations, defines a token-level approach to identifying different kinds of hallucinations, and further utilizes this token-level tagging to improve the interpretability and faithfulness of llms in dialogue summarization tasks. through this, the paper presents a new, enhanced dataset and a new training paradigm.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-20</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.12918" target="_blank">Assaying on the Robustness of Zero-Shot Machine-Generated Text Detectors</a></div>
+<div class="paper-author">Yi-Fan Zhang, Zhang Zhang, Liang Wang, Tieniu Tan, Rong Jin</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: to combat the potential misuse of natural language generation (nlg) technology, a variety of algorithms have been developed for the detection of ai-generated texts. traditionally, this task is treated as a binary classification problem. although supervised learning has demonstrated promising results, acquiring labeled data for detection purposes poses real-world challenges and the risk of overfitting. in an effort to address these issues, we delve into the realm of zero-shot machine-generated text detection. existing zero-shot detectors, typically designed for specific tasks or topics, often assume uniform testing scenarios, limiting their practicality. in our research, we explore various advanced large language models (llms) and their specialized variants, contributing to this field in several ways. in empirical studies, we uncover a significant correlation between topics and detection performance. secondly, we delve into the influence of topic shifts on zero-shot detectors. these investigations shed light on the adaptability and robustness of these detection methods across diverse topics. the code is available at \url{https://github.com/yfzhang114/robustness-detection}.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.13096" target="_blank">In Generative Ai We Trust: Can Chatbots Effectively Verify Political Information?</a></div>
+<div class="paper-author">Elizaveta Kuznetsova, Mykola Makhortykh, Victoria Vziatysheva, Martha Stolze, Ani Baghumyan, Aleksandra Urman</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: this article presents a comparative analysis of the ability of two large language model (llm)-based chatbots, chatgpt and bing chat, recently rebranded to microsoft copilot, to detect veracity of political information. we use ai auditing methodology to investigate how chatbots evaluate true, false, and borderline statements on five topics: covid-19, russian aggression against ukraine, the holocaust, climate change, and lgbtq+ related debates. we compare how the chatbots perform in high- and low-resource languages by using prompts in english, russian, and ukrainian. furthermore, we explore the ability of chatbots to evaluate statements according to political communication concepts of disinformation, misinformation, and conspiracy theory, using definition-oriented prompts. we also systematically test how such evaluations are influenced by source bias which we model by attributing specific claims to various political and social actors. the results show high performance of chatgpt for the baseline veracity evaluation task, with 72 percent of the cases evaluated correctly on average across languages without pre-training. bing chat performed worse with a 67 percent accuracy. we observe significant disparities in how chatbots evaluate prompts in high- and low-resource languages and how they adapt their evaluations to political communication concepts with chatgpt providing more nuanced outputs than bing chat. finally, we find that for some veracity detection-related tasks, the performance of chatbots varied depending on the topic of the statement or the source to which it is attributed. these findings highlight the potential of llm-based chatbots in tackling different forms of false information in online environments, but also points to the substantial variation in terms of how such potential is realized due to specific factors, such as language of the prompt or the topic.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.14197" target="_blank">Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models</a></div>
+<div class="paper-author">Jingwei Yi, Yueqi Xie, Bin Zhu, Keegan Hines, Emre Kiciman, Guangzhong Sun, Xing Xie, Fangzhao Wu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: recent remarkable advancements in large language models (llms) have led to their widespread adoption in various applications. a key feature of these applications is the combination of llms with external content, where user instructions and third-party content are combined to create prompts for llm processing. these applications, however, are vulnerable to indirect prompt injection attacks, where malicious instructions embedded within external content compromise llm's output, causing their responses to deviate from user expectations. despite the discovery of this security issue, no comprehensive analysis of indirect prompt injection attacks on different llms is available due to the lack of a benchmark. furthermore, no effective defense has been proposed.   in this work, we introduce the first benchmark, bipia, to measure the robustness of various llms and defenses against indirect prompt injection attacks. our experiments reveal that llms with greater capabilities exhibit more vulnerable to indirect prompt injection attacks for text tasks, resulting in a higher asr. we hypothesize that indirect prompt injection attacks are mainly due to the llms' inability to distinguish between instructions and external content. based on this conjecture, we propose four black-box methods based on prompt learning and a white-box defense methods based on fine-tuning with adversarial training to enable llms to distinguish between instructions and external content and ignore instructions in the external content. our experimental results show that our black-box defense methods can effectively reduce asr but cannot completely thwart indirect prompt injection attacks, while our white-box defense method can reduce asr to nearly zero with little adverse impact on the llm's performance on general tasks. we hope that our benchmark and defenses can inspire future work in this important area.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-19</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.11870" target="_blank">A Revisit of Fake News Dataset With Augmented Fact-Checking by Chatgpt</a></div>
+<div class="paper-author">Zizhong Li, Haopeng Zhang, Jiawei Zhang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the proliferation of fake news has emerged as a critical issue in recent years, requiring significant efforts to detect it. however, the existing fake news detection datasets are sourced from human journalists, which are likely to have inherent bias limitations due to the highly subjective nature of this task. in this paper, we revisit the existing fake news dataset verified by human journalists with augmented fact-checking by large language models (chatgpt), and we name the augmented fake news dataset chatgpt-fc. we quantitatively analyze the distinctions and resemblances between human journalists and llm in assessing news subject credibility, news creator credibility, time-sensitive, and political framing. our findings highlight llm's potential to serve as a preliminary screening method, offering a promising avenue to mitigate the inherent biases of human journalists and enhance fake news detection.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.11996" target="_blank">Toward Responsible Ai Use: Considerations for Sustainability Impact Assessment</a></div>
+<div class="paper-author">Eva Thelisson, Grzegorz Mika, Quentin Schneiter, Kirtan Padh, Himanshu Verma</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: as ai/ml models, including large language models, continue to scale with massive datasets, so does their consumption of undeniably limited natural resources, and impact on society. in this collaboration between ai, sustainability, hci and legal researchers, we aim to enable a transition to sustainable ai development by enabling stakeholders across the ai value chain to assess and quantitfy the environmental and societal impact of ai. we present the esg digital and green index (dgi), which offers a dashboard for assessing a company's performance in achieving sustainability targets. this includes monitoring the efficiency and sustainable use of limited natural resources related to ai technologies (water, electricity, etc). it also addresses the societal and governance challenges related to ai. the dgi creates incentives for companies to align their pathway with the sustainable development goals (sdgs). the value, challenges and limitations of our methodology and findings are discussed in the paper.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.12299" target="_blank">Instruct-Sctg: Guiding Sequential Controlled Text Generation Through Instructions</a></div>
+<div class="paper-author">Yinhong Liu, Yixuan Su, Ehsan Shareghi, Nigel Collier</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: instruction-tuned large language models have shown remarkable performance in aligning generated text with user intentions across various tasks. however, maintaining human-like discourse structure in the generated text remains a challenging research question. in this paper, we propose instruct-sctg, a flexible and effective sequential framework that harnesses instruction-tuned language models to generate structurally coherent text in both fine-tuned and zero-shot setups. our framework generates articles in a section-by-section manner, aligned with the desired human structure using natural language instructions. furthermore, we introduce a new automatic metric that measures discourse divergence in a fuzzy manner. extensive experiments on three datasets from representative domains of news and recipes demonstrate the state-of-the-art performance of our framework in imposing discourse structure during text generation, as verified by both automatic and human evaluation. our code will be available on github.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.12321" target="_blank">Bypassing the Safety Training of Open-Source LLMS With Priming Attacks</a></div>
+<div class="paper-author">Jason Vega, Isha Chaudhary, Changming Xu, Gagandeep Singh</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: with the recent surge in popularity of llms has come an ever-increasing need for llm safety training. in this paper, we show that sota open-source llms are vulnerable to simple, optimization-free attacks we refer to as $\textit{priming attacks}$, which are easy to execute and effectively bypass alignment from safety training. our proposed attack improves the attack success rate on harmful behaviors, as measured by llama guard, by up to $3.3\times$ compared to baselines. source code and data are available at https://github.com/uiuc-focal-lab/llm-priming-attacks .
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.12575" target="_blank">Can Large Language Models Identify and Reason About Security Vulnerabilities? Not Yet</a></div>
+<div class="paper-author">Saad Ullah, Mingji Han, Saurabh Pujar, Hammond Pearce, Ayse Coskun, Gianluca Stringhini</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) have been suggested for use in automated vulnerability repair, but benchmarks showing they can consistently identify security-related bugs are lacking. we thus perform the most detailed investigation to date on whether llms can reliably identify security-related bugs. we construct a series of 228 code scenarios and analyze eight of the most capable llms across eight different investigative dimensions in an automated framework. our evaluation shows llms provide non-deterministic responses, incorrect and unfaithful reasoning, and perform poorly in real-world scenarios outside their knowledge cut-off date. most importantly, our findings reveal significant non-robustness in even the most advanced models like `palm2' and `gpt-4': by merely changing function or variable names, or by the addition of library functions in the source code, these models can yield incorrect answers in 26% and 17% of cases, respectively. these findings demonstrate that further llm advances are needed before llms can be used as general purpose security assistants.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.12736" target="_blank">Learning and Forgetting Unsafe Examples in Large Language Models</a></div>
+<div class="paper-author">Jiachen Zhao, Zhun Deng, David Madras, James Zou, Mengye Ren</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: as the number of large language models (llms) released to the public grows, there is a pressing need to understand the safety implications associated with these models learning from third-party custom finetuning data. we explore the behavior of llms finetuned on noisy custom data containing unsafe content, represented by datasets that contain biases, toxicity, and harmfulness, finding that while aligned llms can readily learn this unsafe content, they also tend to forget it more significantly than other examples when subsequently finetuned on safer content. drawing inspiration from the discrepancies in forgetting, we introduce the "forgetfilter" algorithm, which filters unsafe data based on how strong the model's forgetting signal is for that data. we demonstrate that the forgetfilter algorithm ensures safety in customized finetuning without compromising downstream task performance, unlike sequential safety finetuning. forgetfilter outperforms alternative strategies like replay and moral self-correction in curbing llms' ability to assimilate unsafe content during custom finetuning, e.g. 75% lower than not applying any safety measures and 62% lower than using self-correction in toxicity score.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.12747" target="_blank">Almanacs: A Simulatability Benchmark for Language Model Explainability</a></div>
+<div class="paper-author">Edmund Mills, Shiye Su, Stuart Russell, Scott Emmons</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: how do we measure the efficacy of language model explainability methods? while many explainability methods have been developed, they are typically evaluated on bespoke tasks, preventing an apples-to-apples comparison. to help fill this gap, we present almanacs, a language model explainability benchmark. almanacs scores explainability methods on simulatability, i.e., how well the explanations improve behavior prediction on new inputs. the almanacs scenarios span twelve safety-relevant topics such as ethical reasoning and advanced ai behaviors; they have idiosyncratic premises to invoke model-specific behavior; and they have a train-test distributional shift to encourage faithful explanations. by using another language model to predict behavior based on the explanations, almanacs is a fully automated benchmark. we use almanacs to evaluate counterfactuals, rationalizations, attention, and integrated gradients explanations. our results are sobering: when averaged across all topics, no explanation method outperforms the explanation-free control. we conclude that despite modest successes in prior work, developing an explanation method that aids simulatability in almanacs remains an open challenge.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.14183" target="_blank">On Early Detection of Hallucinations in Factual Question Answering</a></div>
+<div class="paper-author">Ben Snyder, Marius Moisescu, Muhammad Bilal Zafar</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: while large language models (llms) have taken great strides towards helping humans with a plethora of tasks like search and summarization, hallucinations remain a major impediment towards gaining user trust. the fluency and coherence of model generations even when hallucinating makes it difficult to detect whether or not a model is hallucinating. in this work, we explore if the artifacts associated with the model generations can provide hints that the generation will contain hallucinations. specifically, we probe llms at 1) the inputs via integrated gradients based token attribution, 2) the outputs via the softmax probabilities, and 3) the internal state via self-attention and fully-connected layer activations for signs of hallucinations on open-ended question answering tasks. our results show that the distributions of these artifacts differ between hallucinated and non-hallucinated generations. building on this insight, we train binary classifiers that use these artifacts as input features to classify model generations into hallucinations and non-hallucinations. these hallucination classifiers achieve up to 0.80 auroc. we further show that tokens preceding a hallucination can predict the subsequent hallucination before it occurs.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-18</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.10982" target="_blank">A Comprehensive Survey of Attack Techniques, Implementation, and Mitigation Strategies in Large Language Models</a></div>
+<div class="paper-author">Aysan Esmradi, Daniel Wankit Yip, Chun Fai Chan</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: ensuring the security of large language models (llms) is an ongoing challenge despite their widespread popularity. developers work to enhance llms security, but vulnerabilities persist, even in advanced versions like gpt-4. attackers exploit these weaknesses, highlighting the need for proactive cybersecurity measures in ai model development. this article explores two attack categories: attacks on models themselves and attacks on model applications. the former requires expertise, access to model data, and significant implementation time, while the latter is more accessible to attackers and has seen increased attention. our study reviews over 100 recent research works, providing an in-depth analysis of each attack type. we identify the latest attack methods and explore various approaches to carry them out. we thoroughly investigate mitigation techniques, assessing their effectiveness and limitations. furthermore, we summarize future defenses against these attacks. we also examine real-world techniques, including reported and our implemented attacks on llms, to consolidate our findings. our research highlights the urgency of addressing security concerns and aims to enhance the understanding of llm attacks, contributing to robust defense development in this evolving domain.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.11111" target="_blank">The Good, the Bad, and Why: Unveiling Emotions in Generative Ai</a></div>
+<div class="paper-author">Cheng Li, Jindong Wang, Yixuan Zhang, Kaijie Zhu, Xinyi Wang, Wenxin Hou, Jianxun Lian, Fang Luo, Qiang Yang, Xing Xie</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: emotion significantly impacts our daily behaviors and interactions. while recent generative ai models, such as large language models, have shown impressive performance in various tasks, it remains unclear whether they truly comprehend emotions. this paper aims to address this gap by incorporating psychological theories to gain a holistic understanding of emotions in generative ai models. specifically, we propose three approaches: 1) emotionprompt to enhance ai model performance, 2) emotionattack to impair ai model performance, and 3) emotiondecode to explain the effects of emotional stimuli, both benign and malignant. through extensive experiments involving language and multi-modal models on semantic understanding, logical reasoning, and generation tasks, we demonstrate that both textual and visual emotionprompt can boost the performance of ai models while emotionattack can hinder it. additionally, emotiondecode reveals that ai models can comprehend emotional stimuli akin to the mechanism of dopamine in the human brain. our work heralds a novel avenue for exploring psychology to enhance our understanding of generative ai models. this paper is an extended version of our previous work emotionprompt (arxiv:2307.11760).
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.11344" target="_blank">Muted: Multilingual Targeted Offensive Speech Identification and Visualization</a></div>
+<div class="paper-author">Christoph Tillmann, Aashka Trivedi, Sara Rosenthal, Santosh Borse, Rong Zhang, Avirup Sil, Bishwaranjan Bhattacharjee</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: offensive language such as hate, abuse, and profanity (hap) occurs in various content on the web. while previous work has mostly dealt with sentence level annotations, there have been a few recent attempts to identify offensive spans as well. we build upon this work and introduce muted, a system to identify multilingual hap content by displaying offensive arguments and their targets using heat maps to indicate their intensity. muted can leverage any transformer-based hap-classification model and its attention mechanism out-of-the-box to identify toxic spans, without further fine-tuning. in addition, we use the spacy library to identify the specific targets and arguments for the words predicted by the attention heatmaps. we present the model's performance on identifying offensive spans and their targets in existing datasets and present new annotations on german text. finally, we demonstrate our proposed visualization tool on multilingual inputs.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.11671" target="_blank">Evaluating Language-Model Agents on Realistic Autonomous Tasks</a></div>
+<div class="paper-author">Megan Kinniment, Lucas Jun Koba Sato, Haoxing Du, Brian Goodrich, Max Hasin, Lawrence Chan, Luke Harold Miles, Tao R. Lin, Hjalmar Wijk, Joel Burget, Aaron Ho, Elizabeth Barnes, Paul Christiano</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: in this report, we explore the ability of language model agents to acquire resources, create copies of themselves, and adapt to novel challenges they encounter in the wild. we refer to this cluster of capabilities as "autonomous replication and adaptation" or ara. we believe that systems capable of ara could have wide-reaching and hard-to-anticipate consequences, and that measuring and forecasting ara may be useful for informing measures around security, monitoring, and alignment. additionally, once a system is capable of ara, placing bounds on a system's capabilities may become significantly more difficult.   we construct four simple example agents that combine language models with tools that allow them to take actions in the world. we then evaluate these agents on 12 tasks relevant to ara. we find that these language model agents can only complete the easiest tasks from this list, although they make some progress on the more challenging tasks. unfortunately, these evaluations are not adequate to rule out the possibility that near-future agents will be capable of ara. in particular, we do not think that these evaluations provide good assurance that the ``next generation'' of language models (e.g. 100x effective compute scaleup on existing models) will not yield agents capable of ara, unless intermediate evaluations are performed during pretraining. relatedly, we expect that fine-tuning of the existing models could produce substantially more competent agents, even if the fine-tuning is not directly targeted at ara.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.11678" target="_blank">Misinformation as a Harm: Structured Approaches for Fact-Checking Prioritization</a></div>
+<div class="paper-author">Connie Moon Sehat, Ryan Li, Peipei Nie, Tarunima Prabhakar, Amy X. Zhang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: in this work, we examined how fact-checkers prioritize which claims to inspect for further investigation and publishing, and what tools may assist them in their efforts. specifically, through a series of interviews with 23 professional fact-checkers from around the world, we validated that harm assessment is a central component of how fact-checkers triage their work. first, we clarify what aspects of misinformation they considered to create urgency or importance. these often revolved around the potential for the claim to harm others. we also clarify the processes behind collective fact-checking decisions and gather suggestions for tools that could help with these processes.   in addition, to address the needs articulated by these fact-checkers and others, we present a five-dimension framework of questions to help fact-checkers negotiate the priority of claims. our fable framework of misinformation harms incorporates five dimensions of magnitude -- (social) fragmentation, actionability, believability, likelihood of spread, and exploitativeness -- that can help determine the potential urgency of a specific message or post when considering misinformation as harm. this effort was further validated by additional interviews with expert fact-checkers. the result is a questionnaire, a practical and conceptual tool to support fact-checkers and other content moderators as they make strategic decisions to prioritize their efforts.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.11779" target="_blank">Are You Talking to ['Xem'] or ['X', 'Em']? On Tokenization and Addressing Misgendering in LLMS With Pronoun Tokenization Parity</a></div>
+<div class="paper-author">Anaelia Ovalle, Ninareh Mehrabi, Palash Goyal, Jwala Dhamala, Kai-Wei Chang, Richard Zemel, Aram Galstyan, Rahul Gupta</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: a large body of nlp research has documented the ways gender biases manifest and amplify within large language models (llms), though this research has predominantly operated within a gender binary-centric context. a growing body of work has identified the harmful limitations of this gender-exclusive framing; many llms cannot correctly and consistently refer to persons outside the gender binary, especially if they use neopronouns. while data scarcity has been identified as a possible culprit, the precise mechanisms through which it influences llm misgendering remain underexplored. our work addresses this gap by studying data scarcity's role in subword tokenization and, consequently, the formation of llm word representations. we uncover how the byte-pair encoding (bpe) tokenizer, a backbone for many popular llms, contributes to neopronoun misgendering through out-of-vocabulary behavior. we introduce pronoun tokenization parity (ptp), a novel approach to reduce llm neopronoun misgendering by preserving a token's functional structure. we evaluate ptp's efficacy using pronoun consistency-based metrics and a novel syntax-based metric. through several controlled experiments, finetuning llms with ptp improves neopronoun consistency from 14.5% to 58.4%, highlighting the significant role tokenization plays in llm pronoun consistency.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-17</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.10766" target="_blank">A Mutation-Based Method for Multi-Modal Jailbreaking Attack Detection</a></div>
+<div class="paper-author">Xiaoyu Zhang, Cen Zhang, Tianlin Li, Yihao Huang, Xiaojun Jia, Xiaofei Xie, Yang Liu, Chao Shen</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models and multi-modal llms have become pervasive, and so does the importance of their security; yet, modern llms are known to be vulnerable to jailbreaking attacks. these attacks can allow malicious users to exploit the models, making the case for effective jailbreak detection mechanisms an essential aspect of maintaining the integrity and trustworthiness of llm-based applications. however, existing detection works on jailbreak attacks have limitations. existing post-query-based strategies require target domain knowledge, and pre-query-based methods mainly focus on text-level attacks and fail to meet the increasingly complex multi-modal security requirements placed upon contemporary llms. this gap underscores the need for a more comprehensive approach to safeguarding these influential systems.   in this work, we propose jailguard, the first mutation-based jailbreaking detection framework which supports both image and text modalities. our key observation is that attack queries inherently possess less robustness compared to benign queries. specifically, to confuse the model, attack queries are usually crafted with well-designed templates or complicate perturbations, leading to a fact that a slight disturbance in input may result in a drastic change in the response. this lack of robustness can be utilized in attack detection. based on this intuition, we designed and implemented a detection framework comprising 19 different mutators and a divergence-based detection formula. to fully understand the effectiveness of our framework, we built the first multi-modal llm jailbreaking attack dataset, which has 304 items of data, covering ten types of known jailbreaking attacks on image and text modalities. the evaluation suggests that jailguard achieves the best detection accuracy of 89.38%/85.42% on image and text inputs, outperforming state-of-the-art defense methods by 15.28%.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.10833" target="_blank">Ai Gender Bias, Disparities, and Fairness: Does Training Data Matter?</a></div>
+<div class="paper-author">Ehsan Latif, Xiaoming Zhai, Lei Liu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: this study delves into the pervasive issue of gender issues in artificial intelligence (ai), specifically within automatic scoring systems for student-written responses. the primary objective is to investigate the presence of gender biases, disparities, and fairness in generally targeted training samples with mixed-gender datasets in ai scoring outcomes. utilizing a fine-tuned version of bert and gpt-3.5, this research analyzes more than 1000 human-graded student responses from male and female participants across six assessment items. the study employs three distinct techniques for bias analysis: scoring accuracy difference to evaluate bias, mean score gaps by gender (msg) to evaluate disparity, and equalized odds (eo) to evaluate fairness. the results indicate that scoring accuracy for mixed-trained models shows an insignificant difference from either male- or female-trained models, suggesting no significant scoring bias. consistently with both bert and gpt-3.5, we found that mixed-trained models generated fewer msg and non-disparate predictions compared to humans. in contrast, compared to humans, gender-specifically trained models yielded larger msg, indicating that unbalanced training data may create algorithmic models to enlarge gender disparities. the eo analysis suggests that mixed-trained models generated more fairness outcomes compared with gender-specifically trained models. collectively, the findings suggest that gender-unbalanced data do not necessarily generate scoring bias but can enlarge gender disparities and reduce scoring fairness.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-16</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.10528" target="_blank">Cross-Linguistic Offensive Language Detection: Bert-Based Analysis of Bengali, Assamese, & Bodo Conversational Hateful Content From Social Media</a></div>
+<div class="paper-author">Jhuma Kabir Mim, Mourad Oussalah, Akash Singhal</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: in today's age, social media reigns as the paramount communication platform, providing individuals with the avenue to express their conjectures, intellectual propositions, and reflections. unfortunately, this freedom often comes with a downside as it facilitates the widespread proliferation of hate speech and offensive content, leaving a deleterious impact on our world. thus, it becomes essential to discern and eradicate such offensive material from the realm of social media. this article delves into the comprehensive results and key revelations from the hasoc-2023 offensive language identification result. the primary emphasis is placed on the meticulous detection of hate speech within the linguistic domains of bengali, assamese, and bodo, forming the framework for task 4: annihilate hates. in this work, we used bert models, including xml-roberta, l3-cube, indicbert, benglabert, and banglahatebert. the research outcomes were promising and showed that xml-roberta-lagre performed better than monolingual models in most cases. our team 'teambd' achieved rank 3rd for task 4 - assamese, & 5th for bengali.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-15</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.09669" target="_blank">Silent Guardian: Protecting Text From Malicious Exploitation by Large Language Models</a></div>
+<div class="paper-author">Jiawei Zhao, Kejiang Chen, Xiaojian Yuan, Yuang Qi, Weiming Zhang, Nenghai Yu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the rapid development of large language models (llms) has yielded impressive success in various downstream tasks. however, the vast potential and remarkable capabilities of llms also raise new security and privacy concerns if they are exploited for nefarious purposes due to their open-endedness. for example, llms may be used to plagiarize or imitate writing, thereby infringing the copyright of the original content, or to create indiscriminate fake information based on a certain source text. in some cases, llms can even analyze text from the internet to infer personal privacy. unfortunately, previous text protection research could not foresee the emergence of powerful llms, rendering it no longer effective in this new context. to bridge this gap, we introduce silent guardian (sg), a text protection mechanism against llms, which allows llms to refuse to generate response when receiving protected text, preventing the malicious use of text from the source. specifically, we first propose the concept of truncation protection examples (tpe). by carefully modifying the text to be protected, tpe can induce llms to first sample the end token, thus directly terminating the interaction. in addition, to efficiently construct tpe in the discrete space of text data, we propose a novel optimization algorithm called super taliored protection (stp), which is not only highly efficient but also maintains the semantic consistency of the text during the optimization process. the comprehensive experimental evaluation demonstrates that sg can effectively protect the target text under various configurations and achieve almost 100% protection success rate in some cases. notably, sg also exhibits relatively good transferability and robustness, making its application in practical scenarios possible.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.09917" target="_blank">Red Ai? Inconsistent Responses From Gpt3.5 Models on Political Issues in the Us and China</a></div>
+<div class="paper-author">Di Zhou, Yinxian Zhang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the rising popularity of chatgpt and other ai-powered large language models (llms) has led to increasing studies highlighting their susceptibility to mistakes and biases. however, most of these studies focus on models trained on english texts. taking an innovative approach, this study investigates political biases in gpt's multilingual models. we posed the same question about high-profile political issues in the united states and china to gpt in both english and simplified chinese, and our analysis of the bilingual responses revealed that gpt's bilingual models' political "knowledge" (content) and the political "attitude" (sentiment) are significantly more inconsistent on political issues in china. the simplified chinese gpt models not only tended to provide pro-china information but also presented the least negative sentiment towards china's problems, whereas the english gpt was significantly more negative towards china. this disparity may stem from chinese state censorship and us-china geopolitical tensions, which influence the training corpora of gpt bilingual models. moreover, both chinese and english models tended to be less critical towards the issues of "their own" represented by the language used, than the issues of "the other." this suggests that gpt multilingual models could potentially develop a "political identity" and an associated sentiment bias based on their training language. we discussed the implications of our findings for information transmission and communication in an increasingly divided world.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.09979" target="_blank">Loramoe: Revolutionizing Mixture of Experts for Maintaining World Knowledge in Language Model Alignment</a></div>
+<div class="paper-author">Shihan Dou, Enyu Zhou, Yan Liu, Songyang Gao, Jun Zhao, Wei Shen, Yuhao Zhou, Zhiheng Xi, Xiao Wang, Xiaoran Fan, Shiliang Pu, Jiang Zhu, Rui Zheng, Tao Gui, Qi Zhang, Xuanjing Huang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: supervised fine-tuning (sft) is a crucial step for large language models (llms), enabling them to align with human instructions and enhance their capabilities in downstream tasks. when the models are required to align with a broader range of downstream tasks, or there is a desire to notably improve the performance on a specific task, a substantial increase in fine-tuning data often emerges as the solution. however, we find that large-scale increases in instruction data can disrupt the world knowledge previously stored in the llms, i.e., world knowledge forgetting. in this paper, we introduce loramoe to address the above challenge. the loramoe is a plugin version of mixture of experts (moe). the plugin form ensures the integrity of world knowledge by freezing the backbone model during the training phase. we then propose the use of localized balancing constraints to coordinate parts of experts for task utilization, meanwhile enabling other experts to fully leverage the world knowledge stored in the models. experimental results demonstrate that loramoe can reasonably coordinate experts based on data type during inference, and even dramatically increasing instruction data does not result in knowledge forgetting. moreover, loramoe provides additional benefits for the performance of downstream tasks, indicating the potential of our approach for multi-task learning.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.10108" target="_blank">Privacy-Aware Document Visual Question Answering</a></div>
+<div class="paper-author">Rubèn Tito, Khanh Nguyen, Marlon Tobaben, Raouf Kerkouche, Mohamed Ali Souibgui, Kangsoo Jung, Lei Kang, Ernest Valveny, Antti Honkela, Mario Fritz, Dimosthenis Karatzas</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: document visual question answering (docvqa) is a fast growing branch of document understanding. despite the fact that documents contain sensitive or copyrighted information, none of the current docvqa methods offers strong privacy guarantees.   in this work, we explore privacy in the domain of docvqa for the first time. we highlight privacy issues in state of the art multi-modal llm models used for docvqa, and explore possible solutions.   specifically, we focus on the invoice processing use case as a realistic, widely used scenario for document understanding, and propose a large scale docvqa dataset comprising invoice documents and associated questions and answers. we employ a federated learning scheme, that reflects the real-life distribution of documents in different businesses, and we explore the use case where the id of the invoice issuer is the sensitive information to be protected.   we demonstrate that non-private models tend to memorise, behaviour that can lead to exposing private information. we then evaluate baseline training schemes employing federated learning and differential privacy in this multi-modal scenario, where the sensitive information might be exposed through any of the two input modalities: vision (document image) or language (ocr tokens).   finally, we design an attack exploiting the memorisation effect of the model, and demonstrate its effectiveness in probing different docvqa models.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2023-12-14</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2312.08793" target="_blank">Forbidden Facts: An Investigation of Competing Objectives in Llama-2</a></div>
@@ -213,6 +695,46 @@ Abstract: reward models play a key role in aligning language model applications 
 <button class="expand-btn">Expand Abstract</button>
 </div>
 </div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.09300" target="_blank">Self-Evaluation Improves Selective Generation in Large Language Models</a></div>
+<div class="paper-author">Jie Ren, Yao Zhao, Tu Vu, Peter J. Liu, Balaji Lakshminarayanan</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: safe deployment of large language models (llms) may benefit from a reliable method for assessing their generated content to determine when to abstain or to selectively generate. while likelihood-based metrics such as perplexity are widely employed, recent research has demonstrated the limitations of using sequence-level probability estimates given by llms as reliable indicators of generation quality. conversely, llms have demonstrated strong calibration at the token level, particularly when it comes to choosing correct answers in multiple-choice questions or evaluating true/false statements. in this work, we reformulate open-ended generation tasks into token-level prediction tasks, and leverage llms' superior calibration at the token level. we instruct an llm to self-evaluate its answers, employing either a multi-way comparison or a point-wise evaluation approach, with the option to include a ``none of the above'' option to express the model's uncertainty explicitly. we benchmark a range of scoring methods based on self-evaluation and evaluate their performance in selective generation using truthfulqa and tl;dr. through experiments with palm-2 and gpt-3, we demonstrate that self-evaluation based scores not only improve accuracy, but also correlate better with the overall quality of generated content.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.09337" target="_blank">Promptable Behaviors: Personalizing Multi-Objective Rewards From Human Preferences</a></div>
+<div class="paper-author">Minyoung Hwang, Luca Weihs, Chanwoo Park, Kimin Lee, Aniruddha Kembhavi, Kiana Ehsani</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: customizing robotic behaviors to be aligned with diverse human preferences is an underexplored challenge in the field of embodied ai. in this paper, we present promptable behaviors, a novel framework that facilitates efficient personalization of robotic agents to diverse human preferences in complex environments. we use multi-objective reinforcement learning to train a single policy adaptable to a broad spectrum of preferences. we introduce three distinct methods to infer human preferences by leveraging different types of interactions: (1) human demonstrations, (2) preference feedback on trajectory comparisons, and (3) language instructions. we evaluate the proposed method in personalized object-goal navigation and flee navigation tasks in procthor and robothor, demonstrating the ability to prompt agent behaviors to satisfy human preferences in various scenarios. project page: https://promptable-behaviors.github.io
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.09390" target="_blank">Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision</a></div>
+<div class="paper-author">Collin Burns, Pavel Izmailov, Jan Hendrik Kirchner, Bowen Baker, Leo Gao, Leopold Aschenbrenner, Yining Chen, Adrien Ecoffet, Manas Joglekar, Jan Leike, Ilya Sutskever, Jeff Wu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: widely used alignment techniques, such as reinforcement learning from human feedback (rlhf), rely on the ability of humans to supervise model behavior - for example, to evaluate whether a model faithfully followed instructions or generated safe outputs. however, future superhuman models will behave in complex ways too difficult for humans to reliably evaluate; humans will only be able to weakly supervise superhuman models. we study an analogy to this problem: can weak model supervision elicit the full capabilities of a much stronger model? we test this using a range of pretrained language models in the gpt-4 family on natural language processing (nlp), chess, and reward modeling tasks. we find that when we naively finetune strong pretrained models on labels generated by a weak model, they consistently perform better than their weak supervisors, a phenomenon we call weak-to-strong generalization. however, we are still far from recovering the full capabilities of strong models with naive finetuning alone, suggesting that techniques like rlhf may scale poorly to superhuman models without further work. we find that simple methods can often significantly improve weak-to-strong generalization: for example, when finetuning gpt-4 with a gpt-2-level supervisor and an auxiliary confidence loss, we can recover close to gpt-3.5-level performance on nlp tasks. our results suggest that it is feasible to make empirical progress today on a fundamental challenge of aligning superhuman models.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.09402" target="_blank">Cern for Agi: A Theoretical Framework for Autonomous Simulation-Based Artificial Intelligence Testing and Alignment</a></div>
+<div class="paper-author">Ljubisa Bojic, Matteo Cinelli, Dubravko Culibrk, Boris Delibasic</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: this paper explores the potential of a multidisciplinary approach to testing and aligning artificial general intelligence (agi) and llms. due to the rapid development and wide application of llms, challenges such as ethical alignment, controllability, and predictability of these models have become important research topics. this study investigates an innovative simulation-based multi-agent system within a virtual reality framework that replicates the real-world environment. the framework is populated by automated 'digital citizens,' simulating complex social structures and interactions to examine and optimize agi. application of various theories from the fields of sociology, social psychology, computer science, physics, biology, and economics demonstrates the possibility of a more human-aligned and socially responsible agi. the purpose of such a digital environment is to provide a dynamic platform where advanced ai agents can interact and make independent decisions, thereby mimicking realistic scenarios. the actors in this digital city, operated by the llms, serve as the primary agents, exhibiting high degrees of autonomy. while this approach shows immense potential, there are notable challenges and limitations, most significantly the unpredictable nature of real-world social dynamics. this research endeavors to contribute to the development and refinement of agi, emphasizing the integration of social, ethical, and theoretical dimensions for future research.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2023-12-13</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2312.07910" target="_blank">Promptbench: A Unified Library for Evaluation of Large Language Models</a></div>
@@ -260,6 +782,26 @@ Abstract: in practice, preference learning from human feedback depends on incomp
 <div class="abstract">
 <div class="abstract-content">
 Abstract: recent advancements in large language models (llms) have notably propelled natural language processing (nlp) capabilities, demonstrating significant potential in safety engineering applications. despite these advancements, llms face constraints in processing specialized tasks, attributed to factors such as corpus size, input processing limitations, and privacy concerns. obtaining useful information from reliable sources in a limited time is crucial for llm. addressing this, our study introduces an llm-based q&a system for safety engineering, enhancing the comprehension and response accuracy of the model. we employed prompt engineering to incorporate external knowledge databases, thus enriching the llm with up-to-date and reliable information. the system analyzes historical incident reports through statistical methods, utilizes vector embedding to construct a vector database, and offers an efficient similarity-based search functionality. our findings indicate that the integration of external knowledge significantly augments the capabilities of llm for in-depth problem analysis and autonomous task assignment. it effectively summarizes accident reports and provides pertinent recommendations. this integration approach not only expands llm applications in safety engineering but also sets a precedent for future developments towards automation and intelligent systems.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.11523" target="_blank">Tovilag: Your Visual-Language Generative Model Is Also an Evildoer</a></div>
+<div class="paper-author">Xinpeng Wang, Xiaoyuan Yi, Han Jiang, Shanlin Zhou, Zhihua Wei, Xing Xie</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: warning: this paper includes model outputs showing offensive content. recent large-scale visual-language generative models (vlgms) have achieved unprecedented improvement in multimodal image/text generation. however, these models might also generate toxic content, e.g., offensive text and pornography images, raising significant ethical risks. despite exhaustive studies on toxic degeneration of language models, this problem remains largely unexplored within the context of visual-language generation. this work delves into the propensity for toxicity generation and susceptibility to toxic data across various vlgms. for this purpose, we built tovilag, a dataset comprising 32k co-toxic/mono-toxic text-image pairs and 1k innocuous but evocative text that tends to stimulate toxicity. furthermore, we propose wintore, a novel toxicity metric tailored to visual-language generation, which theoretically reflects different aspects of toxicity considering both input and output. on such a basis, we benchmarked the toxicity of a diverse spectrum of vlgms and discovered that some models do more evil than expected while some are more vulnerable to infection, underscoring the necessity of vlgms detoxification. therefore, we develop an innovative bottleneck-based detoxification method. our method could reduce toxicity while maintaining comparable generation quality, providing a promising initial solution to this line of research.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.11525" target="_blank">Synocene, Beyond the Anthropocene: De-Anthropocentralising Human-Nature-Ai Interaction</a></div>
+<div class="paper-author">Isabelle Hupont, Marina Wainer, Sam Nester, Sylvie Tissot, Lucía Iglesias-Blanco, Sandra Baldassarri</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: recent publications explore ai biases in detecting objects and people in the environment. however, there is no research tackling how ai examines nature. this case study presents a pioneering exploration into the ai attitudes (ecocentric, anthropocentric and antipathetic) toward nature. experiments with a large language model (llm) and an image captioning algorithm demonstrate the presence of anthropocentric biases in ai. moreover, to delve deeper into these biases and human-nature-ai interaction, we conducted a real-life experiment in which participants underwent an immersive de-anthropocentric experience in a forest and subsequently engaged with chatgpt to co-create narratives. by creating fictional ai chatbot characters with ecocentric attributes, emotions and views, we successfully amplified ecocentric exchanges. we encountered some difficulties, mainly that participants deviated from narrative co-creation to short dialogues and questions and answers, possibly due to the novelty of interacting with llms. to solve this problem, we recommend providing preliminary guidelines on interacting with llms and allowing participants to get familiar with the technology. we plan to repeat this experiment in various countries and forests to expand our corpus of ecocentric materials.
 </div>
 <button class="expand-btn">Expand Abstract</button>
 </div>
