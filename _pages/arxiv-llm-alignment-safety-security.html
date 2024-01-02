@@ -162,6 +162,212 @@ sitemap: false
     </div>
 </div>
 
+<h2><b>2024-01-01</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.00676" target="_blank">Digger: Detecting Copyright Content Mis-Usage in Large Language Model Training</a></div>
+<div class="paper-author">Haodong Li, Gelei Deng, Yi Liu, Kailong Wang, Yuekang Li, Tianwei Zhang, Yang Liu, Guoai Xu, Guosheng Xu, Haoyu Wang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: pre-training, which utilizes extensive and varied datasets, is a critical factor in the success of large language models (llms) across numerous applications. however, the detailed makeup of these datasets is often not disclosed, leading to concerns about data security and potential misuse. this is particularly relevant when copyrighted material, still under legal protection, is used inappropriately, either intentionally or unintentionally, infringing on the rights of the authors.   in this paper, we introduce a detailed framework designed to detect and assess the presence of content from potentially copyrighted books within the training datasets of llms. this framework also provides a confidence estimation for the likelihood of each content sample's inclusion. to validate our approach, we conduct a series of simulated experiments, the results of which affirm the framework's effectiveness in identifying and addressing instances of content misuse in llm training processes. furthermore, we investigate the presence of recognizable quotes from famous literary works within these datasets. the outcomes of our study have significant implications for ensuring the ethical use of copyrighted materials in the development of llms, highlighting the need for more transparent and responsible data management practices in this field.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.00690" target="_blank">Benchmarking Large Language Models on Controllable Generation Under Diversified Instructions</a></div>
+<div class="paper-author">Yihan Chen, Benfeng Xu, Quan Wang, Yi Liu, Zhendong Mao</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: while large language models (llms) have exhibited impressive instruction-following capabilities, it is still unclear whether and to what extent they can respond to explicit constraints that might be entailed in various instructions. as a significant aspect of llm alignment, it is thus important to formulate such a specialized set of instructions as well as investigate the resulting behavior of llms. to address this vacancy, we propose a new benchmark codi-eval to systematically and comprehensively evaluate llms' responses to instructions with various constraints. we construct a large collection of constraints-attributed instructions as a test suite focused on both generalization and coverage. specifically, we advocate an instruction diversification process to synthesize diverse forms of constraint expression and also deliberate the candidate task taxonomy with even finer-grained sub-categories. finally, we automate the entire evaluation process to facilitate further developments. different from existing studies on controllable text generation, codi-eval extends the scope to the prevalent instruction-following paradigm for the first time. we provide extensive evaluations of representative llms (e.g., chatgpt, vicuna) on codi-eval, revealing their limitations in following instructions with specific constraints and there is still a significant gap between open-source and commercial closed-source llms. we believe this benchmark will facilitate research into improving the controllability of llms' responses to instructions. our data and code are available at https://github.com/xt-cyh/codi-eval.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.00793" target="_blank">Secformer: Towards Fast and Accurate Privacy-Preserving Inference for Large Language Models</a></div>
+<div class="paper-author">Jinglong Luo, Yehong Zhang, Jiaqi Zhang, Xin Mu, Hui Wang, Yue Yu, Zenglin Xu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: with the growing use of large language models hosted on cloud platforms to offer inference services, privacy concerns are escalating, especially concerning sensitive data like investment plans and bank account details. secure multi-party computing (smpc) emerges as a promising solution to protect the privacy of inference data and model parameters. however, the application of smpc in privacy-preserving inference (ppi) for large language models, particularly those based on the transformer architecture, often leads to considerable slowdowns or declines in performance. this is largely due to the multitude of nonlinear operations in the transformer architecture, which are not well-suited to smpc and are difficult to circumvent or optimize effectively. to address this concern, we introduce an advanced optimization framework called secformer, designed to strike an optimal balance between performance and efficiency in ppi for transformer models. by implementing knowledge distillation techniques, we successfully eliminate the high-cost exponential and maximum operations in ppi without sacrificing model performance. additionally, we have developed a suite of efficient smpc protocols that utilize segmented polynomials and goldschmidt's method to handle other complex nonlinear functions within ppi, such as gelu, layernorm, and softmax. our extensive experiments reveal that secformer outperforms mpcformer in performance, showing improvements of $5.6\%$ and $24.2\%$ for bert$_{\text{base}}$ and bert$_{\text{large}}$, respectively. in terms of efficiency, secformer is 3.4 and 3.2 times faster than puma, demonstrating its effectiveness and speed.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.00820" target="_blank">A Computational Framework for Behavioral Assessment of LLM Therapists</a></div>
+<div class="paper-author">Yu Ying Chiu, Ashish Sharma, Inna Wanyin Lin, Tim Althoff</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the emergence of chatgpt and other large language models (llms) has greatly increased interest in utilizing llms as therapists to support individuals struggling with mental health challenges. however, due to the lack of systematic studies, our understanding of how llm therapists behave, i.e., ways in which they respond to clients, is significantly limited. understanding their behavior across a wide range of clients and situations is crucial to accurately assess their capabilities and limitations in the high-risk setting of mental health, where undesirable behaviors can lead to severe consequences. in this paper, we propose bolt, a novel computational framework to study the conversational behavior of llms when employed as therapists. we develop an in-context learning method to quantitatively measure the behavior of llms based on 13 different psychotherapy techniques including reflections, questions, solutions, normalizing, and psychoeducation. subsequently, we compare the behavior of llm therapists against that of high- and low-quality human therapy, and study how their behavior can be modulated to better reflect behaviors observed in high-quality therapy. our analysis of gpt and llama-variants reveals that these llms often resemble behaviors more commonly exhibited in low-quality therapy rather than high-quality therapy, such as offering a higher degree of problem-solving advice when clients share emotions, which is against typical recommendations. at the same time, unlike low-quality therapy, llms reflect significantly more upon clients' needs and strengths. our analysis framework suggests that despite the ability of llms to generate anecdotal examples that appear similar to human therapists, llm therapists are currently not fully consistent with high-quality care, and thus require additional research to ensure quality care.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-31</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.00503" target="_blank">Viz: A Qlora-Based Copyright Marketplace for Legally Compliant Generative Ai</a></div>
+<div class="paper-author">Dipankar Sarkar</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: this paper aims to introduce and analyze the viz system in a comprehensive way, a novel system architecture that integrates quantized low-rank adapters (qlora) to fine-tune large language models (llm) within a legally compliant and resource efficient marketplace. viz represents a significant contribution to the field of artificial intelligence, particularly in addressing the challenges of computational efficiency, legal compliance, and economic sustainability in the utilization and monetization of llms. the paper delineates the scholarly discourse and developments that have informed the creation of viz, focusing primarily on the advancements in llm models, copyright issues in ai training (nyt case, 2023), and the evolution of model fine-tuning techniques, particularly low-rank adapters and quantized low-rank adapters, to create a sustainable and economically compliant framework for llm utilization. the economic model it proposes benefits content creators, ai developers, and end-users, delineating a harmonious integration of technology, economy, and law, offering a comprehensive solution to the complex challenges of today's ai landscape.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-30</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.00210" target="_blank">The Problem of Alignment</a></div>
+<div class="paper-author">Tsvetelina Hristova, Liam Magee, Karen Soldatic</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models produce sequences learned as statistical patterns from large corpora. in order not to reproduce corpus biases, after initial training models must be aligned with human values, preferencing certain continuations over others. alignment, which can be viewed as the superimposition of normative structure onto a statistical model, reveals a conflicted and complex interrelationship between language and technology. this relationship shapes theories of language, linguistic practice and subjectivity, which are especially relevant to the current sophistication in artificially produced text. we examine this practice of structuration as a two-way interaction between users and models by analysing how chatgpt4 redacts perceived `anomalous' language in fragments of joyce's ulysses and the new linguistic practice of prompt engineering. we then situate this alignment problem historically, revisiting earlier postwar linguistic debates which counterposed two views of meaning: as discrete structures, and as continuous probability distributions. we discuss the largely occluded work of the moscow linguistic school, which sought to reconcile this opposition. our attention to the moscow school and later related arguments by searle and kristeva casts the problem of alignment in a new light: as one involving attention to the social structuration of linguistic practice, including structuration of anomalies that, like the joycean text, exist in defiance of expressive conventions. these debates around the communicative orientation toward language can help explain some of the contemporary behaviours and interdependencies that take place between users and llms.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.00280" target="_blank">Advancing TTP Analysis: Harnessing the Power of Encoder-Only and Decoder-Only Language Models With Retrieval Augmented Generation</a></div>
+<div class="paper-author">Reza Fayyazi, Rozhina Taghdimi, Shanchieh Jay Yang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: tactics, techniques, and procedures (ttps) outline the methods attackers use to exploit vulnerabilities. the interpretation of ttps in the mitre att&ck framework can be challenging for cybersecurity practitioners due to presumed expertise, complex dependencies, and inherent ambiguity. meanwhile, advancements with large language models (llms) have led to recent surge in studies exploring its uses in cybersecurity operations. this leads us to question how well encoder-only (e.g., roberta) and decoder-only (e.g., gpt-3.5) llms can comprehend and summarize ttps to inform analysts of the intended purposes (i.e., tactics) of a cyberattack procedure. the state-of-the-art llms have shown to be prone to hallucination by providing inaccurate information, which is problematic in critical domains like cybersecurity. therefore, we propose the use of retrieval augmented generation (rag) techniques to extract relevant contexts for each cyberattack procedure for decoder-only llms (without fine-tuning). we further contrast such approach against supervised fine-tuning (sft) of encoder-only llms. our results reveal that both the direct-use of decoder-only llms (i.e., its pre-trained knowledge) and the sft of encoder-only llms offer inaccurate interpretation of cyberattack procedures. significant improvements are shown when rag is used for decoder-only llms, particularly when directly relevant context is found. this study further sheds insights on the limitations and capabilities of using rag for llms in interpreting ttps.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.00286" target="_blank">Autonomous Threat Hunting: A Future Paradigm for Ai-Driven Threat Intelligence</a></div>
+<div class="paper-author">Siva Raja Sindiramutty</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the evolution of cybersecurity has spurred the emergence of autonomous threat hunting as a pivotal paradigm in the realm of ai-driven threat intelligence. this review navigates through the intricate landscape of autonomous threat hunting, exploring its significance and pivotal role in fortifying cyber defense mechanisms. delving into the amalgamation of artificial intelligence (ai) and traditional threat intelligence methodologies, this paper delineates the necessity and evolution of autonomous approaches in combating contemporary cyber threats. through a comprehensive exploration of foundational ai-driven threat intelligence, the review accentuates the transformative influence of ai and machine learning on conventional threat intelligence practices. it elucidates the conceptual framework underpinning autonomous threat hunting, spotlighting its components, and the seamless integration of ai algorithms within threat hunting processes.. insightful discussions on challenges encompassing scalability, interpretability, and ethical considerations in ai-driven models enrich the discourse. moreover, through illuminating case studies and evaluations, this paper showcases real-world implementations, underscoring success stories and lessons learned by organizations adopting ai-driven threat intelligence. in conclusion, this review consolidates key insights, emphasizing the substantial implications of autonomous threat hunting for the future of cybersecurity. it underscores the significance of continual research and collaborative efforts in harnessing the potential of ai-driven approaches to fortify cyber defenses against evolving threats.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.00287" target="_blank">The Art of Defending: A Systematic Evaluation and Analysis of LLM Defense Strategies on Safety and Over-Defensiveness</a></div>
+<div class="paper-author">Neeraj Varshney, Pavel Dolin, Agastya Seth, Chitta Baral</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: as large language models (llms) play an increasingly pivotal role in natural language processing applications, their safety concerns become critical areas of nlp research. this paper presents safety and over-defensiveness evaluation (sode) benchmark: a collection of diverse safe and unsafe prompts with carefully designed evaluation methods that facilitate systematic evaluation, comparison, and analysis over 'safety' and 'over-defensiveness.' with sode, we study a variety of llm defense strategies over multiple state-of-the-art llms, which reveals several interesting and important findings, such as (a) the widely popular 'self-checking' techniques indeed improve the safety against unsafe inputs, but this comes at the cost of extreme over-defensiveness on the safe inputs, (b) providing a safety instruction along with in-context exemplars (of both safe and unsafe inputs) consistently improves safety and also mitigates undue over-defensiveness of the models, (c) providing contextual knowledge easily breaks the safety guardrails and makes the models more vulnerable to generating unsafe responses. overall, our work reveals numerous such critical findings that we believe will pave the way and facilitate further research in improving the safety of llms.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.00290" target="_blank">Red Teaming for Large Language Models at Scale: Tackling Hallucinations on Mathematics Tasks</a></div>
+<div class="paper-author">Aleksander Buszydlik, Karol Dobiczek, Michał Teodor Okoń, Konrad Skublicki, Philip Lippmann, Jie Yang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: we consider the problem of red teaming llms on elementary calculations and algebraic tasks to evaluate how various prompting techniques affect the quality of outputs. we present a framework to procedurally generate numerical questions and puzzles, and compare the results with and without the application of several red teaming techniques. our findings suggest that even though structured reasoning and providing worked-out examples slow down the deterioration of the quality of answers, the gpt-3.5-turbo and gpt-4 models are not well suited for elementary calculations and reasoning tasks, also when being red teamed.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.00396" target="_blank">Ragtruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models</a></div>
+<div class="paper-author">Yuanhao Wu, Juno Zhu, Siliang Xu, Kashun Shum, Cheng Niu, Randy Zhong, Juntong Song, Tong Zhang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: retrieval-augmented generation (rag) has become a main technique for alleviating hallucinations in large language models (llms). despite the integration of rag, llms may still present unsupported or contradictory claims to the retrieved contents. in order to develop effective hallucination prevention strategies under rag, it is important to create benchmark datasets that can measure the extent of hallucination. this paper presents ragtruth, a corpus tailored for analyzing word-level hallucinations in various domains and tasks within the standard rag frameworks for llm applications. ragtruth comprises nearly 18,000 naturally generated responses from diverse llms using rag. these responses have undergone meticulous manual annotations at both the individual cases and word levels, incorporating evaluations of hallucination intensity. we not only benchmark hallucination frequencies across different llms, but also critically assess the effectiveness of several existing hallucination detection methodologies. furthermore, we show that using a high-quality dataset such as ragtruth, it is possible to finetune a relatively small llm and achieve a competitive level of performance in hallucination detection when compared to the existing prompt-based approaches using state-of-the-art large language models such as gpt-4.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-29</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.17484" target="_blank">Truth Forest: Toward Multi-Scale Truthfulness in Large Language Models Through Intervention Without Tuning</a></div>
+<div class="paper-author">Zhongzhi Chen, Xingwu Sun, Xianfeng Jiao, Fengzong Lian, Zhanhui Kang, Di Wang, Cheng-Zhong Xu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: despite the great success of large language models (llms) in various tasks, they suffer from generating hallucinations. we introduce truth forest, a method that enhances truthfulness in llms by uncovering hidden truth representations using multi-dimensional orthogonal probes. specifically, it creates multiple orthogonal bases for modeling truth by incorporating orthogonal constraints into the probes. moreover, we introduce random peek, a systematic technique considering an extended range of positions within the sequence, reducing the gap between discerning and generating truth features in llms. by employing this approach, we improved the truthfulness of llama-2-7b from 40.8\% to 74.5\% on truthfulqa. likewise, significant improvements are observed in fine-tuned models. we conducted a thorough analysis of truth features using probes. our visualization results show that orthogonal probes capture complementary truth-related features, forming well-defined clusters that reveal the inherent structure of the dataset. code: \url{https://github.com/jongjyh/trfr}
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.17493" target="_blank">Differentially Private Low-Rank Adaptation of Large Language Model Using Federated Learning</a></div>
+<div class="paper-author">Xiao-Yang Liu, Rongyi Zhu, Daochen Zha, Jiechao Gao, Shan Zhong, Meikang Qiu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the surge in interest and application of large language models (llms) has sparked a drive to fine-tune these models to suit specific applications, such as finance and medical science. however, concerns regarding data privacy have emerged, especially when multiple stakeholders aim to collaboratively enhance llms using sensitive data. in this scenario, federated learning becomes a natural choice, allowing decentralized fine-tuning without exposing raw data to central servers. motivated by this, we investigate how data privacy can be ensured in llm fine-tuning through practical federated learning approaches, enabling secure contributions from multiple parties to enhance llms. yet, challenges arise: 1) despite avoiding raw data exposure, there is a risk of inferring sensitive information from model outputs, and 2) federated learning for llms incurs notable communication overhead. to address these challenges, this article introduces dp-lora, a novel federated learning algorithm tailored for llms. dp-lora preserves data privacy by employing a gaussian mechanism that adds noise in weight updates, maintaining individual data privacy while facilitating collaborative model training. moreover, dp-lora optimizes communication efficiency via low-rank adaptation, minimizing the transmission of updated weights during distributed training. the experimental results across medical, financial, and general datasets using various llms demonstrate that dp-lora effectively ensures strict privacy constraints while minimizing communication overhead.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.17667" target="_blank">Aijack: Security and Privacy Risk Simulator for Machine Learning</a></div>
+<div class="paper-author">Hideaki Takahashi</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: this paper introduces aijack, an open-source library designed to assess security and privacy risks associated with the training and deployment of machine learning models. amid the growing interest in big data and ai, advancements in machine learning research and business are accelerating. however, recent studies reveal potential threats, such as the theft of training data and the manipulation of models by malicious attackers. therefore, a comprehensive understanding of machine learning's security and privacy vulnerabilities is crucial for the safe integration of machine learning into real-world products. aijack aims to address this need by providing a library with various attack and defense methods through a unified api. the library is publicly available on github (https://github.com/koukyosyumei/aijack).
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.17673" target="_blank">Jatmo: Prompt Injection Defense by Task-Specific Finetuning</a></div>
+<div class="paper-author">Julien Piet, Maha Alrashed, Chawin Sitawarin, Sizhe Chen, Zeming Wei, Elizabeth Sun, Basel Alomair, David Wagner</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) are attracting significant research attention due to their instruction-following abilities, allowing users and developers to leverage llms for a variety of tasks. however, llms are vulnerable to prompt-injection attacks: a class of attacks that hijack the model's instruction-following abilities, changing responses to prompts to undesired, possibly malicious ones. in this work, we introduce jatmo, a method for generating task-specific models resilient to prompt-injection attacks. jatmo leverages the fact that llms can only follow instructions once they have undergone instruction tuning. it harnesses a teacher instruction-tuned model to generate a task-specific dataset, which is then used to fine-tune a base model (i.e., a non-instruction-tuned model). jatmo only needs a task prompt and a dataset of inputs for the task: it uses the teacher model to generate outputs. for situations with no pre-existing datasets, jatmo can use a single example, or in some cases none at all, to produce a fully synthetic dataset. our experiments on six tasks show that jatmo models provide the same quality of outputs on their specific task as standard llms, while being resilient to prompt injections. the best attacks succeeded in less than 0.5% of cases against our models, versus over 90% success rate against gpt-3.5-turbo. we release jatmo at https://github.com/wagner-group/prompt-injection-defense.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-28</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.17115" target="_blank">How Far Are We From Believable Ai Agents? A Framework for Evaluating the Believability of Human Behavior Simulation</a></div>
+<div class="paper-author">Yang Xiao, Yi Cheng, Jinlan Fu, Jiashuo Wang, Wenjie Li, Pengfei Liu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: human behavior simulation of ai agents necessitates the agents to possess a quality of believability, which is crucial as it facilitates users in establishing trust toward the agents and streamlines the fulfillment of the agents' goal. while recent advancements in large language model (llm) based agents have improved human behavior simulation, challenges inherent to llms (e.g., long context modeling) can undermine their believability. consequently, evaluating ai agent believability becomes imperative. unfortunately, prior research often neglects the negative impacts of llm deficiencies. to address these gaps, we introduce two metrics for assessing llm-based agent believability: consistency, and robustness, together with a benchmark, simulatebench, with which, we evaluate the consistency and robustness of agents implemented with popular llms. we find that agents (i) struggle to accurately depict character information when presented with lengthy profile inputs; (ii) exhibit vulnerability to profile perturbations; and (iii) are significantly affected by certain key factors that impact their overall believability. code and simulatebench are public at https://github.com/gair-nlp/gptman.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.17174" target="_blank">Visual Explanations of Image-Text Representations via Multi-Modal Information Bottleneck Attribution</a></div>
+<div class="paper-author">Ying Wang, Tim G. J. Rudner, Andrew Gordon Wilson</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: vision-language pretrained models have seen remarkable success, but their application to safety-critical settings is limited by their lack of interpretability. to improve the interpretability of vision-language models such as clip, we propose a multi-modal information bottleneck (m2ib) approach that learns latent representations that compress irrelevant information while preserving relevant visual and textual features. we demonstrate how m2ib can be applied to attribution analysis of vision-language pretrained models, increasing attribution accuracy and improving the interpretability of such models when applied to safety-critical domains such as healthcare. crucially, unlike commonly used unimodal attribution methods, m2ib does not require ground truth labels, making it possible to audit representations of vision-language pretrained models when multiple modalities but no ground-truth data is available. using clip as an example, we demonstrate the effectiveness of m2ib attribution and show that it outperforms gradient-based, perturbation-based, and attention-based attribution methods both qualitatively and quantitatively.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.17342" target="_blank">Sentinellms: Encrypted Input Adaptation and Fine-Tuning of Language Models for Private and Secure Inference</a></div>
+<div class="paper-author">Abhijit Mishra, Mingda Li, Soham Deo</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: this paper addresses the privacy and security concerns associated with deep neural language models, which serve as crucial components in various modern ai-based applications. these models are often used after being pre-trained and fine-tuned for specific tasks, with deployment on servers accessed through the internet. however, this introduces two fundamental risks: (a) the transmission of user inputs to the server via the network gives rise to interception vulnerabilities, and (b) privacy concerns emerge as organizations that deploy such models store user data with restricted context. to address this, we propose a novel method to adapt and fine-tune transformer-based language models on passkey-encrypted user-specific text. the original pre-trained language model first undergoes a quick adaptation (without any further pre-training) with a series of irreversible transformations applied to the tokenizer and token embeddings. this enables the model to perform inference on encrypted inputs while preventing reverse engineering of text from model parameters and intermediate outputs. after adaptation, models are fine-tuned on encrypted versions of existing training datasets. experimental evaluation employing adapted versions of renowned models (e.g., bert, roberta) across established benchmark english and multilingual datasets for text classification and sequence labeling shows that encrypted models achieve performance parity with their original counterparts. this serves to safeguard performance, privacy, and security cohesively.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2023-12-27</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.16430" target="_blank">Preference as Reward, Maximum Preference Optimization With Importance Sampling</a></div>
+<div class="paper-author">Zaifan Jiang, Xing Huang, Chao Wei</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: preference learning is a key technology for aligning language models with human values. reinforcement learning from human feedback (rlhf) is a model based algorithm to optimize preference learning, which first fitting a reward model for preference score, and then optimizing generating policy with on-policy ppo algorithm to maximize the reward. the processing of rlhf is complex, time-consuming and unstable. direct preference optimization (dpo) algorithm using off-policy algorithm to direct optimize generating policy and eliminating the need for reward model, which is data efficient and stable. dpo use bradley-terry model and log-loss which leads to over-fitting to the preference data at the expense of ignoring kl-regularization term when preference is deterministic. ipo uses a root-finding mse loss to solve the ignoring kl-regularization problem. in this paper, we'll figure out, although ipo fix the problem when preference is deterministic, but both dpo and ipo fails the kl-regularization term because the support of preference distribution not equal to reference distribution. then, we design a simple and intuitive off-policy preference optimization algorithm from an importance sampling view, which we call maximum preference optimization (mpo), and add off-policy kl-regularization terms which makes kl-regularization truly effective. the objective of mpo bears resemblance to rlhf's objective, and likes ipo, mpo is off-policy. so, mpo attains the best of both worlds. to simplify the learning process and save memory usage, mpo eliminates the needs for both reward model and reference policy.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.16682" target="_blank">Some Things Are More Cringe Than Others: Preference Optimization With the Pairwise Cringe Loss</a></div>
+<div class="paper-author">Jing Xu, Andrew Lee, Sainbayar Sukhbaatar, Jason Weston</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: practitioners commonly align large language models using pairwise preferences, i.e., given labels of the type response a is preferred to response b for a given input. perhaps less commonly, methods have also been developed for binary feedback, i.e. training models given labels of type response a is good or bad. we show how an existing performant binary feedback method, the cringe loss (adolphs et al., 2022), can be generalized to the pairwise preference setting using a simple soft margin extension. pairwise cringe loss is straightforward to implement and efficient to train, and we find it outperforms state-of-the-art preference optimization algorithms such as ppo and dpo on the alpacafarm benchmark.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2023-12-26</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2312.15907" target="_blank">Align on the Fly: Adapting Chatbot Behavior to Established Norms</a></div>
@@ -199,6 +405,16 @@ Abstract: aligning large language models (llms) with human preferences is crucia
 <div class="abstract">
 <div class="abstract-content">
 Abstract: the interplay between artificial intelligence (ai) and psychology, particularly in personality assessment, represents an important emerging area of research. accurate personality trait estimation is crucial not only for enhancing personalization in human-computer interaction but also for a wide variety of applications ranging from mental health to education. this paper analyzes the capability of a generic chatbot, chatgpt, to effectively infer personality traits from short texts. we report the results of a comprehensive user study featuring texts written in czech by a representative population sample of 155 participants. their self-assessments based on the big five inventory (bfi) questionnaire serve as the ground truth. we compare the personality trait estimations made by chatgpt against those by human raters and report chatgpt's competitive performance in inferring personality traits from text. we also uncover a 'positivity bias' in chatgpt's assessments across all personality dimensions and explore the impact of prompt composition on accuracy. this work contributes to the understanding of ai capabilities in psychological assessment, highlighting both the potential and limitations of using large language models for personality inference. our research underscores the importance of responsible ai development, considering ethical implications such as privacy, consent, autonomy, and bias in ai applications.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2312.16338" target="_blank">State-of-the-Art in Nudity Classification: A Comparative Analysis</a></div>
+<div class="paper-author">Fatih Cagatay Akyon, Alptekin Temizel</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: this paper presents a comparative analysis of existing nudity classification techniques for classifying images based on the presence of nudity, with a focus on their application in content moderation. the evaluation focuses on cnn-based models, vision transformer, and popular open-source safety checkers from stable diffusion and large-scale artificial intelligence open network (laion). the study identifies the limitations of current evaluation datasets and highlights the need for more diverse and challenging datasets. the paper discusses the potential implications of these findings for developing more accurate and effective image classification systems on online platforms. overall, the study emphasizes the importance of continually improving image classification models to ensure the safety and well-being of platform users. the project page, including the demonstrations and results is publicly available at https://github.com/fcakyon/content-moderation-deep-learning.
 </div>
 <button class="expand-btn">Expand Abstract</button>
 </div>
