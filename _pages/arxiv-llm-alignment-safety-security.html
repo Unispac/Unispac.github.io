@@ -162,6 +162,57 @@ sitemap: false
     </div>
 </div>
 
+<h2><b>2024-01-12</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.06373" target="_blank">How Johnny Can Persuade LLMS to Jailbreak Them: Rethinking Persuasion to Challenge Ai Safety by Humanizing LLMS</a></div>
+<div class="paper-author">Yi Zeng, Hongpeng Lin, Jingwen Zhang, Diyi Yang, Ruoxi Jia, Weiyan Shi</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: most traditional ai safety research has approached ai models as machines and centered on algorithm-focused attacks developed by security experts. as large language models (llms) become increasingly common and competent, non-expert users can also impose risks during daily interactions. this paper introduces a new perspective to jailbreak llms as human-like communicators, to explore this overlooked intersection between everyday language interaction and ai safety. specifically, we study how to persuade llms to jailbreak them. first, we propose a persuasion taxonomy derived from decades of social science research. then, we apply the taxonomy to automatically generate interpretable persuasive adversarial prompts (pap) to jailbreak llms. results show that persuasion significantly increases the jailbreak performance across all risk categories: pap consistently achieves an attack success rate of over $92\%$ on llama 2-7b chat, gpt-3.5, and gpt-4 in $10$ trials, surpassing recent algorithm-focused attacks. on the defense side, we explore various mechanisms against pap and, found a significant gap in existing defenses, and advocate for more fundamental mitigation for highly interactive llms
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.06513" target="_blank">Ml-on-Rails: Safeguarding Machine Learning Models in Software Systems a Case Study</a></div>
+<div class="paper-author">Hala Abdelkader, Mohamed Abdelrazek, Scott Barnett, Jean-Guy Schneider, Priya Rani, Rajesh Vasa</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: machine learning (ml), especially with the emergence of large language models (llms), has significantly transformed various industries. however, the transition from ml model prototyping to production use within software systems presents several challenges. these challenges primarily revolve around ensuring safety, security, and transparency, subsequently influencing the overall robustness and trustworthiness of ml models. in this paper, we introduce ml-on-rails, a protocol designed to safeguard ml models, establish a well-defined endpoint interface for different ml tasks, and clear communication between ml providers and ml consumers (software engineers). ml-on-rails enhances the robustness of ml models via incorporating detection capabilities to identify unique challenges specific to production ml. we evaluated the ml-on-rails protocol through a real-world case study of the movereminder application. through this evaluation, we emphasize the importance of safeguarding ml models in production.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.06561" target="_blank">Intention Analysis Prompting Makes Large Language Models a Good Jailbreak Defender</a></div>
+<div class="paper-author">Yuqi Zhang, Liang Ding, Lefei Zhang, Dacheng Tao</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: aligning large language models (llms) with human values, particularly in the face of stealthy and complex jailbreaks, presents a formidable challenge. in this study, we present a simple yet highly effective defense strategy, i.e., intention analysis prompting (iaprompt). the principle behind is to trigger llms' inherent self-correct and improve ability through a two-stage process: 1) essential intention analysis, and 2) policy-aligned response. notably, iaprompt is an inference-only method, thus could enhance the safety of llms without compromising their helpfulness. extensive experiments on sap200 and dan benchmarks across vicuna, chatglm, mpt, deepseek, and gpt-3.5 show that iaprompt could consistently and significantly reduce the harmfulness in response (averagely -46.5% attack success rate) and maintain the general helpfulness. further analyses present some insights into how our method works. to facilitate reproducibility, we release our code and scripts at: https://github.com/alphadl/safellm_with_intentionanalysis
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.06712" target="_blank">Few-Shot Detection of Machine-Generated Text Using Style Representations</a></div>
+<div class="paper-author">Rafael Rivera Soto, Kailin Koch, Aleem Khan, Barry Chen, Marcus Bishop, Nicholas Andrews</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the advent of instruction-tuned language models that convincingly mimic human writing poses a significant risk of abuse. for example, such models could be used for plagiarism, disinformation, spam, or phishing. however, such abuse may be counteracted with the ability to detect whether a piece of text was composed by a language model rather than a human. some previous approaches to this problem have relied on supervised methods trained on corpora of confirmed human and machine-written documents. unfortunately, model under-specification poses an unavoidable challenge for neural network-based detectors, making them brittle in the face of data shifts, such as the release of further language models producing still more fluent text than the models used to train the detectors. other previous approaches require access to the models that may have generated a document in question at inference or detection time, which is often impractical. in light of these challenges, we pursue a fundamentally different approach not relying on samples from language models of concern at training time. instead, we propose to leverage representations of writing style estimated from human-authored text. indeed, we find that features effective at distinguishing among human authors are also effective at distinguishing human from machine authors, including state of the art large language models like llama 2, chatgpt, and gpt-4. furthermore, given a handful of examples composed by each of several specific language models of interest, our approach affords the ability to predict which model generated a given document.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.06730" target="_blank">Relying on the Unreliable: The Impact of Language Models' Reluctance to Express Uncertainty</a></div>
+<div class="paper-author">Kaitlyn Zhou, Jena D. Hwang, Xiang Ren, Maarten Sap</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: as natural language becomes the default interface for human-ai interaction, there is a critical need for lms to appropriately communicate uncertainties in downstream applications. in this work, we investigate how lms incorporate confidence about their responses via natural language and how downstream users behave in response to lm-articulated uncertainties. we examine publicly deployed models and find that lms are unable to express uncertainties when answering questions even when they produce incorrect responses. lms can be explicitly prompted to express confidences, but tend to be overconfident, resulting in high error rates (on average 47%) among confident responses. we test the risks of lm overconfidence by running human experiments and show that users rely heavily on lm generations, whether or not they are marked by certainty. lastly, we investigate the preference-annotated datasets used in rlhf alignment and find that humans have a bias against texts with uncertainty. our work highlights a new set of safety harms facing human-lm interactions and proposes design recommendations and mitigating strategies moving forward.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2024-01-11</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2401.05778" target="_blank">Risk Taxonomy, Mitigation, and Assessment Benchmarks of Large Language Model Systems</a></div>
