@@ -54,29 +54,27 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
   
 
-* **[2]** **([AAAI](https://aaai.org/aaai-conference/) 2024), ([AdvML-Frontiers 2023](https://advml-frontier.github.io/) @ ICML, 2023 <font color="red">| <b>oral presentation</b></font>)** 
-
-  ***[Visual Adversarial Examples Jailbreak Aligned Large Language Models](https://arxiv.org/abs/2306.13213)***
+* **[2]** **([AAAI](https://aaai.org/aaai-conference/) 2024 <font color="red">| <b>oral presentation</b></font>)** ***[Visual Adversarial Examples Jailbreak Aligned Large Language Models](https://arxiv.org/abs/2306.13213)***
 
   **Xiangyu Qi$^* $**, Kaixuan Huang$^* $, Ashwinee Panda, Peter Henderson, Mengdi Wang, Prateek Mittal
-  
+
   **[GPT-4V(ision) system card](https://openai.com/research/gpt-4v-system-card)** <font color="red"><b>cited this paper to underscore the emerging threat vector of multimodal jailbreaking.</b></font>
-  
+
   **[[Code](https://github.com/Unispac/Visual-Adversarial-Examples-Jailbreak-Large-Language-Models)]**
-  
+
   <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2023visual-02.png" style="width: 60%;" />
-  
+
   <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2023visual.png" style="width: 80%;" />
-  
+
   **Highlight**
-  
+
   - Multimodality unavoidably expands attack surfaces, making the systems more vulnerable against adversarial attacks. 
   - Visual adversarial examples (that still have not been addressed after a decade of research) can be a fundamental adversarial challenge against AI alignment.
-  
+
   <br>
-  
+
   -------------------
-  
+
   
 
 * **[3] ([USENIX Security](https://www.usenix.org/conference/usenixsecurity23) 2023)** ***[Towards A Proactive ML Approach for Detecting Backdoor Poison Samples](https://www.usenix.org/conference/usenixsecurity23/presentation/qi)***

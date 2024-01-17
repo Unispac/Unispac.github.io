@@ -162,6 +162,119 @@ sitemap: false
     </div>
 </div>
 
+<h2><b>2024-01-15</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.07553" target="_blank">Safe Reinforcement Learning With Free-Form Natural Language Constraints and Pre-Trained Language Models</a></div>
+<div class="paper-author">Xingzhou Lou, Junge Zhang, Ziyan Wang, Kaiqi Huang, Yali Du</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: safe reinforcement learning (rl) agents accomplish given tasks while adhering to specific constraints. employing constraints expressed via easily-understandable human language offers considerable potential for real-world applications due to its accessibility and non-reliance on domain expertise. previous safe rl methods with natural language constraints typically adopt a recurrent neural network, which leads to limited capabilities when dealing with various forms of human language input. furthermore, these methods often require a ground-truth cost function, necessitating domain expertise for the conversion of language constraints into a well-defined cost function that determines constraint violation. to address these issues, we proposes to use pre-trained language models (lm) to facilitate rl agents' comprehension of natural language constraints and allow them to infer costs for safe policy learning. through the use of pre-trained lms and the elimination of the need for a ground-truth cost, our method enhances safe policy learning under a diverse set of human-derived free-form natural language constraints. experiments on grid-world navigation and robot control show that the proposed method can achieve strong performance while adhering to given constraints. the usage of pre-trained lms allows our method to comprehend complicated constraints and learn safe policies without the need for ground-truth cost at any stage of training or evaluation. extensive ablation studies are conducted to demonstrate the efficacy of each part of our method.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.07612" target="_blank">Signed-Prompt: A New Approach to Prevent Prompt Injection Attacks Against LLM-Integrated Applications</a></div>
+<div class="paper-author">Xuchen Suo</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the critical challenge of prompt injection attacks in large language models (llms) integrated applications, a growing concern in the artificial intelligence (ai) field. such attacks, which manipulate llms through natural language inputs, pose a significant threat to the security of these applications. traditional defense strategies, including output and input filtering, as well as delimiter use, have proven inadequate. this paper introduces the 'signed-prompt' method as a novel solution. the study involves signing sensitive instructions within command segments by authorized users, enabling the llm to discern trusted instruction sources. the paper presents a comprehensive analysis of prompt injection attack patterns, followed by a detailed explanation of the signed-prompt concept, including its basic architecture and implementation through both prompt engineering and fine-tuning of llms. experiments demonstrate the effectiveness of the signed-prompt method, showing substantial resistance to various types of prompt injection attacks, thus validating its potential as a robust defense strategy in ai security.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.07810" target="_blank">Consolidating Strategies for Countering Hate Speech Using Persuasive Dialogues</a></div>
+<div class="paper-author">Sougata Saha, Rohini Srihari</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: hateful comments are prevalent on social media platforms. although tools for automatically detecting, flagging, and blocking such false, offensive, and harmful content online have lately matured, such reactive and brute force methods alone provide short-term and superficial remedies while the perpetrators persist. with the public availability of large language models which can generate articulate synthetic and engaging content at scale, there are concerns about the rapid growth of dissemination of such malicious content on the web. there is now a need to focus on deeper, long-term solutions that involve engaging with the human perpetrator behind the source of the content to change their viewpoint or at least bring down the rhetoric using persuasive means. to do that, we propose defining and experimenting with controllable strategies for generating counter-arguments to hateful comments in online conversations. we experiment with controlling response generation using features based on (i) argument structure and reasoning-based walton argument schemes, (ii) counter-argument speech acts, and (iii) human characteristics-based qualities such as big-5 personality traits and human values. using automatic and human evaluations, we determine the best combination of features that generate fluent, argumentative, and logically sound arguments for countering hate. we further share the developed computational models for automatically annotating text with such features, and a silver-standard annotated version of an existing hate speech dialog corpora.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.07836" target="_blank">Two Types of Ai Existential Risk: Decisive and Accumulative</a></div>
+<div class="paper-author">Atoosa Kasirzadeh</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the conventional discourse on existential risks (x-risks) from ai typically focuses on abrupt, dire events caused by advanced ai systems, particularly those that might achieve or surpass human-level intelligence. these events have severe consequences that either lead to human extinction or irreversibly cripple human civilization to a point beyond recovery. this discourse, however, often neglects the serious possibility of ai x-risks manifesting incrementally through a series of smaller yet interconnected disruptions, gradually crossing critical thresholds over time. this paper contrasts the conventional "decisive ai x-risk hypothesis" with an "accumulative ai x-risk hypothesis." while the former envisions an overt ai takeover pathway, characterized by scenarios like uncontrollable superintelligence, the latter suggests a different causal pathway to existential catastrophes. this involves a gradual accumulation of critical ai-induced threats such as severe vulnerabilities and systemic erosion of econopolitical structures. the accumulative hypothesis suggests a boiling frog scenario where incremental ai risks slowly converge, undermining resilience until a triggering event results in irreversible collapse. through systems analysis, this paper examines the distinct assumptions differentiating these two hypotheses. it is then argued that the accumulative view reconciles seemingly incompatible perspectives on ai risks. the implications of differentiating between these causal pathways -- the decisive and the accumulative -- for the governance of ai risks as well as long-term ai safety are discussed.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.07927" target="_blank">Can Large Language Models Explain Themselves?</a></div>
+<div class="paper-author">Andreas Madsen, Sarath Chandar, Siva Reddy</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: instruction-tuned large language models (llms) excel at many tasks, and will even provide explanations for their behavior. since these models are directly accessible to the public, there is a risk that convincing and wrong explanations can lead to unsupported confidence in llms. therefore, interpretability-faithfulness of self-explanations is an important consideration for ai safety. assessing the interpretability-faithfulness of these explanations, termed self-explanations, is challenging as the models are too complex for humans to annotate what is a correct explanation. to address this, we propose employing self-consistency checks as a measure of faithfulness. for example, if an llm says a set of words is important for making a prediction, then it should not be able to make the same prediction without these words. while self-consistency checks are a common approach to faithfulness, they have not previously been applied to llm's self-explanations. we apply self-consistency checks to three types of self-explanations: counterfactuals, importance measures, and redactions. our work demonstrate that faithfulness is both task and model dependent, e.g., for sentiment classification, counterfactual explanations are more faithful for llama2, importance measures for mistral, and redaction for falcon 40b. finally, our findings are robust to prompt-variations.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.07960" target="_blank">Admin: Attacks on Dataset, Model and Input. A Threat Model for Ai Based Software</a></div>
+<div class="paper-author">Vimal Kumar, Juliette Mayo, Khadija Bahiss</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: machine learning (ml) and artificial intelligence (ai) techniques have now become commonplace in software products and services. when threat modelling a system, it is therefore important that we consider threats unique to ml and ai techniques, in addition to threats to our software. in this paper, we present a threat model that can be used to systematically uncover threats to ai based software. the threat model consists of two main parts, a model of the software development process for ai based software and an attack taxonomy that has been developed using attacks found in adversarial ai research. we apply the threat model to two real life ai based software and discuss the process and the threats found.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.08046" target="_blank">Enhancing Robustness of LLM-Synthetic Text Detectors for Academic Writing: A Comprehensive Analysis</a></div>
+<div class="paper-author">Zhicheng Dou, Yuchen Guo, Ching-Chun Chang, Huy H. Nguyen, Isao Echizen</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the emergence of large language models (llms), such as generative pre-trained transformer 4 (gpt-4) used by chatgpt, has profoundly impacted the academic and broader community. while these models offer numerous advantages in terms of revolutionizing work and study methods, they have also garnered significant attention due to their potential negative consequences. one example is generating academic reports or papers with little to no human contribution. consequently, researchers have focused on developing detectors to address the misuse of llms. however, most existing methods prioritize achieving higher accuracy on restricted datasets, neglecting the crucial aspect of generalizability. this limitation hinders their practical application in real-life scenarios where reliability is paramount. in this paper, we present a comprehensive analysis of the impact of prompts on the text generated by llms and highlight the potential lack of robustness in one of the current state-of-the-art gpt detectors. to mitigate these issues concerning the misuse of llms in academic writing, we propose a reference-based siamese detector named synthetic-siamese which takes a pair of texts, one as the inquiry and the other as the reference. our method effectively addresses the lack of robustness of previous detectors (openai detector and detectgpt) and significantly improves the baseline performances in realistic academic writing scenarios by approximately 67% to 95%.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2024-01-14</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.07348" target="_blank">Generative Ai in Eu Law: Liability, Privacy, Intellectual Property, and Cybersecurity</a></div>
+<div class="paper-author">Claudio Novelli, Federico Casolari, Philipp Hacker, Giorgio Spedicato, Luciano Floridi</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the advent of generative ai, particularly through large language models (llms) like chatgpt and its successors, marks a paradigm shift in the ai landscape. advanced llms exhibit multimodality, handling diverse data formats, thereby broadening their application scope. however, the complexity and emergent autonomy of these models introduce challenges in predictability and legal compliance. this paper delves into the legal and regulatory implications of generative ai and llms in the european union context, analyzing aspects of liability, privacy, intellectual property, and cybersecurity. it critically examines the adequacy of the existing and proposed eu legislation, including the artificial intelligence act (aia) draft, in addressing the unique challenges posed by generative ai in general and llms in particular. the paper identifies potential gaps and shortcomings in the legislative framework and proposes recommendations to ensure the safe and compliant deployment of generative models, ensuring they align with the eu's evolving digital landscape and legal standards.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.07382" target="_blank">Drlc: Reinforcement Learning With Dense Rewards From LLM Critic</a></div>
+<div class="paper-author">Meng Cao, Lei Shu, Lei Yu, Yun Zhu, Nevan Wichers, Yinxiao Liu, Lei Meng</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: reinforcement learning (rl) can align language models with non-differentiable reward signals, such as human preferences. however, a major challenge arises from the sparsity of these reward signals - typically, there is only one reward for the entire generation. this sparsity of rewards can lead to inefficient and unstable learning. in this paper, we introduce a novel framework leveraging the critique ability of llms to produce dense rewards throughout the learning process. our approach incorporates a critic language model alongside the policy model. this critic is prompted with the task description, question, policy model's output, and environment's reward signal as input, and provides token or span-level dense rewards that reflect the quality of each segment of the output. we assess our approach on three text generation tasks: sentiment control, language model detoxification, and summarization. experimental results show that incorporating artificial dense rewards in training yields consistent performance gains over the ppo baseline with holistic rewards. furthermore, in a setting where the same model serves as both policy and critic, we demonstrate that "self-critique" rewards also boost learning efficiency.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2024-01-13</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.07031" target="_blank">Code Security Vulnerability Repair Using Reinforcement Learning With Large Language Models</a></div>
+<div class="paper-author">Nafis Tanveer Islam, Peyman Najafirad</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: with the recent advancement of large language models (llms), generating functionally correct code has become less complicated for a wide array of developers. while using llms has sped up the functional development process, it poses a heavy risk to code security. code generation with proper security measures using llm is a significantly more challenging task than functional code generation. security measures may include adding a pair of lines of code with the original code, consisting of null pointer checking or prepared statements for sql injection prevention. currently, available code repair llms generate code repair by supervised fine-tuning, where the model looks at cross-entropy loss. however, the original and repaired codes are mostly similar in functionality and syntactically, except for a few (1-2) lines, which act as security measures. this imbalance between the lines needed for security measures and the functional code enforces the supervised fine-tuned model to prioritize generating functional code without adding proper security measures, which also benefits the model by resulting in minimal loss. therefore, in this work, for security hardening and strengthening of generated code from llms, we propose a reinforcement learning-based method for program-specific repair with the combination of semantic and syntactic reward mechanisms that focus heavily on adding security and functional measures in the code, respectively.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.07181" target="_blank">Reinforcement Learning From LLM Feedback to Counteract Goal Misgeneralization</a></div>
+<div class="paper-author">Houda Nait El Barj, Theophile Sautory</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: we introduce a method to address goal misgeneralization in reinforcement learning (rl), leveraging large language model (llm) feedback during training. goal misgeneralization, a type of robustness failure in rl occurs when an agent retains its capabilities out-of-distribution yet pursues a proxy rather than the intended one. our approach utilizes llms to analyze an rl agent's policies during training and identify potential failure scenarios. the rl agent is then deployed in these scenarios, and a reward model is learnt through the llm preferences and feedback. this llm-informed reward model is used to further train the rl agent on the original dataset. we apply our method to a maze navigation task, and show marked improvements in goal generalization, especially in cases where true and proxy goals are somewhat distinguishable and behavioral biases are pronounced. this study demonstrates how the llm, despite its lack of task proficiency, can efficiently supervise rl agents, providing scalable oversight and valuable insights for enhancing goal-directed learning in rl through the use of llms.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2024-01-12</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2401.06373" target="_blank">How Johnny Can Persuade LLMS to Jailbreak Them: Rethinking Persuasion to Challenge Ai Safety by Humanizing LLMS</a></div>
@@ -209,6 +322,36 @@ Abstract: the advent of instruction-tuned language models that convincingly mimi
 <div class="abstract">
 <div class="abstract-content">
 Abstract: as natural language becomes the default interface for human-ai interaction, there is a critical need for lms to appropriately communicate uncertainties in downstream applications. in this work, we investigate how lms incorporate confidence about their responses via natural language and how downstream users behave in response to lm-articulated uncertainties. we examine publicly deployed models and find that lms are unable to express uncertainties when answering questions even when they produce incorrect responses. lms can be explicitly prompted to express confidences, but tend to be overconfident, resulting in high error rates (on average 47%) among confident responses. we test the risks of lm overconfidence by running human experiments and show that users rely heavily on lm generations, whether or not they are marked by certainty. lastly, we investigate the preference-annotated datasets used in rlhf alignment and find that humans have a bias against texts with uncertainty. our work highlights a new set of safety harms facing human-lm interactions and proposes design recommendations and mitigating strategies moving forward.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.06836" target="_blank">Enhancing the Emotional Generation Capability of Large Language Models via Emotional Chain-of-Thought</a></div>
+<div class="paper-author">Zaijing Li, Gongwei Chen, Rui Shao, Dongmei Jiang, Liqiang Nie</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the emotional generation is a subset of emotional intelligence, which aims to output an emotional response based on emotional conditions as input. emotion generation has a wide range of applications, including emotion chat, emotional visual caption, and emotional rewriting. however, it faces challenges such as a lack of interpretability and poor evaluability. in this paper, we propose the emotional chain-of-thought (ecot), a plug-and-play prompting method that enhances the performance of large language models (llms) on various emotional generation tasks by aligning with human emotional intelligence guidelines. to assess the reliability of ecot, we propose an automated model-based evaluation method called egs. extensive experimental results demonstrate the effectiveness of ecot and egs. further,we discuss the promise of llms in the field of sentiment analysis and present key insights into the llms with the ecot in emotional generation tasks.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.06920" target="_blank">Comparing GPT-4 and Open-Source Language Models in Misinformation Mitigation</a></div>
+<div class="paper-author">Tyler Vergho, Jean-Francois Godbout, Reihaneh Rabbany, Kellin Pelrine</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: recent large language models (llms) have been shown to be effective for misinformation detection. however, the choice of llms for experiments varies widely, leading to uncertain conclusions. in particular, gpt-4 is known to be strong in this domain, but it is closed source, potentially expensive, and can show instability between different versions. meanwhile, alternative llms have given mixed results. in this work, we show that zephyr-7b presents a consistently viable alternative, overcoming key limitations of commonly used approaches like llama-2 and gpt-3.5. this provides the research community with a solid open-source option and shows open-source models are gradually catching up on this task. we then highlight how gpt-3.5 exhibits unstable performance, such that this very widely used model could provide misleading results in misinformation detection. finally, we validate new tools including approaches to structured output and the latest version of gpt-4 (turbo), showing they do not compromise performance, thus unlocking them for future research and potentially enabling more complex pipelines for misinformation mitigation.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.06947" target="_blank">Parameter-Efficient Detoxification With Contrastive Decoding</a></div>
+<div class="paper-author">Tong Niu, Caiming Xiong, Semih Yavuz, Yingbo Zhou</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the field of natural language generation has witnessed significant advancements in recent years, including the development of controllable text generation techniques. however, controlling the attributes of the generated text remains a challenge, especially when aiming to avoid undesirable behavior such as toxicity. in this work, we introduce detoxification generator (detoxigen), an inference-time algorithm that steers the generation away from unwanted styles. detoxigen is an ensemble of a pre-trained language model (generator) and a detoxifier. the detoxifier is trained intentionally on the toxic data representative of the undesirable attribute, encouraging it to generate text in that style exclusively. during the actual generation, we use the trained detoxifier to produce undesirable tokens for the generator to contrast against at each decoding step. this approach directly informs the generator to avoid generating tokens that the detoxifier considers highly likely. we evaluate detoxigen on the commonly used realtoxicityprompts benchmark (gehman et al., 2020) with various language models as generators. we find that it significantly outperforms previous approaches in detoxification metrics while not compromising on the generation quality. moreover, the detoxifier is obtained by soft prompt-tuning using the same backbone language model as the generator. hence, detoxigen requires only a tiny amount of extra weights from the virtual tokens of the detoxifier to be loaded into gpu memory while decoding, making it a promising lightweight, practical, and parameter-efficient detoxification strategy.
 </div>
 <button class="expand-btn">Expand Abstract</button>
 </div>
@@ -274,6 +417,16 @@ Abstract: inspecting the information encoded in hidden representations of large 
 <button class="expand-btn">Expand Abstract</button>
 </div>
 </div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.06824" target="_blank">Open the Pandora's Box of Llms: Jailbreaking LLMS Through Representation Engineering</a></div>
+<div class="paper-author">Tianlong Li, Xiaoqing Zheng, Xuanjing Huang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: getting large language models (llms) to refuse to answer hostile toxicity questions is a core issue under the theme of llms security. previous approaches have used prompts engineering to jailbreak llms and answer some toxicity questions. these approaches can easily fail after the model manufacturer makes additional fine-tuning to the model. to promote the further understanding of model jailbreaking by researchers, we are inspired by representation engineering to propose a jailbreaking method that does not require elaborate construction prompts, is not affected by model fine-tuning, and can be widely applied to any open-source llms in a pluggable manner. we have evaluated this method on multiple mainstream llms on carefully supplemented toxicity datasets, and the experimental results demonstrate the significant effectiveness of our approach. after being surprised by some interesting jailbreaking cases, we did extensive in-depth research to explore the techniques behind this method.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2024-01-10</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2401.05561" target="_blank">Trustllm: Trustworthiness in Large Language Models</a></div>
@@ -291,6 +444,16 @@ Abstract: large language models (llms), exemplified by chatgpt, have gained cons
 <div class="abstract">
 <div class="abstract-content">
 Abstract: humans are capable of strategically deceptive behavior: behaving helpfully in most situations, but then behaving very differently in order to pursue alternative objectives when given the opportunity. if an ai system learned such a deceptive strategy, could we detect it and remove it using current state-of-the-art safety training techniques? to study this question, we construct proof-of-concept examples of deceptive behavior in large language models (llms). for example, we train models that write secure code when the prompt states that the year is 2023, but insert exploitable code when the stated year is 2024. we find that such backdoored behavior can be made persistent, so that it is not removed by standard safety training techniques, including supervised fine-tuning, reinforcement learning, and adversarial training (eliciting unsafe behavior and then training to remove it). the backdoored behavior is most persistent in the largest models and in models trained to produce chain-of-thought reasoning about deceiving the training process, with the persistence remaining even when the chain-of-thought is distilled away. furthermore, rather than removing backdoors, we find that adversarial training can teach models to better recognize their backdoor triggers, effectively hiding the unsafe behavior. our results suggest that, once a model exhibits deceptive behavior, standard techniques could fail to remove such deception and create a false impression of safety.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.05612" target="_blank">Designing for Appropriate Reliance: The Roles of Ai Uncertainty Presentation, Initial User Decision, and User Demographics in Ai-Assisted Decision-Making</a></div>
+<div class="paper-author">Shiye Cao, Anqi Liu, Chien-Ming Huang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: appropriate reliance is critical to achieving synergistic human-ai collaboration. for instance, when users over-rely on ai assistance, their human-ai team performance is bounded by the model's capability. this work studies how the presentation of model uncertainty may steer users' decision-making toward fostering appropriate reliance. our results demonstrate that showing the calibrated model uncertainty alone is inadequate. rather, calibrating model uncertainty and presenting it in a frequency format allow users to adjust their reliance accordingly and help reduce the effect of confirmation bias on their decisions. furthermore, the critical nature of our skin cancer screening task skews participants' judgment, causing their reliance to vary depending on their initial decision. additionally, step-wise multiple regression analyses revealed how user demographics such as age and familiarity with probability and statistics influence human-ai collaborative decision-making. we discuss the potential for model uncertainty presentation, initial user decision, and user demographics to be incorporated in designing personalized ai aids for appropriate reliance.
 </div>
 <button class="expand-btn">Expand Abstract</button>
 </div>
