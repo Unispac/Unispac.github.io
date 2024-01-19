@@ -162,6 +162,98 @@ sitemap: false
     </div>
 </div>
 
+<h2><b>2024-01-18</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.09727" target="_blank">Large Language Model Lateral Spear Phishing: A Comparative Study in Large-Scale Organizational Settings</a></div>
+<div class="paper-author">Mazal Bethany, Athanasios Galiopoulos, Emet Bethany, Mohammad Bahrami Karkevandi, Nishant Vishwamitra, Peyman Najafirad</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the critical threat of phishing emails has been further exacerbated by the potential of llms to generate highly targeted, personalized, and automated spear phishing attacks. two critical problems concerning llm-facilitated phishing require further investigation: 1) existing studies on lateral phishing lack specific examination of llm integration for large-scale attacks targeting the entire organization, and 2) current anti-phishing infrastructure, despite its extensive development, lacks the capability to prevent llm-generated attacks, potentially impacting both employees and it security incident management. however, the execution of such investigative studies necessitates a real-world environment, one that functions during regular business operations and mirrors the complexity of a large organizational infrastructure. this setting must also offer the flexibility required to facilitate a diverse array of experimental conditions, particularly the incorporation of phishing emails crafted by llms. this study is a pioneering exploration into the use of large language models (llms) for the creation of targeted lateral phishing emails, targeting a large tier 1 university's operation and workforce of approximately 9,000 individuals over an 11-month period. it also evaluates the capability of email filtering infrastructure to detect such llm-generated phishing attempts, providing insights into their effectiveness and identifying potential areas for improvement. based on our findings, we propose machine learning-based detection techniques for such emails to detect llm-generated phishing emails that were missed by the existing infrastructure, with an f1-score of 98.96.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.09796" target="_blank">A Fast, Performant, Secure Distributed Training Framework for Large Language Model</a></div>
+<div class="paper-author">Wei Huang, Yinggui Wang, Anda Cheng, Aihui Zhou, Chaofan Yu, Lei Wang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: the distributed (federated) llm is an important method for co-training the domain-specific llm using siloed data. however, maliciously stealing model parameters and data from the server or client side has become an urgent problem to be solved. in this paper, we propose a secure distributed llm based on model slicing. in this case, we deploy the trusted execution environment (tee) on both the client and server side, and put the fine-tuned structure (lora or embedding of p-tuning v2) into the tee. then, secure communication is executed in the tee and general environments through lightweight encryption. in order to further reduce the equipment cost as well as increase the model performance and accuracy, we propose a split fine-tuning scheme. in particular, we split the llm by layers and place the latter layers in a server-side tee (the client does not need a tee). we then combine the proposed sparsification parameter fine-tuning (spf) with the lora part to improve the accuracy of the downstream task. numerous experiments have shown that our method guarantees accuracy while maintaining security.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.09798" target="_blank">All in How You Ask for It: Simple Black-Box Method for Jailbreak Attacks</a></div>
+<div class="paper-author">Kazuhiro Takemoto</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) like chatgpt face `jailbreak' challenges, where safeguards are bypassed to produce ethically harmful prompts. this study introduces a simple black-box method to effectively generate jailbreak prompts, overcoming the limitations of high complexity and computational costs associated with existing methods. the proposed technique iteratively rewrites harmful prompts into non-harmful expressions using the target llm itself, based on the hypothesis that llms can directly sample safeguard-bypassing expressions. demonstrated through experiments with chatgpt (gpt-3.5 and gpt-4) and gemini-pro, this method achieved an attack success rate of over 80% within an average of 5 iterations and remained effective despite model updates. the jailbreak prompts generated were naturally-worded and concise, suggesting they are less detectable. the results indicate that creating effective jailbreak prompts is simpler than previously considered, and black-box jailbreak attacks pose a more serious security threat.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.10019" target="_blank">R-Judge: Benchmarking Safety Risk Awareness for LLM Agents</a></div>
+<div class="paper-author">Tongxin Yuan, Zhiwei He, Lingzhong Dong, Yiming Wang, Ruijie Zhao, Tian Xia, Lizhen Xu, Binglin Zhou, Fangqi Li, Zhuosheng Zhang, Rui Wang, Gongshen Liu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) have exhibited great potential in autonomously completing tasks across real-world applications. despite this, these llm agents introduce unexpected safety risks when operating in interactive environments. instead of centering on llm-generated content safety in most prior studies, this work addresses the imperative need for benchmarking the behavioral safety of llm agents within diverse environments. we introduce r-judge, a benchmark crafted to evaluate the proficiency of llms in judging safety risks given agent interaction records. r-judge comprises 162 agent interaction records, encompassing 27 key risk scenarios among 7 application categories and 10 risk types. it incorporates human consensus on safety with annotated safety risk labels and high-quality risk descriptions. utilizing r-judge, we conduct a comprehensive evaluation of 8 prominent llms commonly employed as the backbone for agents. the best-performing model, gpt-4, achieves 72.29% in contrast to the human score of 89.38%, showing considerable room for enhancing the risk awareness of llms. notably, leveraging risk descriptions as environment feedback significantly improves model performance, revealing the importance of salient safety risk feedback. furthermore, we design an effective chain of safety analysis technique to help the judgment of safety risks and conduct an in-depth case study to facilitate future research. r-judge is publicly available at https://github.com/lordog/r-judge.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.10020" target="_blank">Self-Rewarding Language Models</a></div>
+<div class="paper-author">Weizhe Yuan, Richard Yuanzhe Pang, Kyunghyun Cho, Sainbayar Sukhbaatar, Jing Xu, Jason Weston</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: we posit that to achieve superhuman agents, future models require superhuman feedback in order to provide an adequate training signal. current approaches commonly train reward models from human preferences, which may then be bottlenecked by human performance level, and secondly these separate frozen reward models cannot then learn to improve during llm training. in this work, we study self-rewarding language models, where the language model itself is used via llm-as-a-judge prompting to provide its own rewards during training. we show that during iterative dpo training that not only does instruction following ability improve, but also the ability to provide high-quality rewards to itself. fine-tuning llama 2 70b on three iterations of our approach yields a model that outperforms many existing systems on the alpacaeval 2.0 leaderboard, including claude 2, gemini pro, and gpt-4 0613. while only a preliminary study, this work opens the door to the possibility of models that can continually improve in both axes.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<h2><b>2024-01-17</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.09002" target="_blank">Attackeval: How to Evaluate the Effectiveness of Jailbreak Attacking on Large Language Models</a></div>
+<div class="paper-author">Dong Shu, Mingyu Jin, Suiyuan Zhu, Beichen Wang, Zihao Zhou, Chong Zhang, Yongfeng Zhang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: in our research, we pioneer a novel approach to evaluate the effectiveness of jailbreak attacks on large language models (llms), such as gpt-4 and llama2, diverging from traditional robustness-focused binary evaluations. our study introduces two distinct evaluation frameworks: a coarse-grained evaluation and a fine-grained evaluation. each framework, using a scoring range from 0 to 1, offers a unique perspective, enabling a more comprehensive and nuanced evaluation of attack effectiveness and empowering attackers to refine their attack prompts with greater understanding. furthermore, we have developed a comprehensive ground truth dataset specifically tailored for jailbreak tasks. this dataset not only serves as a crucial benchmark for our current study but also establishes a foundational resource for future research, enabling consistent and comparative analyses in this evolving field. upon meticulous comparison with traditional evaluation methods, we discovered that our evaluation aligns with the baseline's trend while offering a more profound and detailed assessment. we believe that by accurately evaluating the effectiveness of attack prompts in the jailbreak task, our work lays a solid foundation for assessing a wider array of similar or even more complex tasks in the realm of prompt injection, potentially revolutionizing this field.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.09075" target="_blank">GPT in Sheep's Clothing: The Risk of Customized GPTS</a></div>
+<div class="paper-author">Sagiv Antebi, Noam Azulay, Edan Habler, Ben Ganon, Asaf Shabtai, Yuval Elovici</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: in november 2023, openai introduced a new service allowing users to create custom versions of chatgpt (gpts) by using specific instructions and knowledge to guide the model's behavior. we aim to raise awareness of the fact that gpts can be used maliciously, posing privacy and security risks to their users.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.09082" target="_blank">What Makes for a 'Good' Social Actor? Using Respect as a Lens to Evaluate Interactions With Language Agents</a></div>
+<div class="paper-author">Lize Alberts, Geoff Keeling, Amanda Mccroskery</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: with the growing popularity of dialogue agents based on large language models (llms), urgent attention has been drawn to finding ways to ensure their behaviour is ethical and appropriate. these are largely interpreted in terms of the 'hhh' criteria: making outputs more helpful and honest, and avoiding harmful (biased, toxic, or inaccurate) statements. whilst this semantic focus is useful from the perspective of viewing llm agents as mere mediums for information, it fails to account for pragmatic factors that can make the same utterance seem more or less offensive or tactless in different social situations. we propose an approach to ethics that is more centred on relational and situational factors, exploring what it means for a system, as a social actor, to treat an individual respectfully in a (series of) interaction(s). our work anticipates a set of largely unexplored risks at the level of situated interaction, and offers practical suggestions to help llm technologies behave as 'good' social actors and treat people respectfully.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2401.09566" target="_blank">Aligning Large Language Models With Counterfactual Dpo</a></div>
+<div class="paper-author">Bradley Butcher</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: advancements in large language models (llms) have demonstrated remarkable capabilities across a diverse range of applications. these models excel in generating text completions that are contextually coherent and cover an extensive array of subjects. however, the vast datasets required for their training make aligning response styles during the pretraining and instruction tuning phases challenging. consequently, an additional alignment phase is typically employed, wherein the model is further trained with human preference data to better align its outputs with human expectations. while this process doesn't introduce new capabilities per se, it does accentuate generation styles innate to the model. this paper explores the utilization of counterfactual prompting within the framework of direct preference optimization (dpo) to align the model's style without relying on human intervention. we demonstrate that this method effectively instils desirable behaviour, mitigates undesirable ones, and encourages the model to disregard inappropriate instructions. our findings suggest that counterfactual prompting with dpo presents a low-resource way to fine-tune llms to meet the demands for responsible and ethically aligned ai systems.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2024-01-16</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2401.08358" target="_blank">Hallucination Detection and Hallucination Mitigation: An Investigation</a></div>
