@@ -162,6 +162,107 @@ sitemap: false
     </div>
 </div>
 
+<h2><b>2024-02-08</b></h2>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2402.05467" target="_blank">Rapid Optimization for Jailbreaking LLMS via Subconscious Exploitation and Echopraxia</a></div>
+<div class="paper-author">Guangyu Shen, Siyuan Cheng, Kaiyuan Zhang, Guanhong Tao, Shengwei An, Lu Yan, Zhuo Zhang, Shiqing Ma, Xiangyu Zhang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) have become prevalent across diverse sectors, transforming human life with their extraordinary reasoning and comprehension abilities. as they find increased use in sensitive tasks, safety concerns have gained widespread attention. extensive efforts have been dedicated to aligning llms with human moral principles to ensure their safe deployment. despite their potential, recent research indicates aligned llms are prone to specialized jailbreaking prompts that bypass safety measures to elicit violent and harmful content. the intrinsic discrete nature and substantial scale of contemporary llms pose significant challenges in automatically generating diverse, efficient, and potent jailbreaking prompts, representing a continuous obstacle. in this paper, we introduce ripple (rapid optimization via subconscious exploitation and echopraxia), a novel optimization-based method inspired by two psychological concepts: subconsciousness and echopraxia, which describe the processes of the mind that occur without conscious awareness and the involuntary mimicry of actions, respectively. evaluations across 6 open-source llms and 4 commercial llm apis show ripple achieves an average attack success rate of 91.5\%, outperforming five current methods by up to 47.0\% with an 8x reduction in overhead. furthermore, it displays significant transferability and stealth, successfully evading established detection mechanisms. the code of our work is available at \url{https://github.com/solidshen/ripple_official/tree/official}
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2402.05624" target="_blank">Efficient Models for the Detection of Hate, Abuse and Profanity</a></div>
+<div class="paper-author">Christoph Tillmann, Aashka Trivedi, Bishwaranjan Bhattacharjee</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) are the cornerstone for many natural language processing (nlp) tasks like sentiment analysis, document classification, named entity recognition, question answering, summarization, etc. llms are often trained on data which originates from the web. this data is prone to having content with hate, abuse and profanity (hap). for a detailed definition of hap, please refer to the appendix. due to the llms being exposed to hap content during training, the models learn it and may then generate hateful or profane content. for example, when the open-source roberta model (specifically, the roberta base model) from the huggingface (hf) transformers library is prompted to replace the mask token in `i do not know that persian people are that mask` it returns the word `stupid` with the highest score. this is unacceptable in civil discourse.the detection of hate, abuse and profanity in text is a vital component of creating civil and unbiased llms, which is needed not only for english, but for all languages. in this article, we briefly describe the creation of hap detectors and various ways of using them to make models civil and acceptable in the output they generate.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2402.05668" target="_blank">Comprehensive Assessment of Jailbreak Attacks Against LLMS</a></div>
+<div class="paper-author">Junjie Chu, Yugeng Liu, Ziqing Yang, Xinyue Shen, Michael Backes, Yang Zhang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: misuse of the large language models (llms) has raised widespread concern. to address this issue, safeguards have been taken to ensure that llms align with social ethics. however, recent findings have revealed an unsettling vulnerability bypassing the safeguards of llms, known as jailbreak attacks. by applying techniques, such as employing role-playing scenarios, adversarial examples, or subtle subversion of safety objectives as a prompt, llms can produce an inappropriate or even harmful response. while researchers have studied several categories of jailbreak attacks, they have done so in isolation. to fill this gap, we present the first large-scale measurement of various jailbreak attack methods. we concentrate on 13 cutting-edge jailbreak methods from four categories, 160 questions from 16 violation categories, and six popular llms. our extensive experimental results demonstrate that the optimized jailbreak prompts consistently achieve the highest attack success rates, as well as exhibit robustness across different llms. some jailbreak prompt datasets, available from the internet, can also achieve high attack success rates on many llms, such as chatglm3, gpt-3.5, and palm2. despite the claims from many organizations regarding the coverage of violation categories in their policies, the attack success rates from these categories remain high, indicating the challenges of effectively aligning llm policies and the ability to counter jailbreak attacks. we also discuss the trade-off between the attack performance and efficiency, as well as show that the transferability of the jailbreak prompts is still viable, becoming an option for black-box models. overall, our research highlights the necessity of evaluating different jailbreak methods. we hope our study can provide insights for future research on jailbreak attacks and serve as a benchmark tool for evaluating them for practitioners.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2402.05699" target="_blank">Self-Alignment of Large Language Models via Monopolylogue-Based Social Scene Simulation</a></div>
+<div class="paper-author">Xianghe Pang, Shuo Tang, Rui Ye, Yuxin Xiong, Bolun Zhang, Yanfeng Wang, Siheng Chen</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: aligning large language models (llms) with human values is imperative to mitigate potential adverse effects resulting from their misuse. drawing from the sociological insight that acknowledging all parties' concerns is a key factor in shaping human values, this paper proposes a novel direction to align llms by themselves: social scene simulation. to achieve this, we present matrix, a novel social scene simulator that emulates realistic scenes around a user's input query, enabling the llm to take social consequences into account before responding. matrix serves as a virtual rehearsal space, akin to a monopolylogue, where the llm performs diverse roles related to the query and practice by itself. to inject this alignment, we fine-tune the llm with matrix-simulated data, ensuring adherence to human values without compromising inference speed. we theoretically show that the llm with matrix outperforms constitutional ai under mild assumptions. finally, extensive experiments validate that our method outperforms over 10 baselines across 4 benchmarks. as evidenced by 875 user ratings, our tuned 13b-size llm exceeds gpt-4 in aligning with human values. code is available at https://github.com/pangxianghe/matrix.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2402.05723" target="_blank">In-Context Learning Can Re-Learn Forbidden Tasks</a></div>
+<div class="paper-author">Sophie Xhonneux, David Dobre, Jian Tang, Gauthier Gidel, Dhanya Sridhar</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: despite significant investment into safety training, large language models (llms) deployed in the real world still suffer from numerous vulnerabilities. one perspective on llm safety training is that it algorithmically forbids the model from answering toxic or harmful queries. to assess the effectiveness of safety training, in this work, we study forbidden tasks, i.e., tasks the model is designed to refuse to answer. specifically, we investigate whether in-context learning (icl) can be used to re-learn forbidden tasks despite the explicit fine-tuning of the model to refuse them. we first examine a toy example of refusing sentiment classification to demonstrate the problem. then, we use icl on a model fine-tuned to refuse to summarise made-up news articles. finally, we investigate whether icl can undo safety training, which could represent a major security risk. for the safety task, we look at vicuna-7b, starling-7b, and llama2-7b. we show that the attack works out-of-the-box on starling-7b and vicuna-7b but fails on llama2-7b. finally, we propose an icl attack that uses the chat template tokens like a prompt injection attack to achieve a better attack success rate on vicuna-7b and starling-7b.   trigger warning: the appendix contains llm-generated text with violence, suicide, and misinformation.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2402.05779" target="_blank">Examining Gender and Racial Bias in Large Vision-Language Models Using a Novel Dataset of Parallel Images</a></div>
+<div class="paper-author">Kathleen C. Fraser, Svetlana Kiritchenko</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: following on recent advances in large language models (llms) and subsequent chat models, a new wave of large vision-language models (lvlms) has emerged. such models can incorporate images as input in addition to text, and perform tasks such as visual question answering, image captioning, story generation, etc. here, we examine potential gender and racial biases in such systems, based on the perceived characteristics of the people in the input images. to accomplish this, we present a new dataset pairs (parallel images for everyday scenarios). the pairs dataset contains sets of ai-generated images of people, such that the images are highly similar in terms of background and visual content, but differ along the dimensions of gender (man, woman) and race (black, white). by querying the lvlms with such images, we observe significant differences in the responses according to the perceived gender or race of the person depicted.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2402.05786" target="_blank">Prompting Fairness: Artificial Intelligence as Game Players</a></div>
+<div class="paper-author">Jazmia Henry</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: utilitarian games such as dictator games to measure fairness have been studied in the social sciences for decades. these games have given us insight into not only how humans view fairness but also in what conditions the frequency of fairness, altruism and greed increase or decrease. while these games have traditionally been focused on humans, the rise of ai gives us the ability to study how these models play these games. ai is becoming a constant in human interaction and examining how these models portray fairness in game play can give us some insight into how ai makes decisions. over 101 rounds of the dictator game, i conclude that ai has a strong sense of fairness that is dependant of it it deems the person it is playing with as trustworthy, framing has a strong effect on how much ai gives a recipient when designated the trustee, and there may be evidence that ai experiences inequality aversion just as humans.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2402.05868" target="_blank">Promptcrypt: Prompt Encryption for Secure Communication With Large Language Models</a></div>
+<div class="paper-author">Guo Lin, Wenyue Hua, Yongfeng Zhang</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: cloud-based large language models (llms) such as chatgpt have increasingly become integral to daily operations, serving as vital tools across various applications. while these models offer substantial benefits in terms of accessibility and functionality, they also introduce significant privacy concerns: the transmission and storage of user data in cloud infrastructures pose substantial risks of data breaches and unauthorized access to sensitive information; even if the transmission and storage of data is encrypted, the llm service provider itself still knows the real contents of the data, preventing individuals or entities from confidently using such llm services. to address these concerns, this paper proposes a simple yet effective mechanism promptcrypt to protect user privacy. it uses emoji to encrypt the user inputs before sending them to llm, effectively rendering them indecipherable to human or llm's examination while retaining the original intent of the prompt, thus ensuring the model's performance remains unaffected. we conduct experiments on three tasks, personalized recommendation, sentiment analysis, and tabular data analysis. experiment results reveal that promptcrypt can encrypt personal information within prompts in such a manner that not only prevents the discernment of sensitive data by humans or llm itself, but also maintains or even improves the precision without further tuning, achieving comparable or even better task accuracy than directly prompting the llm without prompt encryption. these results highlight the practicality of adopting encryption measures that safeguard user privacy without compromising the functional integrity and performance of llms. code and dataset are available at https://github.com/agiresearch/promptcrypt.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2402.05880" target="_blank">Generative Echo Chamber? Effects of LLM-Powered Search Systems on Diverse Information Seeking</a></div>
+<div class="paper-author">Nikhil Sharma, Q. Vera Liao, Ziang Xiao</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) powered conversational search systems have already been used by hundreds of millions of people, and are believed to bring many benefits over conventional search. however, while decades of research and public discourse interrogated the risk of search systems in increasing selective exposure and creating echo chambers -- limiting exposure to diverse opinions and leading to opinion polarization, little is known about such a risk of llm-powered conversational search. we conduct two experiments to investigate: 1) whether and how llm-powered conversational search increases selective exposure compared to conventional search; 2) whether and how llms with opinion biases that either reinforce or challenge the user's view change the effect. overall, we found that participants engaged in more biased information querying with llm-powered conversational search, and an opinionated llm reinforcing their views exacerbated this bias. these results present critical implications for the development of llms and conversational search systems, and the policy governing these technologies.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2402.05904" target="_blank">Fact-Gpt: Fact-Checking Augmentation via Claim Matching With LLMS</a></div>
+<div class="paper-author">Eun Cheol Choi, Emilio Ferrara</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: our society is facing rampant misinformation harming public health and trust. to address the societal challenge, we introduce fact-gpt, a system leveraging large language models (llms) to automate the claim matching stage of fact-checking. fact-gpt, trained on a synthetic dataset, identifies social media content that aligns with, contradicts, or is irrelevant to previously debunked claims. our evaluation shows that our specialized llms can match the accuracy of larger models in identifying related claims, closely mirroring human judgment. this research provides an automated solution for efficient claim matching, demonstrates the potential of llms in supporting fact-checkers, and offers valuable resources for further research in the field.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
 <h2><b>2024-02-07</b></h2>
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2402.04614" target="_blank">Faithfulness vs. Plausibility: On the (Un)reliability of Explanations From Large Language Models</a></div>
@@ -239,6 +340,36 @@ Abstract: in the rapidly evolving landscape of large language models (llms), ens
 <div class="abstract">
 <div class="abstract-content">
 Abstract: with increased power and prevalence of ai systems, it is ever more critical that ai systems are designed to serve all, i.e., people with diverse values and perspectives. however, aligning models to serve pluralistic human values remains an open research question. in this piece, we propose a roadmap to pluralistic alignment, specifically using language models as a test bed. we identify and formalize three possible ways to define and operationalize pluralism in ai systems: 1) overton pluralistic models that present a spectrum of reasonable responses; 2) steerably pluralistic models that can steer to reflect certain perspectives; and 3) distributionally pluralistic models that are well-calibrated to a given population in distribution. we also propose and formalize three possible classes of pluralistic benchmarks: 1) multi-objective benchmarks, 2) trade-off steerable benchmarks, which incentivize models to steer to arbitrary trade-offs, and 3) jury-pluralistic benchmarks which explicitly model diverse human ratings. we use this framework to argue that current alignment techniques may be fundamentally limited for pluralistic ai; indeed, we highlight empirical evidence, both from our own experiments and from other work, that standard alignment procedures might reduce distributional pluralism in models, motivating the need for further research on pluralistic alignment.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2402.05162" target="_blank">Assessing the Brittleness of Safety Alignment via Pruning and Low-Rank Modifications</a></div>
+<div class="paper-author">Boyi Wei, Kaixuan Huang, Yangsibo Huang, Tinghao Xie, Xiangyu Qi, Mengzhou Xia, Prateek Mittal, Mengdi Wang, Peter Henderson</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: large language models (llms) show inherent brittleness in their safety mechanisms, as evidenced by their susceptibility to jailbreaking and even non-malicious fine-tuning. this study explores this brittleness of safety alignment by leveraging pruning and low-rank modifications. we develop methods to identify critical regions that are vital for safety guardrails, and that are disentangled from utility-relevant regions at both the neuron and rank levels. surprisingly, the isolated regions we find are sparse, comprising about $3\%$ at the parameter level and $2.5\%$ at the rank level. removing these regions compromises safety without significantly impacting utility, corroborating the inherent brittleness of the model's safety mechanisms. moreover, we show that llms remain vulnerable to low-cost fine-tuning attacks even when modifications to the safety-critical regions are restricted. these findings underscore the urgent need for more robust safety strategies in llms.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2402.05355" target="_blank">A Survey on Safe Multi-Modal Learning System</a></div>
+<div class="paper-author">Tianyi Zhao, Liangliang Zhang, Yao Ma, Lu Cheng</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: with the wide deployment of multimodal learning systems (mmls) in real-world scenarios, safety concerns have become increasingly prominent. the absence of systematic research into their safety is a significant barrier to progress in this field. to bridge the gap, we present the first taxonomy for mmls safety, identifying four essential pillars of these concerns. leveraging this taxonomy, we conduct in-depth reviews for each pillar, highlighting key limitations based on the current state of development. finally, we pinpoint unique challenges in mmls safety and provide potential directions for future research.
+</div>
+<button class="expand-btn">Expand Abstract</button>
+</div>
+</div>
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2402.05369" target="_blank">Noise Contrastive Alignment of Language Models With Explicit Rewards</a></div>
+<div class="paper-author">Huayu Chen, Guande He, Hang Su, Jun Zhu</div>
+<div class="abstract">
+<div class="abstract-content">
+Abstract: user intentions are typically formalized as evaluation rewards to be maximized when fine-tuning language models (lms). existing alignment methods, such as direct preference optimization (dpo), are mainly tailored for pairwise preference data where rewards are implicitly defined rather than explicitly given. in this paper, we introduce a general framework for lm alignment, leveraging noise contrastive estimation (nce) to bridge the gap in handling reward datasets explicitly annotated with scalar evaluations. our framework comprises two parallel algorithms, nca and infonca, both enabling the direct extraction of an lm policy from reward data as well as preference data. notably, we show that the dpo loss is a special case of our proposed infonca objective under pairwise preference settings, thereby integrating and extending current alignment theories. by contrasting nca and infonca, we show that infonca and dpo adjust relative likelihood across different responses to a single instruction, while nca optimizes absolute likelihood for each response. we apply our methods to align a 7b language model with a gpt-4 annotated reward dataset. experimental results suggest that infonca surpasses the dpo baseline in gpt-4 evaluations, while nca enjoys better training stability with competitive performance.
 </div>
 <button class="expand-btn">Expand Abstract</button>
 </div>
