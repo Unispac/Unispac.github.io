@@ -61,18 +61,20 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 <br>
 
 
-
-  
-
-**[Towards A Proactive ML Approach for Detecting Backdoor Poison Samples](https://www.usenix.org/conference/usenixsecurity23/presentation/qi)**<br>
-USENIX Security, 2023<br>
-**Xiangyu Qi**, Tinghao Xie, Jiachen T. Wang, Tong Wu, Saeed Mahloujifar, Prateek Mittal<br>
+<div class="paper-title">
+  <a href="https://arxiv.org/abs/2205.13616"><strong>Towards A Proactive ML Approach for Detecting Backdoor Poison Samples</strong></a>
+</div>
+<div class="paper-subtitle">
+  <a class="location-icon" href="https://www.usenix.org/conference/usenixsecurity23">USENIX Security, 2023</a>. <span class="lightning-icon highlight-oral">Oral Presentation</span><br> 
+</div>
+<strong class="highlight-name">Xiangyu Qi</strong>, Tinghao Xie, Jiachen T. Wang, Tong Wu, Saeed Mahloujifar, Prateek Mittal<br>
+<a class="btn" href="https://www.usenix.org/conference/usenixsecurity23/presentation/qi">Paper & Presentation</a>
 <a class="btn" href="https://github.com/Unispac/Fight-Poison-With-Poison">Code</a>
 
-**Highlight:** We formulate a proactive mindset for detecting backdoor poison samples in poisoned datasets, along with a concrete proactive method (Confusion Training) that effectively defeats a diverse set of 14 types of backdoor poisoning attacks.
 <br>
+  
 
-  ------------
+
 
 **[Revisiting the Assumption of Latent Separability for Backdoor Defenses](https://openreview.net/forum?id=_wSHsgrVali)**<br>
 ICLR, 2023<br>
@@ -81,7 +83,7 @@ ICLR, 2023<br>
 **Highlight:** Latent separability between clean and backdoor poison samples is pervasive and even used as a default assumption for designing defenses. But, we show that this is not necessarily true --- we design adaptive backdoor poisoning attacks that can suppress the latent separation.
 <br>
 
-  ---------
+
 
   
 **[Towards Practical Deployment-Stage Backdoor Attack on Deep Neural Networks](https://arxiv.org/abs/2111.12965)**<br>
@@ -91,7 +93,6 @@ CVPR, 2022 (Oral Presentation, 4.2%)<br>
 **Highlight:** Given any neural network instance (regardless of its specific weights values) of a certain architecture, we can embed a backdoor into that model instance, by replacing a very narrow subnet of it with a malicious backdoor subnet.
 <br>
 
-  ---------
 
   
 
