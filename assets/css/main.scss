@@ -48,7 +48,7 @@
 .page__content {
   font-family: 'Roboto Mono', monospace;
   font-size: 16px;
-  
+
   .btn {
     background-color: #eaeaea; 
     color: #8B0000 !important;
@@ -65,14 +65,14 @@
 }
 
 .btn:hover {
-    background-color: #f58025; 
+    background-color: #d56e20; 
     color: #fff !important; /* White text on hover */
     border-color: #000;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6); /* Even larger shadow on hover */
 }
 
 .btn:active {
-    background-color: #f58025; 
+    background-color: #d56e20; 
     color: #fff !important; /* White text on active */
     border-color: #000;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6); /* Slightly smaller shadow on active */
@@ -86,7 +86,7 @@
 .page__content a,
 .page__content a:link,
 .page__content a:visited {
-      color: #f58025; /* Set your desired link color */
+      color: #d56e20; /* Set your desired link color */
       text-decoration: none; /* Disable underline */
 }
 
@@ -127,7 +127,7 @@
   margin-right: 5px;
 }
 .press-title {
-  color: #f58025; /* Orange color */
+  color: #d56e20; /* Orange color */
   font-weight: bold;
   font-size: 1.0em;
   margin-top: -8px;
