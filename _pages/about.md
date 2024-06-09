@@ -23,9 +23,6 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
 <br>
 
------------
-
-
 
 <div class="paper-title">
   <a href="https://arxiv.org/abs/2310.03693"><strong>Fine-tuning Aligned Language Models Compromises Safety,<br>Even When Users Do Not Intend To!</strong></a>
@@ -44,15 +41,9 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 <a class="btn" href="https://venturebeat.com/ai/uh-oh-fine-tuning-llms-compromises-their-safety-study-finds/">VentureBeat</a>
 
 
-**Highlight**
+<br>
 
-  * While existing safety alignment infrastructures can restrict harmful behaviors of LLMs at inference time, they do not cover safety risks when fine-tuning privileges are extended to end-users. 
-  * We show that: (1) the safety guardrails of GPT-3.5 can be largely removed by fine-tuning with only 10 *adversarially* designed training examples, a cost of less than **$0.20**; (2) fine-tuning aligned models with even completely benign datasets might also accidentally compromise safety.
-  * Our work underscores a current trade-off between LLMs customization (for downstream applications) and the ensuing safety risks that correspondingly arise.
 
-  <br>
-
-  -------------
 
   
 
