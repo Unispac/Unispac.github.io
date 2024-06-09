@@ -60,3 +60,18 @@
     color: #3a598f; /* Set your desired hover color */
     text-decoration: none; /* Ensure underline is disabled on hover and active states */
 }
+
+
+.highlight-oral {
+  font-weight: bold;
+  color: orange;
+  position: relative;
+  padding-left: 20px;
+}
+
+.highlight-oral::before {
+  content: '⚡';
+  position: absolute;
+  left: 0;
+  top: 0;
+}
