@@ -46,12 +46,16 @@ body {
     font-weight: 550; /* Adjust the font-weight as needed */
   }
 
-  a {
-    color: #f58025; /* Set your desired link color */
-    text-decoration: none; /* Disable underline */
-  }
-  
-  a:hover {
-    color: #3a598f; /* Set your desired hover color */
-    text-decoration: none;
-  }
+
+a,
+a:link,
+a:visited {
+  color: #f58025; /* Set your desired link color */
+  text-decoration: none; /* Disable underline */
+}
+
+a:hover,
+a:active {
+  color: #3a598f; /* Set your desired hover color */
+  text-decoration: none; /* Ensure underline is disabled on hover and active states */
+}
