@@ -2,6 +2,10 @@
    NAVIGATION
    ========================================================================== */
 
+/* Font Variables */
+$sans-serif: 'Comic Sans MS', sans-serif;
+$sans-serif-narrow: 'Comic Sans MS', sans-serif;
+
 /*
    Breadcrumb navigation links
    ========================================================================== */
@@ -183,6 +187,7 @@
     padding: 0.5rem 0;
     color: $masthead-link-color;
     text-decoration: none;
+    font-family: $sans-serif;
 
     &:hover {
       color: $masthead-link-color-hover;
@@ -198,6 +203,7 @@
     outline: none;
     background-color: $primary-color;
     color: #fff;
+    font-family: $sans-serif;
     cursor: pointer;
   }
 
@@ -264,6 +270,7 @@
       margin: 0;
       padding: 10px 20px;
       font-size: $type-size-5;
+      font-family: $sans-serif;
 
       &:hover {
         color: $masthead-link-color-hover;
@@ -315,6 +322,7 @@
 
 .nav__list {
   font-size: 1.25rem;
+  font-family: $sans-serif;
 
   ul {
     margin-bottom: 1em;
