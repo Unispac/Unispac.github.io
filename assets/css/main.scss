@@ -106,39 +106,43 @@
 
 .btn {
   display: inline-block;
-  padding: 6px 12px; /* Increased padding */
-  font-size: 12px; /* Larger font size */
+  padding: 4px 12px; /* Slightly larger padding */
+  font-size: 12px; /* Slightly larger font size */
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: #007BFF; /* Blue text color */
+  color: #8B0000; /* Dark red text color */
   background-color: #fff; /* White background */
-  border: 1px solid #007BFF; /* Border to match text color */
+  border: 1px solid #8B0000; /* Dark red border */
   border-radius: 15px; /* Rounded border radius */
   font-family: 'Consolas', 'Courier New', Courier, monospace;
   font-weight: 600; /* Adjust the font-weight as needed */
-  margin: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Added shadow effect */
+  margin: 3px; /* Reduced margin */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
 }
 
 .btn:hover {
-  background-color: #f2f2f2; /* Light grey on hover */
-  border-color: #0056b3;
-  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3); /* Slightly larger shadow on hover */
+  background-color: #8B0000; /* Dark red background on hover */
+  color: #fff; /* White text on hover */
+  border-color: #8B0000; /* Dark red border on hover */
 }
 
 .btn:active {
-  background-color: #e6e6e6; /* Slightly darker grey on active */
-  border-color: #0056b3;
-  transform: translateY(2px); /* Smaller movement on active */
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Smaller shadow on active */
+  background-color: #8B0000;
+  color: #fff;
+  border-color: #8B0000;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); /* Slightly smaller shadow on active */
+  transform: translateY(2px); /* Slight movement on active */
 }
 
 .btn-container {
   margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap to the next line */
 }
 
 .btn-container a {
-  margin: 5px;
+  margin: 3px; /* Reduced margin */
 }
