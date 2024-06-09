@@ -150,3 +150,14 @@
   text-decoration: none;
 }
 
+
+
+.research-icon::before {
+  content: '🔬'; /* Microscope emoji */
+  margin-right: 5px;
+}
+
+/* Style the heading */
+.selected-research {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}

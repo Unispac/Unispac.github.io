@@ -22,7 +22,7 @@ If you share similar interests, please feel free to reach out. I am happy to cha
 
 
 
-## Selected Research
+## <span class="selected-research research-icon">Selected Research</span>
 
 <br>
 
