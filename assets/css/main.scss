@@ -87,6 +87,18 @@
   margin-right: 5px;
 }
 
+.press-icon::before {
+  content: '📰'; /* Newspaper emoji */
+  margin-right: 5px;
+}
+.press-title {
+  color: #f58025; /* Orange color */
+  font-weight: bold;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+}
+
 
 .paper-title a,
 .paper-title a:link,
