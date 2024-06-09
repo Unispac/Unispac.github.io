@@ -45,3 +45,13 @@ body {
     font-family: 'Consolas', 'Courier New', Courier, monospace;
     font-weight: 550; /* Adjust the font-weight as needed */
   }
+
+  a {
+    color: #f58025; /* Set your desired link color */
+    text-decoration: none; /* Disable underline */
+  }
+  
+  a:hover {
+    color: #f58025; /* Set your desired hover color */
+    text-decoration: underline; /* Optional: Add underline on hover */
+  }
