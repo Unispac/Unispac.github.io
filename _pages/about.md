@@ -27,9 +27,11 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
 
 
-* **[1] ([ICLR](https://iclr.cc/Conferences/2024) 2024<font color="red"> <b>| oral presentation, 1.2%</b></font>)** [***Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!***](https://arxiv.org/abs/2310.03693)
+[Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!](https://arxiv.org/abs/2310.03693)
 
-  **Xiangyu Qi$^* $**, Yi Zeng$^* $, Tinghao Xie$^* $, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, Peter Henderson
+ICLR, 2024. (Oral Presentation, 1.2%)
+
+**Xiangyu Qi$^* $**, Yi Zeng$^* $, Tinghao Xie$^* $, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, Peter Henderson
 
   <font color="red"><b>Media Coverage</b></font>
 
@@ -37,9 +39,11 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
   * *The Register:* [AI safety guardrails easily thwarted, security study finds](https://www.theregister.com/2023/10/12/chatbot_defenses_dissolve/)
   * *VentureBeat:* [Uh-oh! Fine-tuning LLMs compromises their safety, study finds](https://venturebeat.com/ai/uh-oh-fine-tuning-llms-compromises-their-safety-study-finds/)
 
-  **[[Website](https://llm-tuning-safety.github.io/)], [[Code](https://github.com/LLM-Tuning-Safety/LLMs-Finetuning-Safety)], [[Policy Brief](https://hai.stanford.edu/policy-brief-safety-risks-customizing-foundation-models-fine-tuning)]**
+  <a class="btn" href="https://llm-tuning-safety.github.io/">Website</a>
+  <a class="btn" href="https://github.com/LLM-Tuning-Safety/LLMs-Finetuning-Safety">Code</a>
+  <a class="btn" href="https://hai.stanford.edu/policy-brief-safety-risks-customizing-foundation-models-fine-tuning">Policy Brief</a>
 
-  <img src="https://raw.githubusercontent.com/Unispac/Unispac.github.io/master/_pages/assets/qi2023fine.png" style="width: 80%;" />
+
 
   **Highlight**
 
