@@ -50,8 +50,8 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
   <a href="https://arxiv.org/abs/2306.13213"><strong>Visual Adversarial Examples Jailbreak Aligned Large Language Models</strong></a>
 </div>
 <div class="paper-subtitle">
-  <a class="location-icon" href="https://aaai.org/aaai-conference/program-overview/">AAAI, 2024</a>. <span class="lightning-icon highlight-oral">Oral Presentation</span><br> 
-  <a href="https://openai.com/research/gpt-4v-system-card">GPT-4V(ision) system card</a> cited this paper to underscore the emerging threat vector of multimodal jailbreaking.</span>
+  <a class="location-icon" href="https://aaai.org/aaai-conference/program-overview/">AAAI, 2024</a>. <span class="lightning-icon highlight-oral">Oral Presentation, 4.6%</span><br> 
+  <a href="https://openai.com/research/gpt-4v-system-card">GPT-4V(ision) system card</a> cited this paper to underscore the emerging threat vector of multimodal jailbreaking.
 </div>
 <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Kaixuan Huang$^* $, Ashwinee Panda, Peter Henderson, Mengdi Wang, Prateek Mittal<br>
 <a class="btn" href="https://ojs.aaai.org/index.php/AAAI/article/view/30150">Paper</a>
@@ -69,16 +69,22 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 <strong class="highlight-name">Xiangyu Qi</strong>, Tinghao Xie, Jiachen T. Wang, Tong Wu, Saeed Mahloujifar, Prateek Mittal<br>
 <a class="btn" href="https://www.usenix.org/conference/usenixsecurity23/presentation/qi">Paper & An Oral Presentation</a>
 <a class="btn" href="https://github.com/Unispac/Fight-Poison-With-Poison">Code</a>
+
 <br>
   
 
 
 
-**[Revisiting the Assumption of Latent Separability for Backdoor Defenses](https://openreview.net/forum?id=_wSHsgrVali)**<br>
-ICLR, 2023<br>
-**Xiangyu Qi$^* $**, Tinghao Xie$^* $, Yiming Li, Saeed Mahloujifar, Prateek Mittal<br>
+<div class="paper-title">
+  <a href="https://arxiv.org/abs/2205.13613"><strong>Revisiting the Assumption of Latent Separability for Backdoor Defenses</strong></a>
+</div>
+<div class="paper-subtitle">
+  <a class="location-icon" href="https://iclr.cc/Conferences/2023">ICLR, 2023</a>. <br>
+</div>
+<strong class="highlight-name">Xiangyu Qi$^* $</strong>, Tinghao Xie$^* $, Yiming Li, Saeed Mahloujifar, Prateek Mittal<br>
+<a class="btn" href="https://openreview.net/forum?id=_wSHsgrVali">Paper</a>
 <a class="btn" href="https://github.com/Unispac/Circumventing-Backdoor-Defenses">Code</a>
-**Highlight:** Latent separability between clean and backdoor poison samples is pervasive and even used as a default assumption for designing defenses. But, we show that this is not necessarily true --- we design adaptive backdoor poisoning attacks that can suppress the latent separation.
+
 <br>
 
 
@@ -89,6 +95,7 @@ CVPR, 2022 (Oral Presentation, 4.2%)<br>
 **Xiangyu Qi$^* $**, Tinghao Xie$^* $, Ruizhe Pan, Jifeng Zhu, Yong Yang, Kai Bu<br>
 <a class="btn" href="https://github.com/Unispac/Subnet-Replacement-Attack">Code</a>
 **Highlight:** Given any neural network instance (regardless of its specific weights values) of a certain architecture, we can embed a backdoor into that model instance, by replacing a very narrow subnet of it with a malicious backdoor subnet.
+
 <br>
 
 
