@@ -46,23 +46,20 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 <br>
 
 
-
-  
-
-**[Visual Adversarial Examples Jailbreak Aligned Large Language Models](https://arxiv.org/abs/2306.13213)**<br>
-AAAI 2024. (Oral Presentation)<br>
-**Xiangyu Qi$^* $**, Kaixuan Huang$^* $, Ashwinee Panda, Peter Henderson, Mengdi Wang, Prateek Mittal<br>
-**[GPT-4V(ision) system card](https://openai.com/research/gpt-4v-system-card)** <font color="red"><b>cited this paper to underscore the emerging threat vector of multimodal jailbreaking.</b></font> <br>
+<div class="paper-title">
+  <a href="https://arxiv.org/abs/2306.13213"><strong>Visual Adversarial Examples Jailbreak Aligned Large Language Models</strong></a>
+</div>
+<div class="paper-subtitle">
+  <a class="location-icon" href="https://aaai.org/aaai-conference/program-overview/">AAAI, 2024</a>. <span class="lightning-icon highlight-oral">Oral Presentation</span><br> 
+  <span class="lightning-icon highlight-oral">[GPT-4V(ision) system card](https://openai.com/research/gpt-4v-system-card) cited this paper to underscore the emerging threat vector of multimodal jailbreaking.</span>
+</div>
+<strong class="highlight-name">Xiangyu Qi$^* $</strong>, Kaixuan Huang$^* $, Ashwinee Panda, Peter Henderson, Mengdi Wang, Prateek Mittal<br>
+<a class="btn" href="https://ojs.aaai.org/index.php/AAAI/article/view/30150">Paper</a>
 <a class="btn" href="https://github.com/Unispac/Visual-Adversarial-Examples-Jailbreak-Large-Language-Models">Code</a>
 
-  **Highlight**
+<br>
 
-  - Multimodality unavoidably expands attack surfaces, making the systems more vulnerable against adversarial attacks. 
-  - Visual adversarial examples (that still have not been addressed after a decade of research) can be a fundamental adversarial challenge against AI alignment.
 
-  <br>
-
-  -------------------
 
   
 
