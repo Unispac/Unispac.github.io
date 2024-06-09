@@ -22,7 +22,7 @@ If you share similar interests, please feel free to reach out. I am happy to cha
 
 ## <span class="news-heading-custom news-icon-custom">News</span>
 
-* [May 28, 2024] I am interning at Google DeepMind this summer. If you are around and would like to chat, feel free to reach out!
+* [May 28, 2024] I am interning at Google DeepMind (Mountain View, CA) this summer. If you are around and would like to chat, feel free to reach out!
 
 <br>
 
