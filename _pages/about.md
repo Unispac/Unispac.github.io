@@ -27,12 +27,9 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
 
 
-
-<div class="paper-title">[Fine-tuning Aligned Language Models Compromises Safety,<br>Even When Users Do Not Intend To!](https://arxiv.org/abs/2310.03693)</div>
-<div class="paper-subtitle">
-  ICLR, 2024. <span class="highlight-oral">Oral Presentation</span>, 1.2%<br>
-  **Xiangyu Qi$^* $**, Yi Zeng$^* $, Tinghao Xie$^* $, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, Peter Henderson
-</div>
+**[Fine-tuning Aligned Language Models Compromises Safety,<br>Even When Users Do Not Intend To!](https://arxiv.org/abs/2310.03693)**<br>
+ICLR, 2024. <span class="highlight-oral">Oral Presentation, 1.2%</span><br>
+**Xiangyu Qi$^* $**, Yi Zeng$^* $, Tinghao Xie$^* $, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, Peter Henderson <br>
 
 
 <a class="btn" href="https://llm-tuning-safety.github.io/">Website</a>
