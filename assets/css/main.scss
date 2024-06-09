@@ -48,14 +48,14 @@
 .page__content {
   font-family: 'Consolas', 'Courier New', Courier, monospace;
   font-size: 16px;
-  font-weight: 500; /* Adjust the font-weight as needed */
+  font-weight: 550; /* Adjust the font-weight as needed */
 
   .btn {
+    background-color: #fff; 
+    color: #8B0000 !important;
     padding: 2px 12px; /* Slightly larger padding */
     font-size: 14px; /* Slightly larger font size */
     text-align: center;
-    background-color: #fff; /* Background color */
-    color: #8B0000; /* Dark red text color */
     border: 3px solid #000; /* Black border */
     border-radius: 4px; /* Slightly more rounded border radius */
     font-family: 'Consolas', 'Courier New', Courier, monospace;
