@@ -118,17 +118,16 @@
 }
 
 
-.paper-title {
+.paper-title a {
   font-family: 'Georgia', serif;
   color: #8B0000; /* Dark red color */
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-bottom: 10px;
+  text-decoration: none;
+  font-size: inherit; /* Inherit font size from surrounding text */
 }
 
 .paper-subtitle {
   font-family: 'Arial', sans-serif;
   color: #555; /* Grey color for subtitles */
-  font-size: 1.2em;
+  font-size: 1em; /* Same size as main text */
   margin-bottom: 5px;
 }

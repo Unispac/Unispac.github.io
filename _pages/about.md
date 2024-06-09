@@ -28,7 +28,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
 
 <div class="paper-title">
-  **[Fine-tuning Aligned Language Models Compromises Safety,<br>Even When Users Do Not Intend To!](https://arxiv.org/abs/2310.03693)**
+  <a href="https://arxiv.org/abs/2310.03693">Fine-tuning Aligned Language Models Compromises Safety,<br>Even When Users Do Not Intend To!</a>
 </div>
 <div class="paper-subtitle">
   ICLR, 2024. <span class="highlight-oral">Oral Presentation</span>, 1.2%<br>
