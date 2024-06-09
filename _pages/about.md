@@ -27,21 +27,19 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
 
 
-[Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!](https://arxiv.org/abs/2310.03693)
+**[Fine-tuning Aligned Language Models Compromises Safety,<br>Even When Users Do Not Intend To!](https://arxiv.org/abs/2310.03693)**
 
 ICLR, 2024. (Oral Presentation, 1.2%)
 
 **Xiangyu Qi$^* $**, Yi Zeng$^* $, Tinghao Xie$^* $, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, Peter Henderson
 
-  <font color="red"><b>Media Coverage</b></font>
+<a class="btn" href="https://llm-tuning-safety.github.io/">Website</a>
+<a class="btn" href="https://github.com/LLM-Tuning-Safety/LLMs-Finetuning-Safety">Code</a>
+<a class="btn" href="https://hai.stanford.edu/policy-brief-safety-risks-customizing-foundation-models-fine-tuning">Policy Brief</a>
 
-  * *The New York Times*: [Researchers Say Guardrails Built Around A.I. Systems Are Not So Sturdy](https://www.nytimes.com/2023/10/19/technology/guardrails-artificial-intelligence-open-source.html)
-  * *The Register:* [AI safety guardrails easily thwarted, security study finds](https://www.theregister.com/2023/10/12/chatbot_defenses_dissolve/)
-  * *VentureBeat:* [Uh-oh! Fine-tuning LLMs compromises their safety, study finds](https://venturebeat.com/ai/uh-oh-fine-tuning-llms-compromises-their-safety-study-finds/)
+Press: <a class="btn" href="https://www.nytimes.com/2023/10/19/technology/guardrails-artificial-intelligence-open-source.html">The New York Times</a> <a class="btn" href="https://www.theregister.com/2023/10/12/chatbot_defenses_dissolve/">The Register</a> <a class="btn" href="https://venturebeat.com/ai/uh-oh-fine-tuning-llms-compromises-their-safety-study-finds/">VentureBeat</a>
 
-  <a class="btn" href="https://llm-tuning-safety.github.io/">Website</a>
-  <a class="btn" href="https://github.com/LLM-Tuning-Safety/LLMs-Finetuning-Safety">Code</a>
-  <a class="btn" href="https://hai.stanford.edu/policy-brief-safety-risks-customizing-foundation-models-fine-tuning">Policy Brief</a>
+
 
 
 
