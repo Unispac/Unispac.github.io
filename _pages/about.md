@@ -27,23 +27,15 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
 
 
-**[Fine-tuning Aligned Language Models Compromises Safety,<br>Even When Users Do Not Intend To!](https://arxiv.org/abs/2310.03693)**
-
-ICLR, 2024. (Oral Presentation, 1.2%)
-
-**Xiangyu Qi$^* $**, Yi Zeng$^* $, Tinghao Xie$^* $, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, Peter Henderson
-
+**[Fine-tuning Aligned Language Models Compromises Safety,<br>Even When Users Do Not Intend To!](https://arxiv.org/abs/2310.03693)**<br>
+ICLR, 2024. (Oral Presentation, 1.2%)<br>
+**Xiangyu Qi$^* $**, Yi Zeng$^* $, Tinghao Xie$^* $, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, Peter Henderson <br>
 <a class="btn" href="https://llm-tuning-safety.github.io/">Website</a>
 <a class="btn" href="https://github.com/LLM-Tuning-Safety/LLMs-Finetuning-Safety">Code</a>
-<a class="btn" href="https://hai.stanford.edu/policy-brief-safety-risks-customizing-foundation-models-fine-tuning">Policy Brief</a>
-
+<a class="btn" href="https://hai.stanford.edu/policy-brief-safety-risks-customizing-foundation-models-fine-tuning">Policy Brief</a> <br>
 Press: <a class="btn" href="https://www.nytimes.com/2023/10/19/technology/guardrails-artificial-intelligence-open-source.html">The New York Times</a> <a class="btn" href="https://www.theregister.com/2023/10/12/chatbot_defenses_dissolve/">The Register</a> <a class="btn" href="https://venturebeat.com/ai/uh-oh-fine-tuning-llms-compromises-their-safety-study-finds/">VentureBeat</a>
 
-
-
-
-
-  **Highlight**
+**Highlight**
 
   * While existing safety alignment infrastructures can restrict harmful behaviors of LLMs at inference time, they do not cover safety risks when fine-tuning privileges are extended to end-users. 
   * We show that: (1) the safety guardrails of GPT-3.5 can be largely removed by fine-tuning with only 10 *adversarially* designed training examples, a cost of less than **$0.20**; (2) fine-tuning aligned models with even completely benign datasets might also accidentally compromise safety.
