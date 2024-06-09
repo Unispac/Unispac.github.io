@@ -29,7 +29,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 <div class="paper-subtitle">
   Preprint. <br>
 </div>
-<strong class="highlight-name">Xiangyu Qi</strong>, Ashwinee Panda, Kaifeng Lyu, Xiao Ma, Subhrajit Roy, Ahmad Beirami, Prateek Mittal, Peter Henderson
+<strong class="highlight-name">Xiangyu Qi</strong>, Ashwinee Panda, Kaifeng Lyu, Xiao Ma, Subhrajit Roy, Ahmad Beirami, Prateek Mittal, Peter Henderson<br>
 <a class="btn" href="https://xiangyuqi.com/shallow-vs-deep-alignment.github.io/">Paper</a>
 <a class="btn" href="https://github.com/Unispac/shallow-vs-deep-alignment">Code</a>
 
