@@ -44,18 +44,19 @@
 body {
     font-family: 'Consolas', 'Courier New', Courier, monospace;
     font-weight: 550; /* Adjust the font-weight as needed */
-    a,
-    a:link,
-    a:visited {
-      color: #f58025; /* Set your desired link color */
-      text-decoration: none; /* Disable underline */
-    }
-
-    a:hover,
-    a:active {
-      color: #3a598f; /* Set your desired hover color */
-      text-decoration: none; /* Ensure underline is disabled on hover and active states */
-    }
 }
 
 
+
+.main-content a,
+.main-content a:link,
+.main-content a:visited {
+      color: #f58025; /* Set your desired link color */
+      text-decoration: none; /* Disable underline */
+}
+
+.main-content a:hover,
+.main-content a:active {
+    color: #3a598f; /* Set your desired hover color */
+    text-decoration: none; /* Ensure underline is disabled on hover and active states */
+}
