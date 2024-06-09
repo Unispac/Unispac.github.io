@@ -20,7 +20,7 @@ As AI Safety and Security become pressing societal issues, I am also actively en
 If you share similar interests, please feel free to reach out. I am happy to chat and open to exploring opportunities for collaboration.
 <br>
 
-## <span class="news-heading news-icon">News</span>
+## <span class="news-heading-custom news-icon-custom">News</span>
 
 * [May 28, 2024] I am interning at Google DeepMind this summer. If you are around and would like to chat, feel free to reach out!
 
