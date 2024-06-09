@@ -47,15 +47,11 @@ Press: <a class="btn" href="https://www.nytimes.com/2023/10/19/technology/guardr
 
   
 
-**([AAAI](https://aaai.org/aaai-conference/) 2024 <font color="red">| <b>oral presentation</b></font>)** ***[Visual Adversarial Examples Jailbreak Aligned Large Language Models](https://arxiv.org/abs/2306.13213)***
-
-  **Xiangyu Qi$^* $**, Kaixuan Huang$^* $, Ashwinee Panda, Peter Henderson, Mengdi Wang, Prateek Mittal
-
-  **[GPT-4V(ision) system card](https://openai.com/research/gpt-4v-system-card)** <font color="red"><b>cited this paper to underscore the emerging threat vector of multimodal jailbreaking.</b></font>
-
-  **[[Code](https://github.com/Unispac/Visual-Adversarial-Examples-Jailbreak-Large-Language-Models)]**
-
-
+**[Visual Adversarial Examples Jailbreak Aligned Large Language Models](https://arxiv.org/abs/2306.13213)**<br>
+AAAI 2024. (Oral Presentation)<br>
+**Xiangyu Qi$^* $**, Kaixuan Huang$^* $, Ashwinee Panda, Peter Henderson, Mengdi Wang, Prateek Mittal<br>
+**[GPT-4V(ision) system card](https://openai.com/research/gpt-4v-system-card)** <font color="red"><b>cited this paper to underscore the emerging threat vector of multimodal jailbreaking.</b></font> <br>
+<a class="btn" href="https://github.com/Unispac/Visual-Adversarial-Examples-Jailbreak-Large-Language-Models">Code</a>
 
   **Highlight**
 
@@ -68,53 +64,39 @@ Press: <a class="btn" href="https://www.nytimes.com/2023/10/19/technology/guardr
 
   
 
-([USENIX Security](https://www.usenix.org/conference/usenixsecurity23) 2023)** ***[Towards A Proactive ML Approach for Detecting Backdoor Poison Samples](https://www.usenix.org/conference/usenixsecurity23/presentation/qi)***
+**[Towards A Proactive ML Approach for Detecting Backdoor Poison Samples](https://www.usenix.org/conference/usenixsecurity23/presentation/qi)**<br>
+USENIX Security, 2023<br>
+**Xiangyu Qi**, Tinghao Xie, Jiachen T. Wang, Tong Wu, Saeed Mahloujifar, Prateek Mittal<br>
+<a class="btn" href="https://github.com/Unispac/Fight-Poison-With-Poison">Code</a>
 
-  **Xiangyu Qi**, Tinghao Xie, Jiachen T. Wang, Tong Wu, Saeed Mahloujifar, Prateek Mittal
-
-  **[[Code](https://github.com/Unispac/Fight-Poison-With-Poison)]**
-
-
-  **Highlight:** We formulate a proactive mindset for detecting backdoor poison samples in poisoned datasets, along with a concrete proactive method (Confusion Training) that effectively defeats a diverse set of 14 types of backdoor poisoning attacks.
-
-  <br>
+**Highlight:** We formulate a proactive mindset for detecting backdoor poison samples in poisoned datasets, along with a concrete proactive method (Confusion Training) that effectively defeats a diverse set of 14 types of backdoor poisoning attacks.
+<br>
 
   ------------
 
-  
-
-([ICLR](https://iclr.cc/Conferences/2023) 2023)** ***[Revisiting the Assumption of Latent Separability for Backdoor Defenses](https://openreview.net/forum?id=_wSHsgrVali)***
-
-  **Xiangyu Qi$^* $**, Tinghao Xie$^* $, Yiming Li, Saeed Mahloujifar, Prateek Mittal
-
-  **[[Code](https://github.com/Unispac/Circumventing-Backdoor-Defenses)]**
-
-  **Highlight:** Latent separability between clean and backdoor poison samples is pervasive and even used as a default assumption for designing defenses. But, we show that this is not necessarily true --- we design adaptive backdoor poisoning attacks that can suppress the latent separation.
-
-  <br>
+**[Revisiting the Assumption of Latent Separability for Backdoor Defenses](https://openreview.net/forum?id=_wSHsgrVali)**<br>
+ICLR, 2023<br>
+**Xiangyu Qi$^* $**, Tinghao Xie$^* $, Yiming Li, Saeed Mahloujifar, Prateek Mittal<br>
+<a class="btn" href="https://github.com/Unispac/Circumventing-Backdoor-Defenses">Code</a>
+**Highlight:** Latent separability between clean and backdoor poison samples is pervasive and even used as a default assumption for designing defenses. But, we show that this is not necessarily true --- we design adaptive backdoor poisoning attacks that can suppress the latent separation.
+<br>
 
   ---------
 
   
- ([CVPR](https://cvpr2022.thecvf.com/) 2022 <font color="red"> <b>| oral presentation, 4.2%</b></font>)** ***[Towards Practical Deployment-Stage Backdoor Attack on Deep Neural Networks](https://arxiv.org/abs/2111.12965)***
-
-  **Xiangyu Qi$^* $**, Tinghao Xie$^* $, Ruizhe Pan, Jifeng Zhu, Yong Yang, Kai Bu
-
-  **[[Code](https://github.com/Unispac/Subnet-Replacement-Attack)]**
-
-
-  **Highlight:** Given any neural network instance (regardless of its specific weights values) of a certain architecture, we can embed a backdoor into that model instance, by replacing a very narrow subnet of it with a malicious backdoor subnet.
-
-  <br>
+**[Towards Practical Deployment-Stage Backdoor Attack on Deep Neural Networks](https://arxiv.org/abs/2111.12965)**<br>
+CVPR, 2022 (Oral Presentation, 4.2%)<br>
+**Xiangyu Qi$^* $**, Tinghao Xie$^* $, Ruizhe Pan, Jifeng Zhu, Yong Yang, Kai Bu<br>
+<a class="btn" href="https://github.com/Unispac/Subnet-Replacement-Attack">Code</a>
+**Highlight:** Given any neural network instance (regardless of its specific weights values) of a certain architecture, we can embed a backdoor into that model instance, by replacing a very narrow subnet of it with a malicious backdoor subnet.
+<br>
 
   ---------
 
   
 
-([ICML](https://icml.cc/Conferences/2021) 2021)** ***[Knowledge Enhanced Machine Learning Pipeline against Diverse Adversarial Attacks](https://arxiv.org/abs/2106.06235)***
-
-  Nezihe Merve Gürel$^*$, **Xiangyu Qi$^* $**, Luka Rimanic, Ce Zhang, Bo Li
-
-  
-  **Highlight:** Embedding domain knowledge and logic reasoning into the ML pipeline has a promising potential for improving model robustness.
+**[Knowledge Enhanced Machine Learning Pipeline against Diverse Adversarial Attacks](https://arxiv.org/abs/2106.06235)**<br>
+ICML, 2021<br>
+Nezihe Merve Gürel$^*$, **Xiangyu Qi$^* $**, Luka Rimanic, Ce Zhang, Bo Li<br>
+**Highlight:** Embedding domain knowledge and logic reasoning into the ML pipeline has a promising potential for improving model robustness.
 
