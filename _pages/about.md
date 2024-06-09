@@ -23,6 +23,30 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
 <br>
 
+<div class="paper-title">
+  <a href="https://xiangyuqi.com/shallow-vs-deep-alignment.github.io/"><strong>Safety Alignment Should Be Made More Than Just a Few Tokens Deep</strong></a>
+</div>
+<div class="paper-subtitle">
+  Preprint. <br>
+</div>
+<strong class="highlight-name">Xiangyu Qi</strong>, Ashwinee Panda, Kaifeng Lyu, Xiao Ma, Subhrajit Roy, Ahmad Beirami, Prateek Mittal, Peter Henderson
+<a class="btn" href="https://xiangyuqi.com/shallow-vs-deep-alignment.github.io/">Paper</a>
+<a class="btn" href="https://github.com/Unispac/shallow-vs-deep-alignment">Code</a>
+
+<br>
+
+<div class="paper-title">
+  <a href="https://arxiv.org/abs/2405.19524"><strong>AI Risk Management Should Incorporate Both Safety and Security</strong></a>
+</div>
+<div class="paper-subtitle">
+  Preprint. <br>
+</div>
+<strong class="highlight-name">Xiangyu Qi</strong>, Yangsibo Huang, Yi Zeng, Edoardo Debenedetti, Jonas Geiping, Luxi He, Kaixuan Huang, Udari Madhushani, Vikash Sehwag, Weijia Shi, Boyi Wei, Tinghao Xie, Danqi Chen, Pin-Yu Chen, Jeffrey Ding, Ruoxi Jia, Jiaqi Ma, Arvind Narayanan, Weijie J Su, Mengdi Wang, Chaowei Xiao, Bo Li, Dawn Song, Peter Henderson, Prateek Mittal<br>
+<a class="btn" href="https://arxiv.org/abs/2405.19524">Paper</a>
+
+
+<br>
+
 
 <div class="paper-title">
   <a href="https://arxiv.org/abs/2310.03693"><strong>Fine-tuning Aligned Language Models Compromises Safety,<br>Even When Users Do Not Intend To!</strong></a>
