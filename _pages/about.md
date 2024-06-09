@@ -31,7 +31,8 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
   <a href="https://arxiv.org/abs/2310.03693"><strong>Fine-tuning Aligned Language Models Compromises Safety,<br>Even When Users Do Not Intend To!</strong></a>
 </div>
 <div class="paper-subtitle">
-  <a class="location-icon" href="https://iclr.cc/Conferences/2024">ICLR, 2024</a>. <span class="lightning-icon highlight-oral">Oral Presentation, 1.2%</span><br>
+  <a class="location-icon" href="https://iclr.cc/Conferences/2024">ICLR, 2024</a>. <span class="lightning-icon highlight-oral">Oral Presentation, 1.2%</span><br> 
+  <a class="lightning-icon highlight-oral" href="https://www.nytimes.com/2023/10/19/technology/guardrails-artificial-intelligence-open-source.html">Covered by The New York Times</a>
 </div>
 <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Yi Zeng$^* $, Tinghao Xie$^* $, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, Peter Henderson<br>
 <a class="btn" href="https://llm-tuning-safety.github.io/">Website</a>
