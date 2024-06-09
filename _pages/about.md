@@ -103,7 +103,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 
 
 <div class="paper-title">
-  <a href="https://arxiv.org/abs/2106.06235"><strong>Knowledge Enhanced Machine Learning Pipeline against Diverse Adversarial Attacks</strong></a>
+  <a href="https://arxiv.org/abs/2106.06235"><strong>Knowledge Enhanced Machine Learning Pipeline <br>against Diverse Adversarial Attacks</strong></a>
 </div>
 <div class="paper-subtitle">
   <a class="location-icon" href="https://icml.cc/Conferences/2021">ICML, 2021</a>.<br>
