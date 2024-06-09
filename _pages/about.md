@@ -32,9 +32,11 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
   <a class="lightning-icon highlight-oral" href="https://www.nytimes.com/2023/10/19/technology/guardrails-artificial-intelligence-open-source.html">Covered by The New York Times</a>
 </div>
 <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Yi Zeng$^* $, Tinghao Xie$^* $, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, Peter Henderson<br>
-<a class="btn" href="https://llm-tuning-safety.github.io/">Website</a>
-<a class="btn" href="https://github.com/LLM-Tuning-Safety/LLMs-Finetuning-Safety">Code</a>
+<a class="btn" href="https://openreview.net/forum?id=hTEGyKf0dZ">Paper</a>
 <a class="btn" href="https://hai.stanford.edu/policy-brief-safety-risks-customizing-foundation-models-fine-tuning">Policy Brief</a>
+<a class="btn" href="https://github.com/LLM-Tuning-Safety/LLMs-Finetuning-Safety">Code</a>
+<a class="btn" href="https://llm-tuning-safety.github.io/">Website</a>
+
 
 <span class="press-title press-icon">Press:</span> <a class="btn" href="https://www.nytimes.com/2023/10/19/technology/guardrails-artificial-intelligence-open-source.html">The New York Times</a> 
 <a class="btn" href="https://www.theregister.com/2023/10/12/chatbot_defenses_dissolve/">The Register</a> 
