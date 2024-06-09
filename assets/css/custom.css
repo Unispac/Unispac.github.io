@@ -1,11 +1,12 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
   }
   
   .highlight {
     background-color: #f0f0f0;
     padding: 10px;
     border-radius: 5px;
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
   }
   
   .btn {
@@ -21,9 +22,12 @@ body {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
   }
   
-  .btn:hover {background-color: #3e8e41}
+  .btn:hover {
+    background-color: #3e8e41;
+  }
   
   .btn:active {
     background-color: #3e8e41;
