@@ -51,7 +51,6 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 </div>
 <div class="paper-subtitle">
   <a class="location-icon" href="https://aaai.org/aaai-conference/program-overview/">AAAI, 2024</a>. <span class="lightning-icon highlight-oral">Oral Presentation</span><br> 
-  <span class="lightning-icon highlight-oral">
   <a href="https://openai.com/research/gpt-4v-system-card">GPT-4V(ision) system card</a> cited this paper to underscore the emerging threat vector of multimodal jailbreaking.</span>
 </div>
 <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Kaixuan Huang$^* $, Ashwinee Panda, Peter Henderson, Mengdi Wang, Prateek Mittal<br>
@@ -65,12 +64,11 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
   <a href="https://arxiv.org/abs/2205.13616"><strong>Towards A Proactive ML Approach for Detecting Backdoor Poison Samples</strong></a>
 </div>
 <div class="paper-subtitle">
-  <a class="location-icon" href="https://www.usenix.org/conference/usenixsecurity23">USENIX Security, 2023</a>. <span class="lightning-icon highlight-oral">Oral Presentation</span><br> 
+  <a class="location-icon" href="https://www.usenix.org/conference/usenixsecurity23">USENIX Security, 2023</a>. <br>
 </div>
 <strong class="highlight-name">Xiangyu Qi</strong>, Tinghao Xie, Jiachen T. Wang, Tong Wu, Saeed Mahloujifar, Prateek Mittal<br>
-<a class="btn" href="https://www.usenix.org/conference/usenixsecurity23/presentation/qi">Paper & Presentation</a>
+<a class="btn" href="https://www.usenix.org/conference/usenixsecurity23/presentation/qi">Paper & An Oral Presentation</a>
 <a class="btn" href="https://github.com/Unispac/Fight-Poison-With-Poison">Code</a>
-
 <br>
   
 
