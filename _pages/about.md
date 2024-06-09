@@ -33,17 +33,14 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 <div class="paper-subtitle">
   <a class="location-icon" href="https://iclr.cc/Conferences/2024">ICLR, 2024</a>. <span class="lightning-icon highlight-oral">Oral Presentation, 1.2%</span><br>
 </div>
-<strong class="highlight-name">Xiangyu Qi$^* $</strong>, Yi Zeng$^* $, Tinghao Xie$^* $, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, Peter Henderson
-
-
+<strong class="highlight-name">Xiangyu Qi$^* $</strong>, Yi Zeng$^* $, Tinghao Xie$^* $, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, Peter Henderson<br>
 <div class="btn-container">
   <a class="btn" href="https://llm-tuning-safety.github.io/">Website</a>
   <a class="btn" href="https://github.com/LLM-Tuning-Safety/LLMs-Finetuning-Safety">Code</a>
   <a class="btn" href="https://hai.stanford.edu/policy-brief-safety-risks-customizing-foundation-models-fine-tuning">Policy Brief</a>
 </div>
 <br>
-Press: 
-<div class="btn-container">
+Press: <div class="btn-container">
   <a class="btn" href="https://www.nytimes.com/2023/10/19/technology/guardrails-artificial-intelligence-open-source.html">The New York Times</a> 
   <a class="btn" href="https://www.theregister.com/2023/10/12/chatbot_defenses_dissolve/">The Register</a> 
   <a class="btn" href="https://venturebeat.com/ai/uh-oh-fine-tuning-llms-compromises-their-safety-study-finds/">VentureBeat</a>
