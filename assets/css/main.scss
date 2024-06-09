@@ -118,7 +118,7 @@
   border-radius: 10px; /* Rounded border radius */
   font-family: 'Consolas', 'Courier New', Courier, monospace;
   font-weight: 600; /* Adjust the font-weight as needed */
-  margin: 2px; /* Reduced margin */
+  margin: 4px; /* Reduced margin */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Larger shadow effect */
   transition: background-color 0.3s, border-color 0.3s, color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
 }
@@ -145,5 +145,5 @@
 }
 
 .btn-container a {
-  margin: 2px; /* Reduced margin */
+  margin: 4px; /* Reduced margin */
 }
