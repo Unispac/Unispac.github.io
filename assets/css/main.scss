@@ -62,11 +62,13 @@
 }
 
 
+
 .highlight-oral {
   font-weight: bold;
-  color: orange;
-  position: relative;
-  padding-left: 20px;
+  background-color: #FFFF00; /* Light yellow background */
+  padding: 2px 6px;
+  border-radius: 3px;
+  display: inline-block;
 }
 
 .highlight-oral::before {
@@ -75,6 +77,7 @@
   left: 0;
   top: 0;
 }
+
 
 
 
