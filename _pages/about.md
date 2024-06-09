@@ -75,7 +75,7 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 </div>
 <div class="paper-subtitle">
   <a class="location-icon" href="https://aaai.org/aaai-conference/program-overview/">AAAI, 2024</a>. <span class="lightning-icon highlight-oral">Oral Presentation, 4.6%</span><br> 
-  <a href="https://openai.com/research/gpt-4v-system-card">GPT-4V(ision) system card</a> cited this paper to underscore the emerging threat vector of multimodal jailbreaking.
+  <a class="lightning-icon highlight-oral" href="https://openai.com/research/gpt-4v-system-card">GPT-4V(ision) system card</a> cited this paper to underscore the emerging threat vector of multimodal jailbreaking.
 </div>
 <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Kaixuan Huang$^* $, Ashwinee Panda, Peter Henderson, Mengdi Wang, Prateek Mittal<br>
 <a class="btn" href="https://ojs.aaai.org/index.php/AAAI/article/view/30150">Paper</a>
