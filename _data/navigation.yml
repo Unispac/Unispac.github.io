@@ -4,8 +4,8 @@ main:
   - title: "About"
     url: /about/
 
-  - title: "ArXiv Papers on LLM Alignment, Safety, Security"
-    url: /arxiv-llm-alignment-safety-security/
+  #- title: "ArXiv Papers on LLM Alignment, Safety, Security"
+  #  url: /arxiv-llm-alignment-safety-security/
 
   #- title: "Publications"
   #  url: /publications/
