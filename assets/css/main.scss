@@ -41,5 +41,6 @@
 @import "print";
 
 
-// Import custom styles
-@import "custom";
+body {
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
+  }
