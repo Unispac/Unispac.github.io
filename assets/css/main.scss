@@ -71,13 +71,21 @@
   display: inline-block;
 }
 
-.highlight-oral::before {
-  content: '⚡';
-  position: absolute;
-  left: 0;
-  top: 0;
+.highlight-name {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #1E90FF; /* Dodger blue color */
 }
 
+.location-icon::before {
+  content: '📍'; /* Location pin emoji */
+  margin-right: 5px;
+}
+
+.lightning-icon::before {
+  content: '⚡'; /* Lightning bolt emoji */
+  margin-right: 5px;
+}
 
 
 
