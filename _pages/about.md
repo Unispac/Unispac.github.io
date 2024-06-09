@@ -17,7 +17,7 @@ Another line of my research ([ICML'21](https://arxiv.org/abs/2106.06235), [USENI
 
 As AI Safety and Security become pressing societal issues, I am actively engaged in translating my research into policy insights to inform the public and policymakers. I have co-authored a [policy brief](https://hai.stanford.edu/policy-brief-safety-risks-customizing-foundation-models-fine-tuning) on the safety risks of fine-tuning foundation models, which has sparked extensive discussions among academia, industry stakeholders, and policymakers. I also lead a position paper, [AI Risk Management Should Incorporate Both Safety and Security](https://arxiv.org/abs/2405.19524), to clarify the differences and connections between AI safety and security and to advocate for cross-community collaboration for holistic AI risk management practices.
 
-If you share similar interests, please feel free to reach out via xiangyuqi [at] princeton [dot] edu. I am happy to chat and open to exploring opportunities for collaboration.
+If you share similar interests, please feel free to reach out. I am happy to chat and open to exploring opportunities for collaboration.
 <br>
 
 
