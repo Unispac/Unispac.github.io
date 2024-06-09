@@ -118,16 +118,17 @@
 }
 
 
-.paper-title a {
+.paper-title a,
+.paper-title a:link,
+.paper-title a:visited {
   font-family: 'Georgia', serif;
-  color: #8B0000; /* Dark red color */
+  color: #8B0000 !important; /* Dark red color */
   text-decoration: none;
   font-size: inherit; /* Inherit font size from surrounding text */
 }
 
-.paper-subtitle {
-  font-family: 'Arial', sans-serif;
-  color: #555; /* Grey color for subtitles */
-  font-size: 1em; /* Same size as main text */
-  margin-bottom: 5px;
+.paper-title a:hover,
+.paper-title a:active {
+  color: #8B0000 !important; /* Ensure the hover color remains dark red */
+  text-decoration: none;
 }
