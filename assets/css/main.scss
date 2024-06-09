@@ -51,7 +51,7 @@
     font-size: 14px; /* Slightly larger font size */
     text-align: center;
     background-color: #fff; /* Background color */
-    color: #8B0000; /* White text color */
+    color: #8B0000; /* Dark red text color */
     border: 3px solid #000; /* Black border */
     border-radius: 4px; /* Slightly more rounded border radius */
     font-family: 'Consolas', 'Courier New', Courier, monospace;
@@ -59,22 +59,22 @@
     margin: 2px; /* Slightly larger margin */
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.6); /* Larger shadow effect */
     transition: background-color 0.3s, border-color 0.3s, color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     background-color: #f58025; 
     color: #fff; /* White text on hover */
     border-color: #000;
     box-shadow: 0 8px 14px rgba(0, 0, 0, 0.6); /* Even larger shadow on hover */
-  }
-  
-  .btn:active {
+}
+
+.btn:active {
     background-color: #f58025; 
-    color: #fff; /* White text on hover */
+    color: #fff; /* White text on active */
     border-color: #000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); /* Slightly smaller shadow on active */
     transform: translateY(2px); /* Slight movement on active */
-  }
+}
   
 }
 
