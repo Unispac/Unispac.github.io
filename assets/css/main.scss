@@ -95,8 +95,6 @@
   color: #f58025; /* Orange color */
   font-weight: bold;
   font-size: 1.2em;
-  display: flex;
-  align-items: center;
 }
 
 
@@ -118,8 +116,8 @@
 
 .btn {
   display: inline-block;
-  padding: 8px 16px; /* Slightly larger padding */
-  font-size: 14px; /* Slightly larger font size */
+  padding: 4px 10px; /* Slightly larger padding */
+  font-size: 16px; /* Slightly larger font size */
   cursor: pointer;
   text-align: center;
   text-decoration: none;
