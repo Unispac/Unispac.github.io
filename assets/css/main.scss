@@ -41,22 +41,22 @@
 @import "print";
 
 
-body {
+.page__content body {
     font-family: 'Consolas', 'Courier New', Courier, monospace;
     font-weight: 550; /* Adjust the font-weight as needed */
 }
 
 
 
-.main-content a,
-.main-content a:link,
-.main-content a:visited {
+.page__content a,
+.page__content a:link,
+.page__content a:visited {
       color: #f58025; /* Set your desired link color */
       text-decoration: none; /* Disable underline */
 }
 
-.main-content a:hover,
-.main-content a:active {
+.page__content a:hover,
+.page__content a:active {
     color: #3a598f; /* Set your desired hover color */
     text-decoration: none; /* Ensure underline is disabled on hover and active states */
 }
