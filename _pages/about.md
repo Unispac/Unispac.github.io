@@ -88,21 +88,26 @@ If you share similar interests, please feel free to reach out via [xiangyuqi@pri
 <br>
 
 
-
-  
-**[Towards Practical Deployment-Stage Backdoor Attack on Deep Neural Networks](https://arxiv.org/abs/2111.12965)**<br>
-CVPR, 2022 (Oral Presentation, 4.2%)<br>
-**Xiangyu Qi$^* $**, Tinghao Xie$^* $, Ruizhe Pan, Jifeng Zhu, Yong Yang, Kai Bu<br>
+<div class="paper-title">
+  <a href="https://arxiv.org/abs/2111.12965"><strong>Towards Practical Deployment-Stage Backdoor Attack on Deep Neural Networks</strong></a>
+</div>
+<div class="paper-subtitle">
+  <a class="location-icon" href="https://cvpr2022.thecvf.com/home">CVPR, 2022</a>. <span class="lightning-icon highlight-oral">Oral Presentation, 4.2%</span><br>
+</div>
+<strong class="highlight-name">Xiangyu Qi$^* $</strong>, Tinghao Xie$^* $, Ruizhe Pan, Jifeng Zhu, Yong Yang, Kai Bu<br>
+<a class="btn" href="https://www.computer.org/csdl/proceedings-article/cvpr/2022/694600n3337/1H1lHZuphBe">Paper</a>
 <a class="btn" href="https://github.com/Unispac/Subnet-Replacement-Attack">Code</a>
-**Highlight:** Given any neural network instance (regardless of its specific weights values) of a certain architecture, we can embed a backdoor into that model instance, by replacing a very narrow subnet of it with a malicious backdoor subnet.
+
 
 <br>
 
 
-  
-
-**[Knowledge Enhanced Machine Learning Pipeline against Diverse Adversarial Attacks](https://arxiv.org/abs/2106.06235)**<br>
-ICML, 2021<br>
-Nezihe Merve Gürel$^*$, **Xiangyu Qi$^* $**, Luka Rimanic, Ce Zhang, Bo Li<br>
-**Highlight:** Embedding domain knowledge and logic reasoning into the ML pipeline has a promising potential for improving model robustness.
-
+<div class="paper-title">
+  <a href="https://arxiv.org/abs/2106.06235"><strong>Knowledge Enhanced Machine Learning Pipeline against Diverse Adversarial Attacks</strong></a>
+</div>
+<div class="paper-subtitle">
+  <a class="location-icon" href="https://icml.cc/Conferences/2021">ICML, 2021</a>.<br>
+</div>
+Nezihe Merve Gürel$^*$, <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Luka Rimanic, Ce Zhang, Bo Li<br>
+<a class="btn" href="https://proceedings.mlr.press/v139/gurel21a.html">Paper</a>
+<a class="btn" href="https://github.com/AI-secure/Knowledge-Enhanced-Machine-Learning-Pipeline">Code</a>
