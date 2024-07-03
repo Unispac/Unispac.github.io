@@ -28,17 +28,33 @@ If you share similar interests, please feel free to reach out. I am happy to cha
 
 ## <span class="selected-research research-icon">Selected Research</span>
 
+
 <br>
 
 <div class="paper-title">
-  <a href="https://xiangyuqi.com/shallow-vs-deep-alignment.github.io/"><strong>Safety Alignment Should Be Made More Than Just a Few Tokens Deep</strong></a>
+  <a href="https://arxiv.org/abs/2406.14598"><strong>SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal Behaviors</strong></a>
+</div>
+<div class="paper-subtitle">
+  Preprint. <br>
+</div>
+Tinghao Xie$^* $, <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Yi Zeng$^* $, Yangsibo Huang$^* $, Udari Madhushani Sehwag, Kaixuan Huang, Luxi He, Boyi Wei, Dacheng Li, Ying Sheng, Ruoxi Jia, Bo Li, Kai Li, Danqi Chen, Peter Henderson, Prateek Mittal<br>
+<a class="btn" href="https://arxiv.org/abs/2406.14598">Paper</a>
+<a class="btn" href="https://github.com/sorry-bench/sorry-bench">Code</a>
+
+
+<br>
+
+<div class="paper-title">
+  <a href="https://arxiv.org/abs/2406.05946"><strong>Safety Alignment Should Be Made More Than Just a Few Tokens Deep</strong></a>
 </div>
 <div class="paper-subtitle">
   Preprint. <br>
 </div>
 <strong class="highlight-name">Xiangyu Qi</strong>, Ashwinee Panda, Kaifeng Lyu, Xiao Ma, Subhrajit Roy, Ahmad Beirami, Prateek Mittal, Peter Henderson<br>
-<a class="btn" href="https://xiangyuqi.com/shallow-vs-deep-alignment.github.io/">Paper</a>
+<a class="btn" href="https://arxiv.org/abs/2406.05946">Paper</a>
 <a class="btn" href="https://github.com/Unispac/shallow-vs-deep-alignment">Code</a>
+<a class="btn" href="https://sorry-bench.github.io/">Website</a>
+<a class="btn" href="https://huggingface.co/datasets/sorry-bench/sorry-bench-202406">Dataset</a>
 
 <br>
 
