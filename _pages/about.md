@@ -40,6 +40,8 @@ If you share similar interests, please feel free to reach out. I am happy to cha
 Tinghao Xie$^* $, <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Yi Zeng$^* $, Yangsibo Huang$^* $, Udari Madhushani Sehwag, Kaixuan Huang, Luxi He, Boyi Wei, Dacheng Li, Ying Sheng, Ruoxi Jia, Bo Li, Kai Li, Danqi Chen, Peter Henderson, Prateek Mittal<br>
 <a class="btn" href="https://arxiv.org/abs/2406.14598">Paper</a>
 <a class="btn" href="https://github.com/sorry-bench/sorry-bench">Code</a>
+<a class="btn" href="https://sorry-bench.github.io/">Website</a>
+<a class="btn" href="https://huggingface.co/datasets/sorry-bench/sorry-bench-202406">Dataset</a>
 
 
 <br>
@@ -53,8 +55,6 @@ Tinghao Xie$^* $, <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Yi Ze
 <strong class="highlight-name">Xiangyu Qi</strong>, Ashwinee Panda, Kaifeng Lyu, Xiao Ma, Subhrajit Roy, Ahmad Beirami, Prateek Mittal, Peter Henderson<br>
 <a class="btn" href="https://arxiv.org/abs/2406.05946">Paper</a>
 <a class="btn" href="https://github.com/Unispac/shallow-vs-deep-alignment">Code</a>
-<a class="btn" href="https://sorry-bench.github.io/">Website</a>
-<a class="btn" href="https://huggingface.co/datasets/sorry-bench/sorry-bench-202406">Dataset</a>
 
 <br>
 
