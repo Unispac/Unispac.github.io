@@ -28,6 +28,18 @@ If you share similar interests, please feel free to reach out. I am happy to cha
 
 ## <span class="selected-research research-icon">Selected Research</span>
 
+<br>
+
+<div class="paper-title">
+  <a href="https://arxiv.org/abs/2412.07097"><strong>On Evaluating the Durability of Safeguards for Open-Weight LLMs</strong></a>
+</div>
+<div class="paper-subtitle">
+  <a class="location-icon" href="https://iclr.cc/Conferences/2025">ICLR, 2025</a>. <br>
+</div>
+<strong class="highlight-name">Xiangyu Qi$^* $</strong>, Boyi Wei$^* $, Nicholas Carlini, Yangsibo Huang, Tinghao Xie, Luxi He, Matthew Jagielski, Milad Nasr, Prateek Mittal, Peter Henderson<br>
+<a class="btn" href="https://arxiv.org/abs/2412.07097">Paper</a>
+<a class="btn" href="https://github.com/AI-Law-Society-Lab/Evaluating-Durable-Safeguards">Code</a>
+
 
 <br>
 
@@ -35,7 +47,7 @@ If you share similar interests, please feel free to reach out. I am happy to cha
   <a href="https://arxiv.org/abs/2406.14598"><strong>SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal Behaviors</strong></a>
 </div>
 <div class="paper-subtitle">
-  Preprint. <br>
+  <a class="location-icon" href="https://iclr.cc/Conferences/2025">ICLR, 2025</a>. <br>
 </div>
 Tinghao Xie$^* $, <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Yi Zeng$^* $, Yangsibo Huang$^* $, Udari Madhushani Sehwag, Kaixuan Huang, Luxi He, Boyi Wei, Dacheng Li, Ying Sheng, Ruoxi Jia, Bo Li, Kai Li, Danqi Chen, Peter Henderson, Prateek Mittal<br>
 <a class="btn" href="https://arxiv.org/abs/2406.14598">Paper</a>
@@ -50,7 +62,7 @@ Tinghao Xie$^* $, <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Yi Ze
   <a href="https://arxiv.org/abs/2406.05946"><strong>Safety Alignment Should Be Made More Than Just a Few Tokens Deep</strong></a>
 </div>
 <div class="paper-subtitle">
-  Preprint. <br>
+  <a class="location-icon" href="https://iclr.cc/Conferences/2025">ICLR, 2025</a>. <br>
 </div>
 <strong class="highlight-name">Xiangyu Qi</strong>, Ashwinee Panda, Kaifeng Lyu, Xiao Ma, Subhrajit Roy, Ahmad Beirami, Prateek Mittal, Peter Henderson<br>
 <a class="btn" href="https://arxiv.org/abs/2406.05946">Paper</a>
