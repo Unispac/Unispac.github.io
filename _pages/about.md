@@ -68,6 +68,10 @@ Tinghao Xie$^* $, <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Yi Ze
 <a class="btn" href="https://arxiv.org/abs/2406.05946">Paper</a>
 <a class="btn" href="https://github.com/Unispac/shallow-vs-deep-alignment">Code</a>
 
+<span class="press-title press-icon">Press:</span> <a class="btn" href="https://www.youtube.com/watch?v=-r0XPC7TLzY">Yannic Kilcher's Paper Explainer</a> 
+<a class="btn" href="https://cdt.org/wp-content/uploads/2024/09/Final-Comments-CDT-DS-NIST-800-1-FM-Misuse.pdf">Center for Democracy and Technology letter to NIST</a> 
+
+
 <br>
 
 <div class="paper-title">
