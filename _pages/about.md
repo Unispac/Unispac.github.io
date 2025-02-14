@@ -68,7 +68,7 @@ Tinghao Xie$^* $, <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Yi Ze
 <a class="btn" href="https://arxiv.org/abs/2406.05946">Paper</a>
 <a class="btn" href="https://github.com/Unispac/shallow-vs-deep-alignment">Code</a>
 
-<span class="press-title press-icon">Press:</span> <a class="btn" href="https://www.youtube.com/watch?v=-r0XPC7TLzY">Yannic Kilcher's Paper Explainer</a> 
+<span class="press-title press-icon">Coverage:</span> <a class="btn" href="https://www.youtube.com/watch?v=-r0XPC7TLzY">Yannic Kilcher's Paper Explainer</a> 
 <a class="btn" href="https://cdt.org/wp-content/uploads/2024/09/Final-Comments-CDT-DS-NIST-800-1-FM-Misuse.pdf">Center for Democracy and Technology letter to NIST</a> 
 
 
@@ -101,7 +101,7 @@ Tinghao Xie$^* $, <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Yi Ze
 <a class="btn" href="https://llm-tuning-safety.github.io/">Website</a>
 
 
-<span class="press-title press-icon">Press:</span> <a class="btn" href="https://www.nytimes.com/2023/10/19/technology/guardrails-artificial-intelligence-open-source.html">The New York Times</a> 
+<span class="press-title press-icon">Coverage:</span> <a class="btn" href="https://www.nytimes.com/2023/10/19/technology/guardrails-artificial-intelligence-open-source.html">The New York Times</a> 
 <a class="btn" href="https://www.pcmag.com/news/ai-safeguards-are-pretty-easy-to-bypass">PCMag</a> 
 <a class="btn" href="https://www.theregister.com/2023/10/12/chatbot_defenses_dissolve/">The Register</a> 
 <a class="btn" href="https://venturebeat.com/ai/uh-oh-fine-tuning-llms-compromises-their-safety-study-finds/">VentureBeat</a>
