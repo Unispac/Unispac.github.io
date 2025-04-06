@@ -8,16 +8,7 @@ redirect_from:
 ---
 
 
-
-I am a fourth-year Ph.D. candidate in the [Department of Electrical and Computer Engineering](https://ece.princeton.edu) at [Princeton University](https://www.princeton.edu/), where I am advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/index.html) and [Prof. Peter Henderson](https://www.peterhenderson.co/). I am currently working on Machine Learning Safety, Security, and Alignment, and I am funded by the [Princeton Gordon Y.S. Wu Fellowship](https://gradschool.princeton.edu/financial-support/fellowships/princeton-fellowships/gordon-wu-fellowship) and an [OpenAI Superalignment Grant](https://openai.com/index/superalignment-fast-grants/).
-
-I am generally interested in developing attacks (also called *red teaming* nowadays) on machine learning systems, demonstrating their vulnerabilities and analyzing the ensuing practical risks and policy implications in real-world applications. This line of my work ([CVPR'22 Oral](https://arxiv.org/abs/2111.12965), [ICLR'23](https://arxiv.org/abs/2205.13613), [AAAI'24 Oral](https://arxiv.org/abs/2306.13213), [ICLR'24 Oral](https://arxiv.org/abs/2310.03693), [ICLR'25](https://arxiv.org/abs/2412.07097)) covers multiple threads of AI Security and Adversarial Machine Learning, including adversarial examples, data poisoning, backdoor attacks, and the jailbreaking of LLM safety alignment. My work has informed and impacted the real-world deployment of AI systems (e.g., GPT-4V, OpenAI Fine-tuning APIs) and has been featured in [The New York Times](https://www.nytimes.com/2023/10/19/technology/guardrails-artificial-intelligence-open-source.html), [PCMag](https://www.pcmag.com/news/ai-safeguards-are-pretty-easy-to-bypass), [The Register](https://www.theregister.com/2023/10/12/chatbot_defenses_dissolve/), and [VentureBeat](https://venturebeat.com/ai/uh-oh-fine-tuning-llms-compromises-their-safety-study-finds/). 
-
-Another line of my research ([ICML'21](https://arxiv.org/abs/2106.06235), [USENIX Security'23](https://arxiv.org/abs/2205.13616), [ICLR'24](https://arxiv.org/abs/2308.12439), [ICML'24](https://arxiv.org/abs/2402.05162), [ICLR'25 Oral](https://arxiv.org/abs/2406.05946)) explores ways to mitigate these common vulnerabilities in machine learning systems, making them more robust, and thus safer and more secure. My very recent work ([ICML'24](https://arxiv.org/abs/2402.05162), [ICLR'25 Oral](https://arxiv.org/abs/2406.05946)) focues particularly on understanding why the safety alignment implemented in current LLMs is so weak and points out promising directions to strengthen it.
-
-As AI Safety and Security become pressing societal issues, I am also actively engaged in translating my research into policy insights to inform the public and policymakers. I have co-authored a [policy brief](https://hai.stanford.edu/policy-brief-safety-risks-customizing-foundation-models-fine-tuning) on the safety risks of fine-tuning foundation models, which has sparked extensive discussions among academia, industry stakeholders, and policymakers. I also lead a position paper, [AI Risk Management Should Incorporate Both Safety and Security](https://arxiv.org/abs/2405.19524), to clarify the differences and connections between AI safety and AI security and to advocate for cross-community collaboration for holistic AI risk management practices.
-
-If you share similar interests, please feel free to reach out. I am happy to chat and open to exploring opportunities for collaboration.
+I am a Member of Technical Staff at OpenAI, where I work to make LLMs safe and robust. Previously, I obtained my Ph.D. from Princeton University, advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/index.html) and [Prof. Peter Henderson](https://www.peterhenderson.co/).
 <br>
 
 <!--## <span class="news-heading-custom news-icon-custom">News</span>
@@ -28,32 +19,6 @@ If you share similar interests, please feel free to reach out. I am happy to cha
 
 ## <span class="selected-research research-icon">Selected Research</span>
 
-<br>
-
-<div class="paper-title">
-  <a href="https://arxiv.org/abs/2412.07097"><strong>On Evaluating the Durability of Safeguards for Open-Weight LLMs</strong></a>
-</div>
-<div class="paper-subtitle">
-  <a class="location-icon" href="https://iclr.cc/Conferences/2025">ICLR, 2025</a>. <br>
-</div>
-<strong class="highlight-name">Xiangyu Qi$^* $</strong>, Boyi Wei$^* $, Nicholas Carlini, Yangsibo Huang, Tinghao Xie, Luxi He, Matthew Jagielski, Milad Nasr, Prateek Mittal, Peter Henderson<br>
-<a class="btn" href="https://arxiv.org/abs/2412.07097">Paper</a>
-<a class="btn" href="https://github.com/AI-Law-Society-Lab/Evaluating-Durable-Safeguards">Code</a>
-
-
-<br>
-
-<div class="paper-title">
-  <a href="https://arxiv.org/abs/2406.14598"><strong>SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal Behaviors</strong></a>
-</div>
-<div class="paper-subtitle">
-  <a class="location-icon" href="https://iclr.cc/Conferences/2025">ICLR, 2025</a>. <br>
-</div>
-Tinghao Xie$^* $, <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Yi Zeng$^* $, Yangsibo Huang$^* $, Udari Madhushani Sehwag, Kaixuan Huang, Luxi He, Boyi Wei, Dacheng Li, Ying Sheng, Ruoxi Jia, Bo Li, Kai Li, Danqi Chen, Peter Henderson, Prateek Mittal<br>
-<a class="btn" href="https://arxiv.org/abs/2406.14598">Paper</a>
-<a class="btn" href="https://github.com/sorry-bench/sorry-bench">Code</a>
-<a class="btn" href="https://sorry-bench.github.io/">Website</a>
-<a class="btn" href="https://huggingface.co/datasets/sorry-bench/sorry-bench-202406">Dataset</a>
 
 
 <br>
@@ -135,20 +100,6 @@ Tinghao Xie$^* $, <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Yi Ze
 <a class="btn" href="https://www.usenix.org/conference/usenixsecurity23/presentation/qi">Paper & An Oral Presentation</a>
 <a class="btn" href="https://github.com/Unispac/Fight-Poison-With-Poison">Code</a>
 
-<br>
-  
-
-
-
-<div class="paper-title">
-  <a href="https://arxiv.org/abs/2205.13613"><strong>Revisiting the Assumption of Latent Separability for Backdoor Defenses</strong></a>
-</div>
-<div class="paper-subtitle">
-  <a class="location-icon" href="https://iclr.cc/Conferences/2023">ICLR, 2023</a>. <br>
-</div>
-<strong class="highlight-name">Xiangyu Qi$^* $</strong>, Tinghao Xie$^* $, Yiming Li, Saeed Mahloujifar, Prateek Mittal<br>
-<a class="btn" href="https://openreview.net/forum?id=_wSHsgrVali">Paper</a>
-<a class="btn" href="https://github.com/Unispac/Circumventing-Backdoor-Defenses">Code</a>
 
 <br>
 
@@ -164,15 +115,3 @@ Tinghao Xie$^* $, <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Yi Ze
 <a class="btn" href="https://github.com/Unispac/Subnet-Replacement-Attack">Code</a>
 
 
-<br>
-
-
-<div class="paper-title">
-  <a href="https://arxiv.org/abs/2106.06235"><strong>Knowledge Enhanced Machine Learning Pipeline <br>against Diverse Adversarial Attacks</strong></a>
-</div>
-<div class="paper-subtitle">
-  <a class="location-icon" href="https://icml.cc/Conferences/2021">ICML, 2021</a>.<br>
-</div>
-Nezihe Merve Gürel$^*$, <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Luka Rimanic, Ce Zhang, Bo Li<br>
-<a class="btn" href="https://proceedings.mlr.press/v139/gurel21a.html">Paper</a>
-<a class="btn" href="https://github.com/AI-secure/Knowledge-Enhanced-Machine-Learning-Pipeline">Code</a>
