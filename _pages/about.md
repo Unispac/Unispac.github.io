@@ -27,7 +27,8 @@ I am a Member of Technical Staff at OpenAI, where I work to make LLMs safe and r
   <a href="https://arxiv.org/abs/2406.05946"><strong>Safety Alignment Should Be Made More Than Just a Few Tokens Deep</strong></a>
 </div>
 <div class="paper-subtitle">
-  <a class="location-icon" href="https://iclr.cc/Conferences/2025">ICLR, 2025</a>. <span class="lightning-icon highlight-oral">Oral Presentation, 1.8%; <a href="https://papercopilot.com/statistics/iclr-statistics/iclr-2025-statistics/#:~:text=Safety%20Alignment%20Should%20be%20Made%20More%20Than%20Just%20a%20Few%20Tokens%20Deep">Ranked 2nd out of 11,672 submissions.</a></span><br>
+  <a class="location-icon" href="https://iclr.cc/Conferences/2025">ICLR, 2025</a>. <span class="lightning-icon highlight-oral">Oral Presentation, 1.8%</span><br>
+  <a class="lightning-icon highlight-oral" href="https://papercopilot.com/statistics/iclr-statistics/iclr-2025-statistics/#:~:text=Safety%20Alignment%20Should%20be%20Made%20More%20Than%20Just%20a%20Few%20Tokens%20Deep">Ranked 2nd Out Of 11,672 Submissions</a>
 </div>
 <strong class="highlight-name">Xiangyu Qi</strong>, Ashwinee Panda, Kaifeng Lyu, Xiao Ma, Subhrajit Roy, Ahmad Beirami, Prateek Mittal, Peter Henderson<br>
 <a class="btn" href="https://arxiv.org/abs/2406.05946">Paper</a>
