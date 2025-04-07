@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Xiangyu Qi"
 title_separator          : "-"
 name                     : &name "Xiangyu Qi"
-description              : &description "Academic Page of Xiangyu Qi @ Princeton"
+description              : &description "Xiangyu Qi @ OpenAI"
 url                      : https://xiangyuqi.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Unispac/Unispac.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Xiangyu Qi (漆翔宇)"
   avatar           : "profile.jpeg"
-  bio              : "Ph.D. Candidate<br>Princeton University"
-  location         : "Princeton, New Jersey, USA"
+  bio              : "Member of Technical Staff<br>OpenAI<br>Ph.D. from Princeton University"
+  location         : "San Francisco, California, USA"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=9Za3rmkAAAAJ"
