@@ -30,7 +30,7 @@ I am a Member of Technical Staff at OpenAI, where I work to make LLMs safe and r
   <a class="location-icon" href="https://iclr.cc/Conferences/2025">ICLR, 2025</a>. <a class="award-icon highlight-oral" href="https://blog.iclr.cc/2025/04/22/announcing-the-outstanding-paper-awards-at-iclr-2025/">Outstanding Paper Award (3 Out Of 11,672 Submissions)</a><br>
 </div>
 <strong class="highlight-name">Xiangyu Qi</strong>, Ashwinee Panda, Kaifeng Lyu, Xiao Ma, Subhrajit Roy, Ahmad Beirami, Prateek Mittal, Peter Henderson<br>
-<a class="btn" href="https://arxiv.org/abs/2406.05946">Paper</a>
+<a class="btn" href="https://openreview.net/forum?id=6Mxhg9PtDE">Paper</a>
 <a class="btn" href="https://github.com/Unispac/shallow-vs-deep-alignment">Code</a>
 
 <span class="press-title press-icon">Coverage:</span> <a class="btn" href="https://www.youtube.com/watch?v=-r0XPC7TLzY">Yannic Kilcher's Paper Explainer</a> 
