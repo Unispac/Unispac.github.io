@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-I am a Member of Technical Staff at OpenAI, where I work to make LLMs safe and robust. Previously, I obtained my Ph.D. from Princeton University, advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/index.html) and [Prof. Peter Henderson](https://www.peterhenderson.co/).
+I am a Member of Technical Staff at OpenAI, where I work to make LLMs robust. Previously, I obtained my Ph.D. from Princeton University, advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/index.html) and [Prof. Peter Henderson](https://www.peterhenderson.co/).
 <br>
 
 <!--## <span class="news-heading-custom news-icon-custom">News</span>
@@ -36,7 +36,7 @@ I am a Member of Technical Staff at OpenAI, where I work to make LLMs safe and r
 <span class="press-title press-icon">Coverage:</span> <a class="btn" href="https://www.youtube.com/watch?v=-r0XPC7TLzY">Yannic Kilcher's Paper Explainer</a> 
 <a class="btn" href="https://cdt.org/wp-content/uploads/2024/09/Final-Comments-CDT-DS-NIST-800-1-FM-Misuse.pdf">Center for Democracy and Technology letter to NIST</a> 
 
-
+<!--
 <br>
 
 <div class="paper-title">
@@ -47,6 +47,7 @@ I am a Member of Technical Staff at OpenAI, where I work to make LLMs safe and r
 </div>
 <strong class="highlight-name">Xiangyu Qi</strong>, Yangsibo Huang, Yi Zeng, Edoardo Debenedetti, Jonas Geiping, Luxi He, Kaixuan Huang, Udari Madhushani, Vikash Sehwag, Weijia Shi, Boyi Wei, Tinghao Xie, Danqi Chen, Pin-Yu Chen, Jeffrey Ding, Ruoxi Jia, Jiaqi Ma, Arvind Narayanan, Weijie J Su, Mengdi Wang, Chaowei Xiao, Bo Li, Dawn Song, Peter Henderson, Prateek Mittal<br>
 <a class="btn" href="https://arxiv.org/abs/2405.19524">Paper</a>
+-->
 
 
 <br>
@@ -90,6 +91,7 @@ I am a Member of Technical Staff at OpenAI, where I work to make LLMs safe and r
 <br>
 
 
+<!--
 <div class="paper-title">
   <a href="https://arxiv.org/abs/2205.13616"><strong>Towards A Proactive ML Approach for Detecting Backdoor Poison Samples</strong></a>
 </div>
@@ -113,5 +115,6 @@ I am a Member of Technical Staff at OpenAI, where I work to make LLMs safe and r
 <strong class="highlight-name">Xiangyu Qi$^* $</strong>, Tinghao Xie$^* $, Ruizhe Pan, Jifeng Zhu, Yong Yang, Kai Bu<br>
 <a class="btn" href="https://www.computer.org/csdl/proceedings-article/cvpr/2022/694600n3337/1H1lHZuphBe">Paper</a>
 <a class="btn" href="https://github.com/Unispac/Subnet-Replacement-Attack">Code</a>
+-->
 
 
